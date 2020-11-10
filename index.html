@@ -55,12 +55,22 @@
   
   <!-- Visualization goes here -->
   <div class='vis-holder'>
-    <!-- Change viewbox to whatever you want, e.g., '0 0 1000 6000' This determines your aspect ratio and coordinate system -->    
-    <!-- Delete all the sample SVG code below after the viewbox to before the closing tag. Populate this part of the SVG with D3. -->
-    <svg id='vis-svg-1'
-      preserveAspectRatio='xMidYMid meet' class='vis-svg' viewBox='0 0 1000 1000' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
-    <!-- Don't delete the closing tag! -->
-    </svg>
+    <!-- George -->
+    <h3>Visualization 1</h3>
+    <div class='vis1'>
+      
+    </div>
+    <!-- Aidan -->
+    <h3>Visualization 2</h3>
+    <div class='vis2'>
+      
+    </div>
+    <!-- Jeffery -->
+    <h3>Visualization 3</h3>
+    <div class='vis3-holder'>
+      <div class='scatterplot-holder' id='vis3sp'></div>
+      <div class='scatterplot-holder' id='vis3sp2'></div>
+    </div>
   </div>
   
   <!-- Further writeup -->
@@ -100,8 +110,12 @@
   
   <!-- Scripts at the end avoid need for dealing with async, defer, or onload event handlers -->
   <script src='lib/d3.v6.1.1/d3.min.js'></script>
-  <script src='js/visualization.js'></script>
+  <script src='js/visualization1.js'></script>
+  <script src='js/visualization2.js'></script>
+  <script src='js/visualization3.js'></script>
   <script src='js/linechart.js'></script>
   <script src='js/scatterplot.js'></script>
+  <script src='js/piechart.js'></script>
+  <script src='js/table.js'></script>
 </body>
 </html>
