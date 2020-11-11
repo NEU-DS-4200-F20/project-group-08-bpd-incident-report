@@ -1,211 +1,51 @@
-/* global D3 */
 
-// Initialize a line chart. Modeled after Mike Bostock's
-// Reusable Chart framework https://bost.ocks.org/mike/chart/
-function linechart() {
+function pie_chart(){
+  
+  // set the dimensions and margins of the graph
+  var width = 450
+      height = 450
+      margin = 40
 
-  // Based on Mike Bostock's margin convention
-  // https://bl.ocks.org/mbostock/3019563
-  let margin = {
-      top: 60,
-      left: 50,
-      right: 30,
-      bottom: 35
-    },
-    width = 500 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom,
-    xValue = d => d[0],
-    yValue = d => d[1],
-    xLabelText = '',
-    yLabelText = '',
-    yLabelOffsetPx = 0,
-    xScale = d3.scalePoint(),
-    yScale = d3.scaleLinear(),
-    ourBrush = null,
-    selectableElements = d3.select(null),
-    dispatcher;
-
-  // Create the chart by adding an svg to the div with the id 
-  // specified by the selector using the given data
   function chart(selector, data) {
     let svg = d3.select(selector)
       .append('svg')
-        .attr('preserveAspectRatio', 'xMidYMid meet')
-        .attr('viewBox', [-500, -500, 1000, 1000].join(' '))
-        .classed('svg-content', true);
-
-    svg = svg.append('g')
-        .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
-
-    //Define scales
-    xScale
-      .domain(d3.group(data, xValue).keys())
-      .rangeRound([0, width]);
-
-    yScale
-      .domain([
-        d3.min(data, d => yValue(d)),
-        d3.max(data, d => yValue(d))
-      ])
-      .rangeRound([height, 0]);
-
-    // X axis
-    let xAxis = svg.append('g')
-        .attr('transform', 'translate(0,' + (height) + ')')
-        .call(d3.axisBottom(xScale));
-        
-    // Put X axis tick labels at an angle
-    xAxis.selectAll('text')	
-        .style('text-anchor', 'end')
-        .attr('dx', '-.8em')
-        .attr('dy', '.15em')
-        .attr('transform', 'rotate(-65)');
-        
-    // X axis label
-    xAxis.append('text')        
-        .attr('class', 'axisLabel')
-        .attr('transform', 'translate(' + (width - 50) + ',-10)')
-        .text(xLabelText);
+        .attr('width', width)
+        .attr('height', height)
+  
+      svg = svg.append('g')
+          .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
     
-    // Y axis and label
-    let yAxis = svg.append('g')
-        .call(d3.axisLeft(yScale))
-      .append('text')
-        .attr('class', 'axisLabel')
-        .attr('transform', 'translate(' + yLabelOffsetPx + ', -12)')
-        .text(yLabelText);
+    // setting a variable as radius
+    var radius = Math.min(width, height) / 2 - margin
 
-    // Add the line
-    svg.append('path')
-        .datum(data)
-        .attr('class', 'linePath')
-        .attr('d', d3.line()
-          // Just add that to have a curve instead of segments
-          .x(X)
-          .y(Y)
-        );
+    // set the color scale
+    var color = d3.scaleOrdinal()
+      .domain(data)
+      .range(['#98abc5', '#8a89a6', '#7b6888', '#6b486b', '#a05d56'])
 
-    // Add the points
-    let points = svg.append('g')
-      .selectAll('.linePoint')
-        .data(data);
-    
-    points.exit().remove();
-          
-    points = points.enter()
-      .append('circle')
-        .attr('class', 'point linePoint')
-      .merge(points)
-        .attr('cx', X)
-        .attr('cy', Y)        
-        .attr('r',5);
-        
-    selectableElements = points;
+    // Compute the position of each group on the pie:
+    var pie = d3.pie()
+      .value(function(d) {return d.value; })
 
-    svg.call(brush);
-
-    // Highlight points when brushed
-    function brush(g) {
-      const brush = d3.brush()
-        .on('start brush', highlight)
-        .on('end', brushEnd)
-        .extent([
-          [-margin.left, -margin.bottom],
-          [width + margin.right, height + margin.top]
-        ]);
-
-      ourBrush = brush;
-
-      g.call(brush); // Adds the brush to this element
-
-      // Highlight the selected circles.
-      function highlight(event, d) {
-        if (event.selection === null) return;
-        const [
-          [x0, y0],
-          [x1, y1]
-        ] = event.selection;
-        points.classed('selected', d =>
-          x0 <= X(d) && X(d) <= x1 && y0 <= Y(d) && Y(d) <= y1
-        );
-
-        // Get the name of our dispatcher's event
-        let dispatchString = Object.getOwnPropertyNames(dispatcher._)[0];
-
-        // Let other charts know
-        dispatcher.call(dispatchString, this, svg.selectAll('.selected').data());
-      }
-      
-      function brushEnd(event, d) {
-        // We don't want infinite recursion
-        if(event.sourceEvent !== undefined && event.sourceEvent.type!='end'){
-          d3.select(this).call(brush.move, null);
-        }
-      }
-    }
-
+    // building pie
+    svg.append('g')
+      .selectAll('whatever')
+      .data(data)
+      .enter()
+      .append('path')
+      .attr('d', d3.arc()
+        .innerRadius(0)
+        .outerRadius(radius)
+      )
+      .attr('fill', function(d){ return(color(d.data.key)) })
+      .attr('stroke', 'red')
+      .style('stroke-width', '2px')
+      .style('opacity', 0.7)
+  
     return chart;
-  }
-
-  // The x-accessor from the datum
-  function X(d) {
-    return xScale(xValue(d));
-  }
-
-  // The y-accessor from the datum
-  function Y(d) {
-    return yScale(yValue(d));
-  }
-
-  chart.margin = function (_) {
-    if (!arguments.length) return margin;
-    margin = _;
-    return chart;
+  
   };
-
-  chart.width = function (_) {
-    if (!arguments.length) return width;
-    width = _;
-    return chart;
-  };
-
-  chart.height = function (_) {
-    if (!arguments.length) return height;
-    height = _;
-    return chart;
-  };
-
-  chart.x = function (_) {
-    if (!arguments.length) return xValue;
-    xValue = _;
-    return chart;
-  };
-
-  chart.y = function (_) {
-    if (!arguments.length) return yValue;
-    yValue = _;
-    return chart;
-  };
-
-  chart.xLabel = function (_) {
-    if (!arguments.length) return xLabelText;
-    xLabelText = _;
-    return chart;
-  };
-
-  chart.yLabel = function (_) {
-    if (!arguments.length) return yLabelText;
-    yLabelText = _;
-    return chart;
-  };
-
-  chart.yLabelOffset = function (_) {
-    if (!arguments.length) return yLabelOffsetPx;
-    yLabelOffsetPx = _;
-    return chart;
-  };
-
-  // Gets or sets the dispatcher we use for selection events
+  
   chart.selectionDispatcher = function (_) {
     if (!arguments.length) return dispatcher;
     dispatcher = _;
@@ -221,7 +61,7 @@ function linechart() {
     selectableElements.classed('selected', d =>
       selectedData.includes(d)
     );
-  };
   
+  };    
   return chart;
 }
