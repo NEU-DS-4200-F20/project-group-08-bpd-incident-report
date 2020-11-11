@@ -4,7 +4,7 @@
 
   // Load the data from a json file (you can make these using
   // JSON.stringify(YOUR_OBJECT), just remove the surrounding '')
-  d3.csv("/data/pie_ii.csv", function(d) {
+  d3.csv("./data/pie_ii.csv", function(d) {
   	return {
       finding : d.finding,
   	};

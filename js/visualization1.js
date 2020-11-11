@@ -4,7 +4,7 @@
 
   // Load the data from a json file (you can make these using
   // JSON.stringify(YOUR_OBJECT), just remove the surrounding '')
-  d3.csv("/data/officers.csv", function(d) {
+  d3.csv("./data/officers.csv", function(d) {
   	return {
       title : d.title,
       doa : d.doa,
