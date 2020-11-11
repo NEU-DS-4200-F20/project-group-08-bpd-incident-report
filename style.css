@@ -21,6 +21,10 @@ h1, h2, h3 {
   height: 100%;
 }
 
+.vis-header {
+	text-align: center;
+}
+
 /* But your visualization should be full-width and full-height */
 
 .vis3-holder {
