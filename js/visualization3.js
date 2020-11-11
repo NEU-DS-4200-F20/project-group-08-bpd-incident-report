@@ -24,6 +24,7 @@
       .xLabel('YEARS ON THE FORCE')
       .y(d => d.ia_sustained_allegations)
       .yLabel('# OF SUSTAINED ALLEGATIONS')
+      .headerLabel('NUMBER OF YEARS ON THE FORCE VS NUMBER OF SUSTAINED ALLEGATIONS')
       .yLabelOffset(40)
       .selectionDispatcher(d3.dispatch(dispatchString))
       ('#vis3sp', data);
@@ -32,7 +33,8 @@
       .x(d => d.ia_sustained_allegations/d.yof)
       .xLabel('SUSTAINED ALLEGATIONS PER YEAR ON THE FORCE')
       .y(d => d.total)
-      .yLabel('Salary')
+      .yLabel('TOTAL SALARY IN 2019 (USD)')
+      .headerLabel('SUSTAINED ALLEGATIONS PER YEAR ON THE FORCE VS SALARY')
       .yLabelOffset(40)
       .selectionDispatcher(d3.dispatch(dispatchString))
       ('#vis3sp2', data);

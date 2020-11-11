@@ -39,6 +39,8 @@ h1, h2, h3 {
   flex: 0 0 50%;
 }
 
+
+
 /* The scatterplot will take the right half of the screen */
 #vis3sp2 {
   flex: 1;

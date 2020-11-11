@@ -8,9 +8,9 @@ function scatterplot2() {
   // https://bl.ocks.org/mbostock/3019563
   let margin = {
       top: 60,
-      left: 50,
+      left: 70,
       right: 30,
-      bottom: 20
+      bottom: 40
     },
     width = 500 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom,
@@ -18,6 +18,7 @@ function scatterplot2() {
     yValue = d => d[1],
     xLabelText = '',
     yLabelText = '',
+    headerLabelText = '',
     yLabelOffsetPx = 0,
     xScale = d3.scaleLinear(),
     yScale = d3.scaleLinear(),
@@ -36,6 +37,16 @@ function scatterplot2() {
 
     svg = svg.append('g')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+
+    let header = svg.append('g')
+      .append('text')
+        .attr('class', 'axisLabel')
+        .attr('transform', 'translate(' + margin.left + ', -20)')
+        .attr("id", "vis3spHeader")
+        .style("font-weight", "bold")
+        .attr("font-size","12px")
+        .text(headerLabelText);
 
     //Define scales
     xScale
@@ -59,15 +70,20 @@ function scatterplot2() {
     // X axis label
     xAxis.append('text')        
         .attr('class', 'axisLabel')
-        .attr('transform', 'translate(' + (width - 50) + ',-10)')
+        .attr('transform', 'translate(' + [(width/2)] + ', 30)')
+        .attr("id", "vis3spXAxis")
+        .style("font-weight", "bold")
         .text(xLabelText);
       
     let yAxis = svg.append('g')
         .call(d3.axisLeft(yScale))
       .append('text')
         .attr('class', 'axisLabel')
-        .attr('transform', 'translate(' + yLabelOffsetPx + ', -12)')
+        .attr('transform', 'translate(-60 ,'+ [(height/2)-margin.top] +') rotate(270)')
+        .style("font-weight", "bold")
+        .attr("id", "vis3spYAxis")
         .text(yLabelText);
+
 
     // Add the points
     let points = svg.append('g')
@@ -191,6 +207,12 @@ function scatterplot2() {
   chart.y = function (_) {
     if (!arguments.length) return yValue;
     yValue = _;
+    return chart;
+  };
+
+  chart.headerLabel = function (_) {
+    if (!arguments.length) return headerLabelText;
+    headerLabelText = _;
     return chart;
   };
 
