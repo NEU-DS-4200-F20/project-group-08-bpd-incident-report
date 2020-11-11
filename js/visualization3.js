@@ -16,6 +16,8 @@
   	};
 	}).then(data => {
 
+    console.log('hello');
+
     // General event type for selections, used by d3-dispatch
     // https://github.com/d3/d3-dispatch
     const dispatchString = 'selectionUpdated';
