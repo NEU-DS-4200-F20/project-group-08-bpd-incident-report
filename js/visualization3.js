@@ -2,19 +2,15 @@
 // variables and prevent 
 ((() => {
 
-  d3.csv("./data/officers.csv", function(d) {
+  d3.csv("./data/officersfiltered.csv", function(d) {
   	return {
-      title : d.title,
-      doa : d.doa,
       rank : d.rank,
-   		ia_score : +d.ia_score,
+   		yof : +d.yof,
     	total : +d.total,
-    	overtime : +d.overtime,
       ia_sustained_allegations : +d.ia_sustained_allegations
+
   	};
 	}).then(data => {
-
-    console.log('hello');
 
     // General event type for selections, used by d3-dispatch
     // https://github.com/d3/d3-dispatch
@@ -23,20 +19,20 @@
     // Create a scatterplot given x and y attributes, labels, offsets; 
     // a dispatcher (d3-dispatch) for selection events; 
     // a div id selector to put our svg in; and the data to use.
-    let sp1 = scatterplot()
-      .x(d => d.ia_score)
-      .xLabel('IA SCORE')
-      .y(d => d.total)
-      .yLabel('TOTAL SALARY')
+    let sp1 = scatterplot2()
+      .x(d => d.yof)
+      .xLabel('YEARS ON THE FORCE')
+      .y(d => d.ia_sustained_allegations)
+      .yLabel('# OF SUSTAINED ALLEGATIONS')
       .yLabelOffset(40)
       .selectionDispatcher(d3.dispatch(dispatchString))
       ('#vis3sp', data);
 
-    let sp2 = scatterplot()
-      .x(d => d.ia_score)
-      .xLabel('IA SCORE')
+    let sp2 = scatterplot2()
+      .x(d => d.ia_sustained_allegations/d.yof)
+      .xLabel('SUSTAINED ALLEGATIONS PER YEAR ON THE FORCE')
       .y(d => d.total)
-      .yLabel('TOTAL SALARY')
+      .yLabel('Salary')
       .yLabelOffset(40)
       .selectionDispatcher(d3.dispatch(dispatchString))
       ('#vis3sp2', data);
