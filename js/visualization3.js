@@ -1,5 +1,5 @@
-// Immediately Invoked Function Expression to limit access to our 
-// variables and prevent 
+// Immediately Invoked Function Expression to limit access to our
+// variables and prevent
 ((() => {
 
   d3.csv("./data/officersfiltered.csv", function(d) {
@@ -16,8 +16,8 @@
     // https://github.com/d3/d3-dispatch
     const dispatchString = 'selectionUpdated';
 
-    // Create a scatterplot given x and y attributes, labels, offsets; 
-    // a dispatcher (d3-dispatch) for selection events; 
+    // Create a scatterplot given x and y attributes, labels, offsets;
+    // a dispatcher (d3-dispatch) for selection events;
     // a div id selector to put our svg in; and the data to use.
     let sp1 = scatterplot2()
       .x(d => d.yof)
@@ -42,18 +42,9 @@
     sp1.selectionDispatcher().on(dispatchString, sp2.updateSelection);
 
     sp2.selectionDispatcher().on(dispatchString, sp1.updateSelection);
-    
+
 
 
   });
 
 })());
-
-
-
-
-
-
-
-
-

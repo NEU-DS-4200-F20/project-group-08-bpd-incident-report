@@ -4,9 +4,9 @@
 
   // Load the data from a json file (you can make these using
   // JSON.stringify(YOUR_OBJECT), just remove the surrounding '')
-  d3.csv("./data/officers.csv", function(d) {
+  d3.csv("./data/complaints_officers.csv", function(d) {
   	return {
-      ia_sustained_allegations : +d.ia_sustained_allegations
+      //officer_ia_score : +d.officer_ia_score
   	};
 	}).then(data => {
 
@@ -23,7 +23,6 @@
 // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
     var radius = Math.min(width, height) / 2 - margin
 
-// append the svg object to the div called 'my_dataviz'
     var svg = d3.select("#vis1pie")
       .append("svg")
       .attr("width", width)
@@ -32,15 +31,13 @@
       .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 // set the color scale
-    var color = d3.scaleOrdinal()
-      .domain(data)
-      .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56"])
+    var color = d3.scaleOrdinal(d3.schemeCategory10)
 
 // Compute the position of each group on the pie:
     var pie = d3.pie()
-      .value(function(d) {return d.value; })
+      //.value(function(d) {return d.value; })
 
-// Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+
     svg.selectAll('svg')
       .data(data)
       .enter()
@@ -49,10 +46,9 @@
       .innerRadius(0)
       .outerRadius(radius)
     )
-      .attr('fill', function(d){ return(color(d.data)) })
+      //.attr('fill', function(d){ return(color(d.data)) })
       .attr("stroke", "black")
       .style("stroke-width", "2px")
       .style("opacity", 0.7)
   });
-
 })());
