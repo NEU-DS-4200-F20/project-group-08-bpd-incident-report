@@ -69,10 +69,26 @@ h1, h2, h3 {
 
 /* Style for selected marks (circles) */
 circle.selected {
-  fill: pink;
-  stroke: red;
-  opacity: .5;
+  fill: black;
+  stroke: yellow;
+  opacity: .99;
 }
+
+circle.point.scatterPoint2 {
+  	opacity: .6;
+}
+
+circle.point.scatterPoint2.selected {
+	fill: black;
+  	stroke: yellow !important;
+  	opacity: .99;
+}
+
+.legend-text {
+	font-size: 13px;
+	fill: #333;
+}
+
 
 
 /* Fork on GitHub ribbon via https://codepo8.github.io/css-fork-on-github-ribbon/# */
