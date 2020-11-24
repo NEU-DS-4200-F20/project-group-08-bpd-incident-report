@@ -1,50 +1,69 @@
 
 function pie_chart(){
   
-  // set the dimensions and margins of the graph
-  var width = 450
-      height = 450
-      margin = 40
 
+  let margin = {
+      top: 60,
+      left: 70,
+      right: 30,
+      bottom: 40
+    },
+    width = 500 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom,
+    radius = width/2,
+
+  vValue = d => d[0],
+  cValue = d => d[1],
+  ourBrush = null,
+  selectableElements = d3.select(null);
+  
   function chart(selector, data) {
+
     let svg = d3.select(selector)
       .append('svg')
-        .attr('width', width)
-        .attr('height', height)
-  
-      svg = svg.append('g')
-          .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
-    
-    // setting a variable as radius
-    var radius = Math.min(width, height) / 2 - margin
+        .attr('preserveAspectRatio', 'xMidYMid meet')
+        .attr('viewBox', [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
+        .classed('svg-content', true);
 
-    // set the color scale
-    var color = d3.scaleOrdinal()
-      .domain(data)
-      .range(['#98abc5', '#8a89a6', '#7b6888', '#6b486b', '#a05d56'])
+    svg = svg.append('g')
+        .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-    // Compute the position of each group on the pie:
-    var pie = d3.pie()
-      .value(function(d) {return d.value; })
 
-    // building pie
-    svg.append('g')
-      .selectAll('whatever')
-      .data(data)
-      .enter()
-      .append('path')
-      .attr('d', d3.arc()
-        .innerRadius(0)
-        .outerRadius(radius)
-      )
-      .attr('fill', function(d){ return(color(d.data.key)) })
-      .attr('stroke', 'red')
-      .style('stroke-width', '2px')
-      .style('opacity', 0.7)
+     var pie = d3.pie()
+        .value(function(d) {return vValue; })
+
+
+  // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+  svg
+    .selectAll('whatever')
+    .data(data)
+    .enter()
+    .append('path')
+    .attr('d', d3.arc()
+      .innerRadius(0)
+      .outerRadius(radius)
+    )
+    .attr('fill', function(d){ return(color(cValue)) })
+    .attr("stroke", "black")
+    .style("stroke-width", "2px")
+    .style("opacity", 0.7)
   
     return chart;
   
   };
+
+  chart.v = function (_) {
+    if (!arguments.length) return vValue;
+    vValue = _;
+    return chart;
+  };
+
+  chart.c = function (_) {
+    if (!arguments.length) return cValue;
+    cValue = _;
+    return chart;
+  };
+
   
   chart.selectionDispatcher = function (_) {
     if (!arguments.length) return dispatcher;
