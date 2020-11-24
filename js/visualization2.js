@@ -33,11 +33,12 @@
     // a dispatcher (d3-dispatch) for selection events; 
     // a div id selector to put our svg in; and the data to use.
     let pie_ii_1 = pie_chart()
-      .selectionDispatcher(d3.dispatch(dispatchString))('#vis2', data);
+      .selectionDispatcher(d3.dispatch(dispatchString))
+      ('#vis2pie1', data);
 
     pie_ii_1.selectionDispatcher().on(dispatchString, pie_ii_1.updateSelection);
   });
-  
+  console.log(data)
 
 })());
 
