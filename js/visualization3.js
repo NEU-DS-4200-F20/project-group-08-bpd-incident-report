@@ -19,6 +19,8 @@
     // Create a scatterplot given x and y attributes, labels, offsets;
     // a dispatcher (d3-dispatch) for selection events;
     // a div id selector to put our svg in; and the data to use.
+
+
     let sp1 = scatterplot2()
       .x(d => d.yof)
       .xLabel('YEARS ON THE FORCE')
@@ -38,6 +40,8 @@
       .yLabelOffset(40)
       .selectionDispatcher(d3.dispatch(dispatchString))
       ('#vis3sp2', data);
+
+
 
     sp1.selectionDispatcher().on(dispatchString, sp2.updateSelection);
 

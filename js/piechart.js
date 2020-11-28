@@ -1,92 +1,57 @@
 
-function pie_chart(){
+    const width = 540;
+    const height = 300;
+    const radius = Math.min(width, height) / 2;
 
-  // set the dimensions and margins of the graph
-  var width = 500
-      height = 500
-      margin = 30
-  
-  var radius = Math.min(width, height) / 2 - margin
+    const svg = d3.select("#vis2pie1")
+        .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+        .append("g")
+            .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
-  function chart(selector, data) {
+    const color = d3.scaleOrdinal(["#66c2a5","#fc8d62","#8da0cb",
+         "#e78ac3","#a6d854","#ffd92f"]);
 
-    var svg = d3.select(selector)
-      .append('svg')
-        .attr('width', width)
-        .attr('height', height)
-    
-    var data = data
-  
-    svg = svg.append('g')
-        .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
-    
-    var color = d3.scaleOrdinal()
-      .domain(data)
-      .range(['white', 'purple', 'orange', 'yellow', 'green', 'blue', 'red'])
+    const pie = d3.pie()
+        .value(d => d.count)
+        .sort(null);
 
-    var pie = d3.pie();
-    
-    const color_map = {
-      'Sustained': 'red',
-      'Unfounded': 'blue',
-      'Withdrawn': 'green',
-      'Not Sustained': 'orange',
-      'Pending': 'yellow',
-      'Filed': 'purple',
-      'Exonerated': 'white'
-    };
-
-    // building pie, defining colors to a chunk in the pie
-    let color_function = function(d3){
-        return (color_map[d3.finding]);
-      }
-
-    var arcs = svg.selectAll(".piesection")
-      .data(pie(data))
-      .enter()
-      .append("g")
-      .attr("class", "arc")
-
-    arcs.append("path")
-      .attr("fill", function(d) {
-          return color_map[d.finding];
-      })
-      .attr("d", d3.arc());
-    
-    svg
-      .selectAll('whatever')
-      .data(data)
-      .enter()
-      .append('path')
-      .attr('d', d3.arc()
+    const arc = d3.arc()
         .innerRadius(0)
-        .outerRadius(radius)
-      )
-      .attr('fill', function(d){ return(color(d.data.key)) })
-      .attr("stroke", "black")
-      .style("stroke-width", "2px")
-      .style("opacity", 0.7)
-  
-    return chart;
-  
-  };
-  
-  chart.selectionDispatcher = function (_) {
-    if (!arguments.length) return dispatcher;
-    dispatcher = _;
-    return chart;
-  };
+        .outerRadius(radius);
 
-  // Given selected data from another visualization 
-  // select the relevant elements here (linking)
-  chart.updateSelection = function (selectedData) {
-    if (!arguments.length) return;
+    function type(d) {
+        d.finding = d.finding;
+        return d;
+    }
 
-    // Select an element if its datum was selected
-    selectableElements.classed('selected', d2 =>
-      selectedData.includes(d2)
-    );
-  };    
-  return chart;
+    function arcTween(a) {
+        const i = d3.interpolate(this._current, a);
+        this._current = i(1);
+        return (t) => arc(i(t));
+    }
   
-}
+    d3.csv("data/pie_ii.csv", type).then(data => {  
+        d3.selectAll("input")
+            .on("change", update);
+
+        function update(val = this.value) {
+            // Join new data
+            const path = svg.selectAll("path");
+                //.data(pie(data[val]));
+
+            // Update existing arcs
+            path.transition().duration(200).attrTween("d", arcTween);
+
+            // Enter new arcs
+            path.enter().append("path")
+                .attr("fill", (d, i) => color(i))
+                .attr("d", arc)
+                .attr("stroke", "white")
+                .attr("stroke-width", "6px")
+                .each(function(d) { this._current = d; });
+        }
+
+        console.log(data)
+    });

@@ -4,12 +4,14 @@
 // Reusable Chart framework https://bost.ocks.org/mike/chart/
 function scatterplot2() {
 
+  
   // Based on Mike Bostock's margin convention
   // https://bl.ocks.org/mbostock/3019563
+
   let margin = {
       top: 60,
       left: 70,
-      right: 30,
+      right: 55,
       bottom: 40
     },
     width = 500 - margin.left - margin.right,
@@ -42,12 +44,13 @@ function scatterplot2() {
     let header = svg.append('g')
       .append('text')
         .attr('class', 'axisLabel')
-        .attr('transform', 'translate(' + margin.left + ', -20)')
+        .attr('transform', 'translate(' + margin.left/3 + ', -20)')
         .attr("id", "vis3spHeader")
         .style("font-weight", "bold")
-        .attr("font-size","12px")
+        .attr("font-size","10px")
         .text(headerLabelText);
 
+   var color = d3.scaleOrdinal(d3.schemeCategory10);
     //Define scales
     xScale
       .domain([
@@ -94,35 +97,71 @@ function scatterplot2() {
 
     points = points.enter()
       .append('circle')
-        .attr('class', 'point scatterPoint2')
-        .style("stroke", function(d,i){
-          if (d.rank == "capt"){
-              return "orange";
+        .attr('class', function(d,i){ 
+           if (d.rank == "capt"){
+              return "point scatterPoint2 capt";
           }else if (d.rank == "depsup"){
-              return "rgba(143, 182, 227, 0.8)";
-          }else if (d.rank == "dept"){
-              return "rgba(129, 252, 234, 0.8)";
+              return "point scatterPoint2 depsup";
+          }else if (d.rank == "det"){
+              return "point scatterPoint2 det";
           }else if (d.rank == "lieut"){
-              return "green";
+              return "point scatterPoint2 lieut";
           }else if (d.rank == "ltdet"){
-              return "yellow";
+              return "point scatterPoint2 ltdet";
           }else if (d.rank == "ptl"){
-              return "rgba(203, 166, 255, 0.8)";
+              return "point scatterPoint2 ptl";
           }else if (d.rank == "sergt"){
-              return "pink";
+              return "point scatterPoint2 sergt";
           }else if (d.rank == "sgtdet"){
-              return "brown";
+              return "point scatterPoint2 sgtdet";
           }else if (d.rank == "supt"){
-              return "grey";
-          }
+              return "point scatterPoint2 supt";
+          } else if (d.rank == "comiss"){
+              return "point scatterPoint2 comiss";
+          } 
         })
+
+      .style('stroke', function(d){ return color(d.rank); })
+
+      .on("mouseover", function(d) {    
+            console.log('aye');
+            })          
+        .on("mouseout", function(d) {   
+            console.log('oh');
+        })
+
       .merge(points)
         .attr('cx', X)
         .attr('cy', Y)
         .attr('r', 5);
+
+
+   var legend = svg.selectAll('legend')
+      .data(color.domain())
+      .enter().append('g')
+      .attr('class', 'legend')
+      .attr('transform', function(d,i){ return 'translate(0,' + i * 20 + ')'; });
+
+    // give x value equal to the legend elements. 
+    // no need to define a function for fill, this is automatically fill by color.
+    legend.append('rect')
+      .attr('x', width)
+      .attr('width', 18)
+      .attr('height', 18)
+      .style('fill', color);
+
+    // add text to the legend elements.
+    // rects are defined at x value equal to width, we define text at width - 6, this will print name of the legends before the rects.
+    legend.append('text')
+      .attr('x', width - 6)
+      .attr('y', 9)
+      .attr('dy', '.35em')
+      .attr('class', 'legend-text')
+      .style('text-anchor', 'end')
+      .text(function(d){ return d; });
     
     selectableElements = points;
-    
+
     svg.call(brush);
 
     // Highlight points when brushed
