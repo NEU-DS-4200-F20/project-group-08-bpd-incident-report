@@ -8,14 +8,16 @@ function scatterplot2() {
   // Based on Mike Bostock's margin convention
   // https://bl.ocks.org/mbostock/3019563
 
+ 
+
   let margin = {
       top: 60,
       left: 70,
       right: 55,
       bottom: 40
     },
-    width = 500 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom,
+    width = 600 - margin.left - margin.right,
+    height = 450 - margin.top - margin.bottom,
     xValue = d => d[0],
     yValue = d => d[1],
     xLabelText = '',
@@ -31,6 +33,9 @@ function scatterplot2() {
   // Create the chart by adding an svg to the div with the id 
   // specified by the selector using the given data
   function chart(selector, data) {
+
+
+
     let svg = d3.select(selector)
       .append('svg')
         .attr('preserveAspectRatio', 'xMidYMid meet')
@@ -120,15 +125,7 @@ function scatterplot2() {
               return "point scatterPoint2 comiss";
           } 
         })
-
       .style('stroke', function(d){ return color(d.rank); })
-
-      .on("mouseover", function(d) {    
-            console.log('aye');
-            })          
-        .on("mouseout", function(d) {   
-            console.log('oh');
-        })
 
       .merge(points)
         .attr('cx', X)
@@ -136,32 +133,11 @@ function scatterplot2() {
         .attr('r', 5);
 
 
-   var legend = svg.selectAll('legend')
-      .data(color.domain())
-      .enter().append('g')
-      .attr('class', 'legend')
-      .attr('transform', function(d,i){ return 'translate(0,' + i * 20 + ')'; });
-
-    // give x value equal to the legend elements. 
-    // no need to define a function for fill, this is automatically fill by color.
-    legend.append('rect')
-      .attr('x', width)
-      .attr('width', 18)
-      .attr('height', 18)
-      .style('fill', color);
-
-    // add text to the legend elements.
-    // rects are defined at x value equal to width, we define text at width - 6, this will print name of the legends before the rects.
-    legend.append('text')
-      .attr('x', width - 6)
-      .attr('y', 9)
-      .attr('dy', '.35em')
-      .attr('class', 'legend-text')
-      .style('text-anchor', 'end')
-      .text(function(d){ return d; });
+   
     
     selectableElements = points;
 
+    
     svg.call(brush);
 
     // Highlight points when brushed
@@ -205,6 +181,112 @@ function scatterplot2() {
         }
       }
     }
+
+
+
+    var legend = svg.selectAll('legend')
+      .data(color.domain())
+      .enter().append('g')
+      .attr('class', 'legend')
+      .attr('transform', function(d,i){ return 'translate(0,' + i * 20 + ')'; });
+
+    // give x value equal to the legend elements. 
+    // no need to define a function for fill, this is automatically fill by color.
+    legend.append('rect')
+      .attr('class', function(d,i){ 
+           if (d == "capt"){
+              return "legend capt";
+          }else if (d == "depsup"){
+              return "legend depsup";
+          }else if (d == "det"){
+              return "legend det";
+          }else if (d == "lieut"){
+              return "legend lieut";
+          }else if (d == "ltdet"){
+              return "legend ltdet";
+          }else if (d == "ptl"){
+              return "legend ptl";
+          }else if (d == "sergt"){
+              return "legend sergt";
+          }else if (d == "sgtdet"){
+              return "legend sgtdet";
+          }else if (d == "supt"){
+              return "legend supt";
+          } else if (d == "comiss"){
+              return "legend comiss";
+          }
+        })
+      .attr('x', width)
+      .attr('width', 18)
+      .attr('height', 18)
+      .style('fill', color)
+      .attr('opacity', .6);
+  
+    // add text to the legend elements.
+    // rects are defined at x value equal to width, we define text at width - 6, this will print name of the legends before the rects.
+    legend.append('text')
+      .attr('x', width - 6)
+      .attr('y', 9)
+      .attr('dy', '.35em')
+      .attr('class', 'legend-text')
+      .style('text-anchor', 'end')
+      .text(function(d){ return d; });
+
+      legend
+        .on("mousedown", function(e) {
+          // is the element currently visible ?
+          currentOpacity = d3.selectAll("circle.point.scatterPoint2." + e.target.__data__).style("opacity")
+          // Change the opacity: from 0 to 1 or from 1 to 0
+          d3.selectAll("circle.point.scatterPoint2." + e.target.__data__).transition().style("opacity", currentOpacity == .6 ? 0:.6)
+
+          d3.selectAll("rect.legend." + e.target.__data__).transition().style("opacity", currentOpacity == .6 ? .1:.6)
+      });
+
+
+
+    var formatDecimalComma = d3.format(",.2f");
+
+
+    var tooltip = d3.select(selector)
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+
+
+    let points2 = svg.append('g')
+      .selectAll('.scatterPoint')
+        .data(data)
+
+    points2 = points2.enter()
+      .append('circle')
+      .attr('class', 'fake circle')
+      .style('opacity', 0)
+      .merge(points)
+        .attr('cx', X)
+        .attr('cy', Y)
+        .attr('r', 5)
+      .on("mouseover", function(d) {
+    tooltip
+      .style("opacity", .6)
+  } )
+    .on("mousemove", function(e) {
+    tooltip
+      .html("Rank:<b> " + e.target.__data__.rank + "</b>  |  Years on the Force:<b> " + e.target.__data__.yof 
+        + "</b><br># of Sustained Allegations:<b> " + e.target.__data__.ia_sustained_allegations + "</b>"
+        + "</b><br>Salary in 2019:<b> $" + formatDecimalComma(e.target.__data__.total));
+  } )
+    .on("mouseleave", function(d) {
+    tooltip
+      .transition()
+      .duration(200)
+      .style("opacity", 0)
+  } );
+
+
+
+    
+
+    
 
     return chart;
   }
@@ -272,7 +354,7 @@ function scatterplot2() {
     yLabelOffsetPx = _;
     return chart;
   };
-
+  
   // Gets or sets the dispatcher we use for selection events
   chart.selectionDispatcher = function (_) {
     if (!arguments.length) return dispatcher;
@@ -294,3 +376,4 @@ function scatterplot2() {
 
   return chart;
 }
+

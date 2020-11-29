@@ -9,6 +9,22 @@ h1, h2, h3 {
 	line-height: 1.2
 }
 
+.tooltip {
+          background-color: rgba(90,90,90, 0.4);
+          border : solid;
+          border-radius: 5px;
+          border-width: 1px;
+          padding : 10px;
+          width: 45%;
+          margin : 0 auto;
+          opacity: 0;
+          pointer-events: none;
+          text-align: center;
+          font-size: 12px;
+
+        }    
+
+        
 /* Your text should be in a nice narrow column */
 .content-column {
 	max-width: 650px;
@@ -31,6 +47,8 @@ h1, h2, h3 {
   width: 100%;
   height: 100%;
   display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
 }
 
 
@@ -71,7 +89,7 @@ h1, h2, h3 {
 circle.selected {
   fill: black;
   stroke: yellow;
-  opacity: .99;
+  opacity: 1;
 }
 
 circle.point.scatterPoint2 {
@@ -81,7 +99,7 @@ circle.point.scatterPoint2 {
 circle.point.scatterPoint2.selected {
 	fill: black;
   	stroke: yellow !important;
-  	opacity: .99;
+  	opacity: 1;
 }
 
 .legend-text {
