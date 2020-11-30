@@ -6,13 +6,11 @@
   // JSON.stringify(YOUR_OBJECT), just remove the surrounding '')
   d3.csv("./data/complaints_officers.csv", function(d) {
   	return {
-<<<<<<< HEAD
+      >>>>>>>>>>>>>>>>>>>
   	  incident_type : d.incident_type,
       officer_ia_sustained_allegations : +d.officer_ia_sustained_allegations,
       ia_number : d.ia_number
-=======
-      //officer_ia_score : +d.officer_ia_score
->>>>>>> d2259d7583a32ece81a6f4b749c30159cb853eac
+
   	};
 	}).then(data => {
 
@@ -31,8 +29,6 @@
       ('#vis1pie', data);
 
 
-<<<<<<< HEAD
-=======
     var width = 450
       height = 450
       margin = 40
@@ -67,7 +63,6 @@
       .attr("stroke", "black")
       .style("stroke-width", "2px")
       .style("opacity", 0.7)
->>>>>>> d2259d7583a32ece81a6f4b749c30159cb853eac
   });
 })());
 

@@ -9,6 +9,10 @@ h1, h2, h3 {
 	line-height: 1.2
 }
 
+h5 {
+  text-align: center;    
+}
+
 .tooltip {
           background-color: rgba(90,90,90, 0.4);
           border : solid;
@@ -64,6 +68,52 @@ h1, h2, h3 {
   flex: 1;
 }
 
+/* But your visualization should be full-width and full-height */
+
+.visX-holder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+
+/* The line chart will take the left half of the screen */
+#visXpc {
+  flex: 0 0 50%;
+}
+
+
+
+/* The scatterplot will take the right half of the screen */
+#visXpc2 {
+  flex: 1;
+}
+
+.visX-holder2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+
+/* The line chart will take the left half of the screen */
+#visX2pc {
+  flex: 0 0 50%;
+}
+
+
+
+/* The scatterplot will take the right half of the screen */
+#visX2pc2 {
+  flex: 1;
+}
+
+
+
 .vis-svg {
   background-color: #f4f1f0;
 }
@@ -107,6 +157,35 @@ circle.point.scatterPoint2.selected {
 	fill: #333;
 }
 
+
+.legend2 {
+  font-size: 14px;
+}
+rect {
+  cursor: pointer; 
+  stroke-width: 2;
+}
+rect.disabled {
+  fill: transparent !important;
+}
+
+
+
+/* tooltip */
+.tooltip2 {
+  background: #eee;
+  box-shadow: 0 0 5px #999999;
+  color: #333;
+  display: none;
+  font-size: 18px;
+  left: 10px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  width: 80px;
+  z-index: 10;
+}
 
 
 /* Fork on GitHub ribbon via https://codepo8.github.io/css-fork-on-github-ribbon/# */
