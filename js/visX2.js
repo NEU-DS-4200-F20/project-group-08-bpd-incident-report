@@ -10,12 +10,12 @@
 	}).then(data => {
 
      let margin = {
-      top: 5,
-      left: 5,
-      right: 5,
-      bottom: 5
+      top: 150,
+      left: 150,
+      right: 50,
+      bottom: 0
     },
-    width = 400 - margin.left - margin.right,
+  width = 400 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom,
     headerLabelText = '',
     selectableElements = d3.select(null),
@@ -23,18 +23,18 @@
 
 
 
-     var radius = Math.min(width, height) / 2;
+     var radius = Math.min(width , height) / 2;
 
 
-    var legendRectSize = 25; 
+    var legendRectSize = 12.5; 
     var legendSpacing = 6; 
 
-    var color = d3.scaleOrdinal(d3.schemeCategory10);
+    var color = d3.scaleOrdinal(d3.schemeCategory10)
 
     let svg = d3.select('#visXpc2')
       .append('svg')
         .attr('preserveAspectRatio', 'xMidYMid meet')
-        .attr('viewBox', [-500, -500, 1000, 1000].join(' '))
+        .attr('viewBox',[0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
         .classed('svg-content', true);
 
     svg = svg.append('g')
@@ -70,6 +70,7 @@
 });
 
 
+ 
   var path = svg.selectAll('path') // select all path elements inside the svg. specifically the 'g' element. they don't exist yet but they will be created below
   .data(pie(data)) //associate dataset wit he path elements we're about to create. must pass through the pie function. it magically knows how to extract values and bakes it into the pie
   .enter() //creates placeholder nodes for each of the values
@@ -83,15 +84,15 @@ path.on('mouseover', function(d) {  // when mouse enters div
  var total = d3.sum(data.map(function(d) { // calculate the total number of tickets in the dataset         
   return (d.enabled) ? d.count : 0; // checking to see if the entry is enabled. if it isn't, we return 0 and cause other percentages to increase                                      
   }));                                                      
- var percent = Math.round(1000 * d.count / total) / 10; // calculate percent
- tooltip.select('.finding').html(d.finding); // set current label           
- tooltip.select('.count').html('$' + d.count); // set current count            
+ var percent = Math.round(1000 * data.count / total) / 10; // calculate percent
+ tooltip.select('.finding').html(data.finding); // set current label           
+ tooltip.select('.count').html('$' + data.count); // set current count            
  tooltip.select('.percent').html(percent + '%'); // set percent calculated above          
- tooltip.style('display', 'block'); // set display                     
+ tooltip.style('opacity', 1); // set display                     
 });                                                           
 
 path.on('mouseout', function() { // when mouse leaves div                        
-  tooltip.style('display', 'none'); // hide tooltip for that element
+  tooltip.style('opacity', 0); // hide tooltip for that element
  });
 
 path.on('mousemove', function(d) { // when mouse moves                  
@@ -100,15 +101,15 @@ path.on('mousemove', function(d) { // when mouse moves
   });
 
 // define legend
-var legend = svg.selectAll('.visXpc2') // selecting elements with class 'legend'
+var legend = svg.selectAll('.legend') // selecting elements with class 'legend'
   .data(color.domain()) // refers to an array of labels from our dataset
   .enter() // creates placeholder
   .append('g') // replace placeholders with g elements
-  .attr('class', 'legend2') // each g is given a legend class
+  .attr('class', 'legend') // each g is given a legend class
   .attr('transform', function(d, i) {                   
     var height = legendRectSize + legendSpacing; // height of element is the height of the colored square plus the spacing      
     var offset =  height * color.domain().length / 2; // vertical offset of the entire legend = height of a single element & half the total number of elements  
-    var horz = radius * 1.5; // the legend is shifted to the left to make room for the text
+    var horz = radius * 1.2; // the legend is shifted to the left to make room for the text
     var vert = i * height - offset; // the top of the element is hifted up or down from the center using the offset defiend earlier and the index of the current element 'i'               
       return 'translate(' + horz + ',' + vert + ')'; //return translation       
    });
@@ -118,13 +119,15 @@ legend.append('rect') // append rectangle squares to legend
   .attr('width', legendRectSize) // width of rect size is defined above                        
   .attr('height', legendRectSize) // height of rect size is defined above                      
   .style('fill', color) // each fill is passed a color
-  .style('stroke', color) // each stroke is passed a color
-  .on('click', function(finding) {
-    var rect = d3.select(this); // this refers to the colored squared just clicked
+  .style('stroke', color)
+  .on('click', function(e) {
+   var finding = e.target.__data__;
+    var rect = d3.select(this);// this refers to the colored squared just clicked
     var enabled = true; // set enabled true to default
     var totalEnabled = d3.sum(data.map(function(d) { // can't disable all options
       return (d.enabled) ? 1 : 0; // return 1 for each enabled entry. and summing it up
     }));
+
 
     if (rect.attr('class') === 'disabled') { // if class is disabled
       rect.attr('class', ''); // remove class disabled
@@ -132,6 +135,7 @@ legend.append('rect') // append rectangle squares to legend
       if (totalEnabled < 2) return; // if less than two labels are flagged, exit
       rect.attr('class', 'disabled'); // otherwise flag the square disabled
       enabled = false; // set enabled to false
+      
     }
 
     pie.value(function(d) { 
@@ -155,10 +159,8 @@ legend.append('rect') // append rectangle squares to legend
 // adding text to legend
 legend.append('text')                                    
   .attr('x', legendRectSize + legendSpacing)
-  .attr('y', legendRectSize - legendSpacing)
-  .text(function(d) { return d; }); // return label
-
-
+  .attr('y', legendRectSize - (legendSpacing/2))
+  .text(function(d) { return d; }); 
   });
 
 })())

@@ -184,36 +184,36 @@ function scatterplot2() {
 
 
 
-    var legend = svg.selectAll('legend')
+    var legend2 = svg.selectAll('legend2')
       .data(color.domain())
       .enter().append('g')
-      .attr('class', 'legend')
+      .attr('class', 'legend2')
       .attr('transform', function(d,i){ return 'translate(0,' + i * 20 + ')'; });
 
     // give x value equal to the legend elements. 
     // no need to define a function for fill, this is automatically fill by color.
-    legend.append('rect')
+    legend2.append('rect')
       .attr('class', function(d,i){ 
            if (d == "capt"){
-              return "legend capt";
+              return "legend2 capt";
           }else if (d == "depsup"){
-              return "legend depsup";
+              return "legend2 depsup";
           }else if (d == "det"){
-              return "legend det";
+              return "legend2 det";
           }else if (d == "lieut"){
-              return "legend lieut";
+              return "legend2 lieut";
           }else if (d == "ltdet"){
-              return "legend ltdet";
+              return "legend2 ltdet";
           }else if (d == "ptl"){
-              return "legend ptl";
+              return "legend2 ptl";
           }else if (d == "sergt"){
-              return "legend sergt";
+              return "legend2 sergt";
           }else if (d == "sgtdet"){
-              return "legend sgtdet";
+              return "legend2 sgtdet";
           }else if (d == "supt"){
-              return "legend supt";
+              return "legend2 supt";
           } else if (d == "comiss"){
-              return "legend comiss";
+              return "legend2 comiss";
           }
         })
       .attr('x', width)
@@ -224,22 +224,22 @@ function scatterplot2() {
   
     // add text to the legend elements.
     // rects are defined at x value equal to width, we define text at width - 6, this will print name of the legends before the rects.
-    legend.append('text')
+    legend2.append('text')
       .attr('x', width - 6)
       .attr('y', 9)
       .attr('dy', '.35em')
-      .attr('class', 'legend-text')
+      .attr('class', 'legend2-text')
       .style('text-anchor', 'end')
       .text(function(d){ return d; });
 
-      legend
+      legend2
         .on("mousedown", function(e) {
           // is the element currently visible ?
           currentOpacity = d3.selectAll("circle.point.scatterPoint2." + e.target.__data__).style("opacity")
           // Change the opacity: from 0 to 1 or from 1 to 0
           d3.selectAll("circle.point.scatterPoint2." + e.target.__data__).transition().style("opacity", currentOpacity == .6 ? 0:.6)
 
-          d3.selectAll("rect.legend." + e.target.__data__).transition().style("opacity", currentOpacity == .6 ? .1:.6)
+          d3.selectAll("rect.legend2." + e.target.__data__).transition().style("opacity", currentOpacity == .6 ? .1:.6)
       });
 
 
