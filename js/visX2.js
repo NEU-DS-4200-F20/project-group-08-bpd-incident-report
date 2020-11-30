@@ -83,23 +83,25 @@
 path.on('mouseover', function(d) {  // when mouse enters div      
  var total = d3.sum(data.map(function(d) { // calculate the total number of tickets in the dataset         
   return (d.enabled) ? d.count : 0; // checking to see if the entry is enabled. if it isn't, we return 0 and cause other percentages to increase                                      
-  }));                                                      
- var percent = Math.round(1000 * data.count / total) / 10; // calculate percent
- tooltip.select('.finding').html(data.finding); // set current label           
- tooltip.select('.count').html('$' + data.count); // set current count            
+  }));                      
+ var nd = d.target.__data__.data;                    
+ var percent = Math.round(1000 * nd.count / total) / 10; // calculate percent
+ tooltip.select('.finding').html(nd.finding); // set current label           
+ tooltip.select('.count').html(nd.count); // set current count            
  tooltip.select('.percent').html(percent + '%'); // set percent calculated above          
- tooltip.style('opacity', 1); // set display                     
+ tooltip.style("display", "block");   
+ tooltip.style('opacity',.8);
 });                                                           
 
 path.on('mouseout', function() { // when mouse leaves div                        
-  tooltip.style('opacity', 0); // hide tooltip for that element
+  tooltip.style('display', 'none');
+      tooltip.style('opacity',0);// hide tooltip for that element
  });
 
-path.on('mousemove', function(d) { // when mouse moves                  
-  tooltip.style('top', 10 + 'px') // always 10px below the cursor
-    .style('left', 10 + 'px'); // always 10px to the right of the mouse
+path.on('mousemove', function(d) { // when mouse moves                
+  tooltip.style('top', (d.layerY + 50) + 'px') // always 10px below the cursor
+    .style('left', (d.layerX + 290) + 'px'); // always 10px to the right of the mouse
   });
-
 // define legend
 var legend = svg.selectAll('.legend') // selecting elements with class 'legend'
   .data(color.domain()) // refers to an array of labels from our dataset

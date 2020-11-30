@@ -87,8 +87,8 @@ path.on('mouseover', function(d) {  // when mouse enters div
  tooltip.select('.finding').html(nd.finding); // set current label           
  tooltip.select('.count').html(nd.count); // set current count            
  tooltip.select('.percent').html(percent + '%'); // set percent calculated above          
- tooltip.style("display", "inline");
-  tooltip.style('opacity',.8);    
+ tooltip.style("display", "block");   
+ tooltip.style('opacity',.8);
 });                                                           
 
 path.on('mouseout', function() { // when mouse leaves div                        
@@ -97,8 +97,8 @@ path.on('mouseout', function() { // when mouse leaves div
  });
 
 path.on('mousemove', function(d) { // when mouse moves                
-  tooltip.style('top', (d.layerY + 10) + 'px') // always 10px below the cursor
-    .style('left', (d.layerX + 10) + 'px'); // always 10px to the right of the mouse
+  tooltip.style('top', (d.layerY + 50) + 'px') // always 10px below the cursor
+    .style('left', (d.layerX + 20) + 'px'); // always 10px to the right of the mouse
   });
 
 // define legend
