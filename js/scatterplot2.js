@@ -35,7 +35,7 @@ function scatterplot2() {
   function chart(selector, data) {
 
 
-
+    console.log(data)
     let svg = d3.select(selector)
       .append('svg')
         .attr('preserveAspectRatio', 'xMidYMid meet')

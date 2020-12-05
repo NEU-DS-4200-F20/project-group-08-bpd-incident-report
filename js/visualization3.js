@@ -7,6 +7,7 @@
       rank : d.rank,
    		yof : +d.yof,
     	total : +d.total,
+      rounded_total : +d.rounded_total,
       ia_sustained_allegations : +d.ia_sustained_allegations
 
   	};
@@ -32,10 +33,10 @@
       ('#vis3sp', data);
 
     let sp2 = scatterplot2()
-      .x(d => d.ia_sustained_allegations/d.yof)
-      .xLabel('SUSTAINED ALLEGATIONS PER YEAR ON THE FORCE')
-      .y(d => d.total)
-      .yLabel('TOTAL SALARY IN 2019 (USD)')
+      .x(d => d.rounded_total)
+      .xLabel('TOTAL SALARY IN 2019 (USD)')
+      .y(d => d.ia_sustained_allegations)
+      .yLabel('# OF SUSTAINED ALLEGATIONS')
       .headerLabel('SUSTAINED ALLEGATIONS PER YEAR ON THE FORCE VS SALARY')
       .yLabelOffset(40)
       .selectionDispatcher(d3.dispatch(dispatchString))
