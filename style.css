@@ -13,18 +13,24 @@ h4 {
   text-align: center;    
 }
 
-.tooltip {
-          background-color: rgba(90,90,90, 0.4);
+#sptt {
+          background-color: rgba(200,200,200, .95);
           border : solid;
           border-radius: 5px;
           border-width: 1px;
           padding : 10px;
-          width: 45%;
           margin : 0 auto;
           opacity: 0;
           pointer-events: none;
           text-align: center;
           font-size: 12px;
+          box-shadow:1px 1px 3px gray;
+          padding:5px;
+          top:1.3em;
+          left:0px;   
+          max-width:200px;
+          white-space: nowrap;
+          position:absolute;
         }    
 
         
@@ -176,6 +182,7 @@ h4 {
   stroke-width: 1.5;
 }
 
+
 .axisLabel {
   fill: #475d7c;
 }
@@ -219,7 +226,7 @@ rect.disabled {
 
 
 /* tooltip */
-.tooltip2 {
+#pctt {
     display:none;
     opacity: 0;
     background-color:black;
@@ -232,7 +239,7 @@ rect.disabled {
     left:0px;   
     max-width:200px;
     white-space: nowrap;
-    position:fixed;
+    position:absolute;
 }
 
 

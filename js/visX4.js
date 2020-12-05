@@ -29,7 +29,7 @@
     var legendRectSize = 12.5; 
     var legendSpacing = 6; 
 
-    var color = d3.scaleOrdinal(d3.schemeCategory10);
+    var color = d3.scaleOrdinal(d3.schemeSet3);
 
     let svg = d3.select('#visX2pc2')
       .append('svg')
@@ -52,8 +52,9 @@
   // define tooltip
   var tooltip = d3.select('#visX2pc2') // select element in the DOM with id 'chart'
     .append('div') // append a div element to the element we've selected                                    
-    .attr('class', 'tooltip2'); // add class 'tooltip' on the divs we just selected
-
+    .attr('class', 'tooltip')
+    .attr('id', 'pctt');
+    
   tooltip.append('div') // add divs to the tooltip defined above                            
     .attr('class', 'action'); // add class 'label' on the selection                         
 
@@ -76,11 +77,13 @@
   .append('path') // replace placeholders with path elements
   .attr('d', arc) // define d attribute with arc function above
   .attr('fill', function(d) { return color(d.data.action); }) // use color scale to define fill of each label in dataset
-  .each(function(d) { this._current - d; }); // creates a smooth animation for each track
+  .each(function(d) { this._current - d; })
+  .style("opacity", .8);
+// mouse event handlers are attached to path so they need to come after its definition
 
 // mouse event handlers are attached to path so they need to come after its definition
 path.on('mouseover', function(d) {  // when mouse enters div      
- var total = d3.sum(data.map(function(d) { // calculate the total number of tickets in the dataset         
+ var total = d3.sum(data.map(function(d) { // calculate the total number of tickets in the dataset        
   return (d.enabled) ? d.count : 0; // checking to see if the entry is enabled. if it isn't, we return 0 and cause other percentages to increase                                      
   }));                      
  var nd = d.target.__data__.data;                    
@@ -88,18 +91,20 @@ path.on('mouseover', function(d) {  // when mouse enters div
  tooltip.select('.action').html(nd.action); // set current label           
  tooltip.select('.count').html(nd.count); // set current count            
  tooltip.select('.percent').html(percent + '%'); // set percent calculated above          
- tooltip.style("display", "block");   
- tooltip.style('opacity',.8);
+ tooltip.style('display', 'block');
+ tooltip.style('opacity',2);
 });                                                           
 
 path.on('mouseout', function() { // when mouse leaves div                        
   tooltip.style('display', 'none');
-      tooltip.style('opacity',0);// hide tooltip for that element
+      tooltip.style('opacity',0);
  });
 
-path.on('mousemove', function(d) { // when mouse moves                
-  tooltip.style('top', (d.layerY + 150) + 'px') // always 10px below the cursor
-    .style('left', (d.layerX + 280) + 'px'); // always 10px to the right of the mouse
+path.on('mousemove', function(d) { // when mouse moves    
+  tooltip
+    .style('top', (d.pageY + 10) + 'px')
+    .style('left', (d.pageX - 25) + 'px');            
+ 
   });
 
 // define legend
@@ -122,6 +127,7 @@ legend.append('rect') // append rectangle squares to legend
   .attr('height', legendRectSize) // height of rect size is defined above                      
   .style('fill', color) // each fill is passed a color
   .style('stroke', color)
+  .style("opacity", .8)
   .on('click', function(e) {
    var action = e.target.__data__;
     var rect = d3.select(this);// this refers to the colored squared just clicked
