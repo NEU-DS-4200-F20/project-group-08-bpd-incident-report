@@ -43,7 +43,9 @@
 
     <h1>Abstract</h1>
 
-    <p>Our goal is to build an interactive visual of all Boston police inci-dents, field searches and field interrogations over the past five years.Currently, all of these reports are available as public records to any-one who wishes to view them, but they are obscured by nature asthey are simply listed in a massive spreadsheet.  A user could notmake any conclusions about how BPD acts in the field by scanningthese spreadsheets, but an interactive visual would allow citizens toview how BPD behaves and demand change if they see fit.</p>
+    <p>Our goal is to build interactive visuals focusing on complaints filed against Boston police officers, both from civilians and from fellow officers. Currently, all of these complaints are available as public records to any one who wishes to view them, but they are obscured by nature as they are simply listed in a massive spreadsheet of over 10,000 rows. A user could not make any conclusions about how BPD handles complaints filed against their officers or what types of complaints are filed, but an interactive visual would allow citizens to view how BPD behaves and demand change if they see fit.
+<br> </br>
+We created interactive pie charts to visualize how responses to complaints from internal sources differ from civilian complaints by showing the rates of the complaints being sustained and the action taken in response to sustained complaints. In addition, we created interactive scatterplots to plot officers’ salaries in relation to how many allegations they have against them and a linked plot to show the number of allegations officers have per year on the force.  </p>
 
 
     <h1>Visualization</h1>
@@ -79,9 +81,9 @@
     </div>
 
 
-  </div> 
+  </div>
 
-   
+
 
   <!-- Further writeup -->
   <div class = 'content-column'>
@@ -98,7 +100,12 @@
 
     <h1>Visualization explanation</h1>
 
-    <p>Replace with a brief explanation (can be copied from the paper) and linked presentation slides.</p>
+    <p>We decided it was important to visualize the rate at which complaints were sustained. As a result, we decided a pie chart was an effective way to show that trend, as pie charts are excellent for taking a quick look and getting a feel for proportions. We used color and size encoding on the chunks of the pie chart, like any normal pie chart would, so that users could get a feel for what the most common responses to allegations against BPD officers are. In addition, we included a clickable legend to the right of the pie charts. The clickable legend allows users to exclude certain types of responses, so if a user wanted to only look at non-sustained allegations and see the most common ways the complaints weren’t sustained, they have that option. That allows users to understand some of the reasoning why allegations may not result in a sustained complaint. In addition, we included a tooltip to allow users to get a better look at specific types of responses to allegations. One important part of this visualization is that the pie charts are broken down by internal investigations vs citizen complaints, so each pair of pie charts serves to compare and contrast how those types of complaints are handled.
+<br> </br>
+We had a second set of pie charts directly below the first one that focused specifically on sustained allegations. We chose to have this set come after the first so that users could understand the fraction of complaints that are sustained (a bit over a half for internal investigations, roughly an eighth of citizen complaints) and then see that specific fraction focused in on. The second set of pie charts then shows how sustained allegations are handled, again breaking it down by internal investigations and citizen complaints. The pie charts are encoded in a similar way as well, using color and size to show proportions. The interactions are also consistent, so users can seamlessly move from the first set to the second.
+<br> </br>
+Finally, we have the duo of scatter plots. This scatter plot is intended to show users that even police officers that face a large amount of complaints still make a very large amount of money. The plot uses location encoding to show the relationship between an officer’s salary and the number of complaints filed against them. We made that decision not to necessarily just to try to show a trend, but to show that regardless of complaints, officers can still make hundreds of thousands of dollars. In addition to the location encoding, we used color encoding to differentiate one officer’s rank from another. This allows users to look over the two plots and see different officer’s ranks, how many complaints have been filed against them, and how much they make each year. This was an important point to us so that citizens could recognize how much police officers are paid, but how they can still be subject to multiple complaints without major retribution. We also enabled brushing and linking, that way users could see the same officer on the two different charts.
+</p>
 
     <h1>Acknowledgments</h1>
 
@@ -155,6 +162,6 @@
   <script src='js/visualization1.js'></script>
   <script src='js/visualization2.js'></script>
   <script src='js/visualizationX.js'></script> -->
- 
+
 </body>
 </html>
