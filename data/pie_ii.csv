@@ -1,0 +1,3312 @@
+,incident_type,finding,action_taken
+1,Internal investigation,Sustained,No action
+3,Internal investigation,Sustained,No action
+4,Internal investigation,Unfounded,No action
+5,Internal investigation,Unfounded,No action
+6,Internal investigation,Sustained,Suspension
+7,Internal investigation,Sustained,Suspension
+10,Internal investigation,Sustained,No action
+11,Internal investigation,Sustained,No action
+15,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+16,Internal investigation,Sustained,No action
+22,Internal investigation,Sustained,Retired
+24,Internal investigation,Sustained,No action
+40,Internal investigation,Sustained,Suspension
+41,Internal investigation,Sustained,No action
+42,Internal investigation,Sustained,No action
+43,Internal investigation,Sustained,No action
+44,Internal investigation,Sustained,No action
+45,Internal investigation,Sustained,No action
+46,Internal investigation,Not Sustained,No action
+47,Internal investigation,Not Sustained,No action
+49,Internal investigation,Unfounded,No action
+52,Internal investigation,Sustained,Oral Reprimand
+53,Internal investigation,Sustained,Oral Reprimand
+54,Internal investigation,Sustained,Administrative Hearing
+77,Internal investigation,Sustained,Suspension
+80,Internal investigation,Not Sustained,No action
+83,Internal investigation,Not Sustained,No action
+84,Internal investigation,Sustained,Oral Reprimand
+85,Internal investigation,Not Sustained,No action
+98,Internal investigation,Sustained,Suspension
+113,Internal investigation,Pending,No action
+114,Internal investigation,Pending,No action
+122,Internal investigation,Not Sustained,No action
+138,Internal investigation,Sustained,No action
+145,Internal investigation,Sustained,No action
+146,Internal investigation,Sustained,No action
+147,Internal investigation,Sustained,No action
+158,Internal investigation,Sustained,Oral Reprimand
+181,Internal investigation,Sustained,Settlement Agreement
+196,Internal investigation,Exonerated,No action
+197,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+211,Internal investigation,Sustained,No action
+212,Internal investigation,Sustained,No action
+213,Internal investigation,Sustained,No action
+214,Internal investigation,Sustained,No action
+220,Internal investigation,Sustained,No action
+221,Internal investigation,Not Sustained,No action
+222,Internal investigation,Unfounded,No action
+223,Internal investigation,Unfounded,Oral Reprimand
+224,Internal investigation,Unfounded,No action
+225,Internal investigation,Unfounded,No action
+226,Internal investigation,Sustained,No action
+227,Internal investigation,Sustained,No action
+228,Internal investigation,Sustained,No action
+229,Internal investigation,Sustained,No action
+231,Internal investigation,Sustained,No action
+235,Internal investigation,Sustained,Oral Reprimand
+236,Internal investigation,Sustained,Suspension
+237,Internal investigation,Sustained,Oral Reprimand
+238,Internal investigation,Sustained,Oral Reprimand
+239,Internal investigation,Sustained,No action
+242,Internal investigation,Not Sustained,No action
+245,Internal investigation,Sustained,No action
+246,Internal investigation,Sustained,No action
+248,Internal investigation,Sustained,No action
+249,Internal investigation,Sustained,No action
+250,Internal investigation,Sustained,No action
+251,Internal investigation,Sustained,No action
+252,Internal investigation,Sustained,No action
+253,Internal investigation,Sustained,No action
+254,Internal investigation,Sustained,No action
+255,Internal investigation,Sustained,No action
+256,Internal investigation,Sustained,No action
+257,Internal investigation,Sustained,No action
+260,Internal investigation,Sustained,Suspension
+261,Internal investigation,Sustained,Suspension
+266,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+271,Internal investigation,Sustained,No action
+272,Internal investigation,Sustained,No action
+273,Internal investigation,Sustained,No action
+274,Internal investigation,Sustained,No action
+275,Internal investigation,Sustained,No action
+276,Internal investigation,Sustained,No action
+277,Internal investigation,Sustained,No action
+278,Internal investigation,Sustained,No action
+279,Internal investigation,Sustained,No action
+280,Internal investigation,Sustained,No action
+281,Internal investigation,Sustained,No action
+282,Internal investigation,Sustained,Oral Reprimand
+283,Internal investigation,Sustained,Oral Reprimand
+284,Internal investigation,Sustained,No action
+285,Internal investigation,Not Sustained,No action
+289,Internal investigation,Sustained,Suspension
+290,Internal investigation,Not Sustained,No action
+291,Internal investigation,Not Sustained,No action
+292,Internal investigation,Sustained,No action
+295,Internal investigation,Sustained,No action
+306,Internal investigation,Unfounded,No action
+307,Internal investigation,Unfounded,No action
+308,Internal investigation,Unfounded,No action
+309,Internal investigation,Sustained,No action
+310,Internal investigation,Sustained,No action
+311,Internal investigation,Sustained,Retired
+319,Internal investigation,Sustained,Oral Reprimand
+320,Internal investigation,Sustained,No action
+322,Internal investigation,Sustained,Suspension
+323,Internal investigation,Sustained,No action
+324,Internal investigation,Sustained,No action
+325,Internal investigation,Sustained,Oral Reprimand
+326,Internal investigation,Withdrawn,No action
+327,Internal investigation,Withdrawn,No action
+328,Internal investigation,Sustained,Suspension
+332,Internal investigation,Exonerated,No action
+333,Internal investigation,Sustained,No action
+334,Internal investigation,Sustained,No action
+335,Internal investigation,Sustained,No action
+343,Internal investigation,Sustained,No action
+344,Internal investigation,Sustained,No action
+345,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+346,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+347,Internal investigation,Sustained,No action
+348,Internal investigation,Not Sustained,No action
+349,Internal investigation,Not Sustained,No action
+363,Internal investigation,Not Sustained,Oral Reprimand
+364,Internal investigation,Unfounded,No action
+365,Internal investigation,Not Sustained,No action
+367,Internal investigation,Exonerated,No action
+368,Internal investigation,Unfounded,No action
+369,Internal investigation,Sustained,No action
+371,Internal investigation,Unfounded,No action
+372,Internal investigation,Exonerated,No action
+373,Internal investigation,Sustained,No action
+374,Internal investigation,Sustained,No action
+375,Internal investigation,Sustained,No action
+376,Internal investigation,Sustained,No action
+379,Internal investigation,Unfounded,No action
+380,Internal investigation,Not Sustained,No action
+393,Internal investigation,Sustained,Suspension
+394,Internal investigation,Unfounded,No action
+397,Internal investigation,Sustained,No action
+398,Internal investigation,Not Sustained,No action
+399,Internal investigation,Unfounded,No action
+400,Internal investigation,Exonerated,No action
+401,Internal investigation,Exonerated,No action
+406,Internal investigation,Sustained,Oral Reprimand
+407,Internal investigation,Sustained,Suspension
+409,Internal investigation,Sustained,No action
+410,Internal investigation,Unfounded,No action
+415,Internal investigation,Sustained,Suspension
+416,Internal investigation,Sustained,No action
+417,Internal investigation,Sustained,No action
+418,Internal investigation,Sustained,No action
+422,Internal investigation,Sustained,Termination
+423,Internal investigation,Sustained,No action
+424,Internal investigation,Sustained,No action
+425,Internal investigation,Sustained,No action
+426,Internal investigation,Sustained,Suspension
+429,Internal investigation,Sustained,Oral Reprimand
+433,Internal investigation,Sustained,Oral Reprimand
+434,Internal investigation,Sustained,Oral Reprimand
+436,Internal investigation,Unfounded,No action
+438,Internal investigation,Not Sustained,No action
+439,Internal investigation,Sustained,No action
+440,Internal investigation,Sustained,No action
+441,Internal investigation,Sustained,No action
+442,Internal investigation,Not Sustained,Oral Reprimand
+443,Internal investigation,Sustained,No action
+448,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+449,Internal investigation,Sustained,No action
+451,Internal investigation,Sustained,No action
+453,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+455,Internal investigation,Not Sustained,No action
+459,Internal investigation,Sustained,No action
+461,Internal investigation,Sustained,Oral Reprimand
+462,Internal investigation,Sustained,Oral Reprimand
+469,Internal investigation,Sustained,Suspension
+477,Internal investigation,Sustained,No action
+479,Internal investigation,Sustained,No action
+480,Internal investigation,Sustained,No action
+481,Internal investigation,Sustained,No action
+488,Internal investigation,Not Sustained,No action
+489,Internal investigation,Sustained,No action
+495,Internal investigation,Sustained,Retired
+496,Internal investigation,Sustained,No action
+497,Internal investigation,Sustained,No action
+498,Internal investigation,Not Sustained,No action
+499,Internal investigation,Unfounded,No action
+505,Internal investigation,Sustained,Oral Reprimand
+506,Internal investigation,Sustained,Suspension
+507,Internal investigation,Sustained,Oral Reprimand
+515,Internal investigation,Sustained,Oral Reprimand
+517,Internal investigation,Unfounded,Oral Reprimand
+518,Internal investigation,Unfounded,No action
+519,Internal investigation,Sustained,No action
+520,Internal investigation,Sustained,No action
+522,Internal investigation,Exonerated,No action
+523,Internal investigation,Unfounded,No action
+535,Internal investigation,Pending,No action
+537,Internal investigation,Not Sustained,No action
+538,Internal investigation,Sustained,No action
+539,Internal investigation,Sustained,No action
+540,Internal investigation,Sustained,No action
+557,Internal investigation,Sustained,Oral Reprimand
+561,Internal investigation,Sustained,Oral Reprimand
+562,Internal investigation,Unfounded,No action
+564,Internal investigation,Sustained,No action
+568,Internal investigation,Sustained,Oral Reprimand
+569,Internal investigation,Sustained,No action
+578,Internal investigation,Sustained,Oral Reprimand
+579,Internal investigation,Sustained,No action
+580,Internal investigation,Sustained,No action
+581,Internal investigation,Sustained,No action
+593,Internal investigation,Sustained,Oral Reprimand
+594,Internal investigation,Sustained,Suspension
+599,Internal investigation,Not Sustained,No action
+601,Internal investigation,Not Sustained,No action
+602,Internal investigation,Unfounded,No action
+603,Internal investigation,Sustained,Suspension
+604,Internal investigation,Unfounded,Retired
+605,Internal investigation,Sustained,No action
+606,Internal investigation,Sustained,No action
+607,Internal investigation,Sustained,No action
+608,Internal investigation,Sustained,No action
+609,Internal investigation,Sustained,No action
+613,Internal investigation,Sustained,Oral Reprimand
+615,Internal investigation,Sustained,Oral Reprimand
+616,Internal investigation,Sustained,Oral Reprimand
+617,Internal investigation,Not Sustained,No action
+618,Internal investigation,Sustained,No action
+619,Internal investigation,Sustained,No action
+620,Internal investigation,Not Sustained,No action
+630,Internal investigation,Sustained,No action
+635,Internal investigation,Sustained,No action
+645,Internal investigation,Sustained,Suspension
+658,Internal investigation,Unfounded,No action
+659,Internal investigation,Unfounded,No action
+662,Internal investigation,Unfounded,No action
+681,Internal investigation,Sustained,Suspension
+692,Internal investigation,Sustained,No action
+693,Internal investigation,Exonerated,No action
+703,Internal investigation,Exonerated,No action
+705,Internal investigation,Exonerated,No action
+706,Internal investigation,Exonerated,No action
+707,Internal investigation,Exonerated,No action
+708,Internal investigation,Exonerated,No action
+714,Internal investigation,Sustained,Retired
+721,Internal investigation,Sustained,Oral Reprimand
+725,Internal investigation,Sustained,Oral Reprimand
+726,Internal investigation,Sustained,Oral Reprimand
+727,Internal investigation,Sustained,Oral Reprimand
+728,Internal investigation,Unfounded,No action
+731,Internal investigation,Sustained,Oral Reprimand
+734,Internal investigation,Sustained,No action
+746,Internal investigation,Unfounded,No action
+747,Internal investigation,Not Sustained,No action
+748,Internal investigation,Sustained,No action
+749,Internal investigation,Unfounded,No action
+753,Internal investigation,Unfounded,No action
+754,Internal investigation,Not Sustained,No action
+755,Internal investigation,Sustained,No action
+756,Internal investigation,Unfounded,No action
+762,Internal investigation,Sustained,Oral Reprimand
+763,Internal investigation,Sustained,Oral Reprimand
+778,Internal investigation,Sustained,Oral Reprimand
+780,Internal investigation,Sustained,No action
+781,Internal investigation,Sustained,No action
+782,Internal investigation,Sustained,No action
+795,Internal investigation,Sustained,No action
+798,Internal investigation,Sustained,No action
+800,Internal investigation,Sustained,Oral Reprimand
+808,Internal investigation,Not Sustained,No action
+809,Internal investigation,Not Sustained,No action
+810,Internal investigation,Sustained,No action
+813,Internal investigation,Sustained,No action
+814,Internal investigation,Sustained,No action
+815,Internal investigation,Sustained,No action
+820,Internal investigation,Sustained,Settlement Agreement
+821,Internal investigation,Sustained,No action
+833,Internal investigation,Sustained,Oral Reprimand
+844,Internal investigation,Sustained,No action
+845,Internal investigation,Sustained,No action
+849,Internal investigation,Sustained,No action
+851,Internal investigation,Not Sustained,No action
+856,Internal investigation,Sustained,Suspension
+875,Internal investigation,Sustained,Suspension
+876,Internal investigation,Sustained,No action
+877,Internal investigation,Sustained,No action
+878,Internal investigation,Sustained,Oral Reprimand
+879,Internal investigation,Unfounded,No action
+880,Internal investigation,Not Sustained,No action
+881,Internal investigation,Not Sustained,No action
+882,Internal investigation,Sustained,No action
+883,Internal investigation,Sustained,No action
+886,Internal investigation,Sustained,Oral Reprimand
+891,Internal investigation,Not Sustained,No action
+908,Internal investigation,Not Sustained,No action
+909,Internal investigation,Not Sustained,No action
+910,Internal investigation,Not Sustained,No action
+912,Internal investigation,Not Sustained,No action
+913,Internal investigation,Sustained,No action
+914,Internal investigation,Sustained,No action
+915,Internal investigation,Sustained,No action
+916,Internal investigation,Sustained,Written Reprimand
+917,Internal investigation,Sustained,No action
+928,Internal investigation,Sustained,No action
+929,Internal investigation,Sustained,No action
+931,Internal investigation,Exonerated,No action
+932,Internal investigation,Sustained,Suspension
+935,Internal investigation,Sustained,No action
+942,Internal investigation,Sustained,Suspension
+952,Internal investigation,Not Sustained,No action
+963,Internal investigation,Sustained,Suspension
+964,Internal investigation,Sustained,No action
+970,Internal investigation,Sustained,Oral Reprimand
+977,Internal investigation,Sustained,No action
+978,Internal investigation,Sustained,No action
+985,Internal investigation,Sustained,Termination
+988,Internal investigation,Sustained,Suspension
+992,Internal investigation,Not Sustained,No action
+993,Internal investigation,Not Sustained,No action
+994,Internal investigation,Not Sustained,No action
+999,Internal investigation,Not Sustained,No action
+1000,Internal investigation,Sustained,No action
+1008,Internal investigation,Sustained,Settlement Agreement
+1009,Internal investigation,Sustained,Termination
+1010,Internal investigation,Sustained,No action
+1011,Internal investigation,Sustained,No action
+1020,Internal investigation,Sustained,No action
+1021,Internal investigation,Sustained,No action
+1027,Internal investigation,Sustained,No action
+1028,Internal investigation,Sustained,No action
+1029,Internal investigation,Sustained,No action
+1036,Internal investigation,Sustained,Oral Reprimand
+1037,Internal investigation,Not Sustained,No action
+1038,Internal investigation,Sustained,No action
+1039,Internal investigation,Unfounded,No action
+1042,Internal investigation,Sustained,Oral Reprimand
+1045,Internal investigation,Sustained,No action
+1047,Internal investigation,Unfounded,No action
+1050,Internal investigation,Sustained,Oral Reprimand
+1051,Internal investigation,Sustained,Suspension
+1052,Internal investigation,Sustained,No action
+1053,Internal investigation,Sustained,No action
+1054,Internal investigation,Sustained,No action
+1055,Internal investigation,Sustained,No action
+1056,Internal investigation,Sustained,No action
+1057,Internal investigation,Sustained,No action
+1058,Internal investigation,Sustained,No action
+1059,Internal investigation,Sustained,No action
+1061,Internal investigation,Sustained,No action
+1063,Internal investigation,Sustained,No action
+1065,Internal investigation,Sustained,No action
+1066,Internal investigation,Sustained,No action
+1067,Internal investigation,Sustained,No action
+1068,Internal investigation,Sustained,No action
+1069,Internal investigation,Sustained,No action
+1070,Internal investigation,Sustained,No action
+1071,Internal investigation,Sustained,No action
+1072,Internal investigation,Sustained,No action
+1075,Internal investigation,Sustained,No action
+1076,Internal investigation,Sustained,No action
+1077,Internal investigation,Sustained,No action
+1078,Internal investigation,Sustained,No action
+1079,Internal investigation,Sustained,No action
+1080,Internal investigation,Sustained,No action
+1081,Internal investigation,Sustained,No action
+1084,Internal investigation,Not Sustained,No action
+1103,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+1105,Internal investigation,Sustained,Termination
+1106,Internal investigation,Sustained,No action
+1107,Internal investigation,Sustained,No action
+1108,Internal investigation,Unfounded,No action
+1109,Internal investigation,Sustained,No action
+1114,Internal investigation,Sustained,Oral Reprimand
+1123,Internal investigation,Sustained,No action
+1124,Internal investigation,Sustained,No action
+1125,Internal investigation,Sustained,No action
+1126,Internal investigation,Sustained,No action
+1127,Internal investigation,Sustained,No action
+1130,Internal investigation,Sustained,Oral Reprimand
+1131,Internal investigation,Sustained,No action
+1132,Internal investigation,Sustained,Retired
+1137,Internal investigation,Sustained,No action
+1140,Internal investigation,Sustained,No action
+1141,Internal investigation,Sustained,No action
+1142,Internal investigation,Sustained,No action
+1143,Internal investigation,Not Sustained,No action
+1144,Internal investigation,Not Sustained,No action
+1145,Internal investigation,Sustained,No action
+1146,Internal investigation,Not Sustained,No action
+1152,Internal investigation,Sustained,No action
+1153,Internal investigation,Exonerated,No action
+1154,Internal investigation,Not Sustained,No action
+1155,Internal investigation,Not Sustained,No action
+1156,Internal investigation,Sustained,Oral Reprimand
+1168,Internal investigation,Not Sustained,Oral Reprimand
+1169,Internal investigation,Not Sustained,No action
+1170,Internal investigation,Sustained,No action
+1171,Internal investigation,Sustained,No action
+1173,Internal investigation,Not Sustained,No action
+1175,Internal investigation,Unfounded,No action
+1176,Internal investigation,Not Sustained,No action
+1178,Internal investigation,Sustained,Suspension
+1179,Internal investigation,Sustained,No action
+1180,Internal investigation,Sustained,Suspension
+1185,Internal investigation,Sustained,Oral Reprimand
+1186,Internal investigation,Not Sustained,No action
+1187,Internal investigation,Not Sustained,No action
+1189,Internal investigation,Sustained,Oral Reprimand
+1192,Internal investigation,Sustained,No action
+1193,Internal investigation,Sustained,No action
+1194,Internal investigation,Sustained,No action
+1195,Internal investigation,Sustained,No action
+1196,Internal investigation,Sustained,No action
+1198,Internal investigation,Sustained,Oral Reprimand
+1202,Internal investigation,Not Sustained,No action
+1203,Internal investigation,Sustained,No action
+1204,Internal investigation,Sustained,No action
+1205,Internal investigation,Sustained,No action
+1207,Internal investigation,Sustained,No action
+1217,Internal investigation,Not Sustained,No action
+1218,Internal investigation,Not Sustained,No action
+1219,Internal investigation,Not Sustained,No action
+1220,Internal investigation,Unfounded,No action
+1229,Internal investigation,Sustained,Oral Reprimand
+1230,Internal investigation,Sustained,No action
+1231,Internal investigation,Sustained,No action
+1242,Internal investigation,Sustained,Oral Reprimand
+1243,Internal investigation,Sustained,No action
+1244,Internal investigation,Sustained,No action
+1245,Internal investigation,Sustained,No action
+1246,Internal investigation,Sustained,No action
+1248,Internal investigation,Exonerated,Oral Reprimand
+1249,Internal investigation,Sustained,No action
+1250,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+1251,Internal investigation,Sustained,No action
+1252,Internal investigation,Sustained,No action
+1253,Internal investigation,Sustained,No action
+1254,Internal investigation,Sustained,No action
+1255,Internal investigation,Sustained,No action
+1256,Internal investigation,Sustained,No action
+1257,Internal investigation,Sustained,No action
+1258,Internal investigation,Sustained,Oral Reprimand
+1265,Internal investigation,Sustained,Oral Reprimand
+1272,Internal investigation,Sustained,Oral Reprimand
+1273,Internal investigation,Sustained,Oral Reprimand
+1275,Internal investigation,Sustained,No action
+1276,Internal investigation,Sustained,No action
+1279,Internal investigation,Sustained,No action
+1292,Internal investigation,Sustained,Oral Reprimand
+1293,Internal investigation,Sustained,Oral Reprimand
+1299,Internal investigation,Sustained,Oral Reprimand
+1300,Internal investigation,Sustained,No action
+1307,Internal investigation,Sustained,Suspension
+1312,Internal investigation,Sustained,No action
+1313,Internal investigation,Sustained,No action
+1318,Internal investigation,Not Sustained,No action
+1319,Internal investigation,Sustained,No action
+1320,Internal investigation,Not Sustained,No action
+1323,Internal investigation,Sustained,No action
+1324,Internal investigation,Unfounded,No action
+1325,Internal investigation,Not Sustained,No action
+1326,Internal investigation,Not Sustained,No action
+1327,Internal investigation,Sustained,No action
+1328,Internal investigation,Unfounded,No action
+1329,Internal investigation,Sustained,No action
+1330,Internal investigation,Unfounded,No action
+1331,Internal investigation,Sustained,No action
+1332,Internal investigation,Unfounded,No action
+1333,Internal investigation,Not Sustained,No action
+1334,Internal investigation,Not Sustained,No action
+1335,Internal investigation,Not Sustained,No action
+1336,Internal investigation,Not Sustained,No action
+1337,Internal investigation,Not Sustained,No action
+1338,Internal investigation,Unfounded,No action
+1339,Internal investigation,Unfounded,No action
+1340,Internal investigation,Unfounded,No action
+1341,Internal investigation,Not Sustained,No action
+1342,Internal investigation,Sustained,No action
+1343,Internal investigation,Unfounded,No action
+1344,Internal investigation,Unfounded,No action
+1345,Internal investigation,Not Sustained,No action
+1346,Internal investigation,Sustained,No action
+1347,Internal investigation,Unfounded,No action
+1350,Internal investigation,Not Sustained,No action
+1351,Internal investigation,Unfounded,No action
+1352,Internal investigation,Not Sustained,No action
+1353,Internal investigation,Not Sustained,No action
+1354,Internal investigation,Not Sustained,No action
+1355,Internal investigation,Unfounded,No action
+1357,Internal investigation,Not Sustained,No action
+1358,Internal investigation,Unfounded,No action
+1359,Internal investigation,Sustained,No action
+1360,Internal investigation,Unfounded,No action
+1361,Internal investigation,Unfounded,No action
+1362,Internal investigation,Not Sustained,No action
+1363,Internal investigation,Unfounded,No action
+1365,Internal investigation,Sustained,Oral Reprimand
+1366,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+1367,Internal investigation,Sustained,No action
+1368,Internal investigation,Sustained,No action
+1369,Internal investigation,Sustained,No action
+1370,Internal investigation,Sustained,No action
+1371,Internal investigation,Sustained,Oral Reprimand
+1372,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+1377,Internal investigation,Sustained,Suspension
+1379,Internal investigation,Sustained,No action
+1382,Internal investigation,Sustained,Settlement Agreement
+1383,Internal investigation,Sustained,No action
+1384,Internal investigation,Sustained,No action
+1385,Internal investigation,Sustained,No action
+1388,Internal investigation,Sustained,Suspension
+1389,Internal investigation,Sustained,No action
+1391,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+1393,Internal investigation,Sustained,No action
+1394,Internal investigation,Sustained,No action
+1395,Internal investigation,Sustained,No action
+1396,Internal investigation,Sustained,Oral Reprimand
+1398,Internal investigation,Sustained,No action
+1399,Internal investigation,Exonerated,No action
+1400,Internal investigation,Exonerated,No action
+1401,Internal investigation,Sustained,Oral Reprimand
+1402,Internal investigation,Sustained,Oral Reprimand
+1409,Internal investigation,Sustained,Oral Reprimand
+1410,Internal investigation,Sustained,No action
+1420,Internal investigation,Sustained,No action
+1421,Internal investigation,Sustained,No action
+1422,Internal investigation,Sustained,No action
+1423,Internal investigation,Sustained,No action
+1426,Internal investigation,Sustained,No action
+1427,Internal investigation,Sustained,No action
+1428,Internal investigation,Sustained,No action
+1429,Internal investigation,Sustained,No action
+1431,Internal investigation,Sustained,No action
+1432,Internal investigation,Sustained,No action
+1437,Internal investigation,Sustained,No action
+1438,Internal investigation,Sustained,No action
+1441,Internal investigation,Sustained,No action
+1442,Internal investigation,Sustained,No action
+1443,Internal investigation,Sustained,No action
+1444,Internal investigation,Sustained,No action
+1445,Internal investigation,Not Sustained,No action
+1446,Internal investigation,Sustained,No action
+1447,Internal investigation,Sustained,No action
+1451,Internal investigation,Sustained,No action
+1452,Internal investigation,Sustained,No action
+1453,Internal investigation,Sustained,No action
+1457,Internal investigation,Sustained,No action
+1458,Internal investigation,Sustained,No action
+1459,Internal investigation,Sustained,No action
+1460,Internal investigation,Sustained,No action
+1461,Internal investigation,Sustained,No action
+1462,Internal investigation,Sustained,No action
+1463,Internal investigation,Sustained,No action
+1466,Internal investigation,Sustained,No action
+1470,Internal investigation,Sustained,No action
+1474,Internal investigation,Sustained,No action
+1475,Internal investigation,Sustained,No action
+1477,Internal investigation,Sustained,No action
+1480,Internal investigation,Sustained,No action
+1481,Internal investigation,Sustained,No action
+1482,Internal investigation,Sustained,No action
+1483,Internal investigation,Sustained,No action
+1489,Internal investigation,Sustained,No action
+1490,Internal investigation,Sustained,No action
+1491,Internal investigation,Sustained,No action
+1495,Internal investigation,Sustained,No action
+1496,Internal investigation,Sustained,No action
+1498,Internal investigation,Sustained,No action
+1500,Internal investigation,Sustained,No action
+1501,Internal investigation,Not Sustained,No action
+1502,Internal investigation,Not Sustained,No action
+1507,Internal investigation,Sustained,No action
+1508,Internal investigation,Not Sustained,No action
+1509,Internal investigation,Sustained,No action
+1510,Internal investigation,Sustained,No action
+1511,Internal investigation,Sustained,No action
+1514,Internal investigation,Sustained,No action
+1516,Internal investigation,Sustained,No action
+1517,Internal investigation,Sustained,No action
+1532,Internal investigation,Not Sustained,No action
+1536,Internal investigation,Sustained,No action
+1539,Internal investigation,Sustained,No action
+1540,Internal investigation,Not Sustained,No action
+1541,Internal investigation,Sustained,No action
+1544,Internal investigation,Sustained,No action
+1551,Internal investigation,Not Sustained,No action
+1553,Internal investigation,Sustained,No action
+1554,Internal investigation,Sustained,No action
+1555,Internal investigation,Sustained,No action
+1556,Internal investigation,Sustained,No action
+1557,Internal investigation,Sustained,No action
+1558,Internal investigation,Sustained,No action
+1559,Internal investigation,Sustained,No action
+1560,Internal investigation,Sustained,No action
+1561,Internal investigation,Sustained,No action
+1573,Internal investigation,Sustained,No action
+1574,Internal investigation,Sustained,No action
+1575,Internal investigation,Sustained,No action
+1578,Internal investigation,Sustained,No action
+1580,Internal investigation,Sustained,No action
+1581,Internal investigation,Sustained,No action
+1586,Internal investigation,Not Sustained,No action
+1589,Internal investigation,Sustained,No action
+1591,Internal investigation,Sustained,No action
+1592,Internal investigation,Sustained,No action
+1593,Internal investigation,Sustained,No action
+1594,Internal investigation,Not Sustained,No action
+1595,Internal investigation,Sustained,No action
+1602,Internal investigation,Sustained,No action
+1606,Internal investigation,Sustained,No action
+1608,Internal investigation,Sustained,No action
+1609,Internal investigation,Sustained,No action
+1610,Internal investigation,Not Sustained,No action
+1618,Internal investigation,Sustained,No action
+1619,Internal investigation,Sustained,No action
+1620,Internal investigation,Sustained,No action
+1623,Internal investigation,Sustained,No action
+1625,Internal investigation,Sustained,No action
+1626,Internal investigation,Sustained,No action
+1627,Internal investigation,Sustained,No action
+1631,Internal investigation,Not Sustained,No action
+1633,Internal investigation,Sustained,No action
+1634,Internal investigation,Sustained,No action
+1636,Internal investigation,Sustained,No action
+1637,Internal investigation,Sustained,No action
+1639,Internal investigation,Sustained,No action
+1642,Internal investigation,Sustained,No action
+1643,Internal investigation,Sustained,No action
+1644,Internal investigation,Sustained,No action
+1645,Internal investigation,Sustained,No action
+1646,Internal investigation,Sustained,No action
+1648,Internal investigation,Sustained,No action
+1649,Internal investigation,Sustained,No action
+1651,Internal investigation,Sustained,No action
+1652,Internal investigation,Not Sustained,No action
+1653,Internal investigation,Sustained,No action
+1654,Internal investigation,Sustained,No action
+1655,Internal investigation,Sustained,No action
+1656,Internal investigation,Sustained,No action
+1657,Internal investigation,Sustained,No action
+1658,Internal investigation,Sustained,No action
+1659,Internal investigation,Sustained,No action
+1661,Internal investigation,Sustained,No action
+1663,Internal investigation,Sustained,No action
+1665,Internal investigation,Not Sustained,No action
+1666,Internal investigation,Sustained,No action
+1670,Internal investigation,Sustained,No action
+1671,Internal investigation,Sustained,No action
+1675,Internal investigation,Sustained,No action
+1676,Internal investigation,Sustained,No action
+1677,Internal investigation,Sustained,No action
+1678,Internal investigation,Sustained,No action
+1684,Internal investigation,Sustained,No action
+1685,Internal investigation,Sustained,No action
+1689,Internal investigation,Sustained,No action
+1690,Internal investigation,Sustained,No action
+1691,Internal investigation,Sustained,No action
+1692,Internal investigation,Sustained,No action
+1693,Internal investigation,Sustained,No action
+1696,Internal investigation,Sustained,No action
+1697,Internal investigation,Not Sustained,No action
+1707,Internal investigation,Sustained,No action
+1711,Internal investigation,Not Sustained,No action
+1718,Internal investigation,Not Sustained,No action
+1726,Internal investigation,Sustained,No action
+1729,Internal investigation,Sustained,No action
+1730,Internal investigation,Sustained,No action
+1734,Internal investigation,Sustained,No action
+1735,Internal investigation,Sustained,No action
+1755,Internal investigation,Not Sustained,No action
+1760,Internal investigation,Sustained,No action
+1761,Internal investigation,Sustained,No action
+1762,Internal investigation,Unfounded,No action
+1783,Internal investigation,Sustained,No action
+1784,Internal investigation,Sustained,No action
+1785,Internal investigation,Sustained,No action
+1787,Internal investigation,Sustained,No action
+1788,Internal investigation,Sustained,No action
+1789,Internal investigation,Sustained,No action
+1790,Internal investigation,Sustained,No action
+1791,Internal investigation,Sustained,No action
+1792,Internal investigation,Sustained,No action
+1794,Internal investigation,Sustained,No action
+1795,Internal investigation,Sustained,No action
+1796,Internal investigation,Sustained,No action
+1797,Internal investigation,Sustained,No action
+1798,Internal investigation,Sustained,No action
+1800,Internal investigation,Sustained,No action
+1801,Internal investigation,Exonerated,No action
+1802,Internal investigation,Sustained,No action
+1803,Internal investigation,Unfounded,No action
+1804,Internal investigation,Sustained,No action
+1809,Internal investigation,Not Sustained,No action
+1810,Internal investigation,Unfounded,No action
+1814,Internal investigation,Not Sustained,No action
+1815,Internal investigation,Unfounded,No action
+1817,Internal investigation,Sustained,No action
+1818,Internal investigation,Sustained,No action
+1819,Internal investigation,Filed,No action
+1820,Internal investigation,Filed,No action
+1822,Internal investigation,Not Sustained,No action
+1823,Internal investigation,Sustained,No action
+1824,Internal investigation,Sustained,No action
+1825,Internal investigation,Sustained,No action
+1826,Internal investigation,Sustained,No action
+1827,Internal investigation,Not Sustained,No action
+1828,Internal investigation,Sustained,No action
+1831,Internal investigation,Withdrawn,No action
+1832,Internal investigation,Unfounded,No action
+1833,Internal investigation,Withdrawn,No action
+1834,Internal investigation,Not Sustained,No action
+1835,Internal investigation,Unfounded,No action
+1837,Internal investigation,Unfounded,No action
+1838,Internal investigation,Unfounded,No action
+1846,Internal investigation,Unfounded,No action
+1847,Internal investigation,Unfounded,No action
+1850,Internal investigation,Sustained,No action
+1862,Internal investigation,Sustained,No action
+1863,Internal investigation,Not Sustained,No action
+1868,Internal investigation,Sustained,No action
+1871,Internal investigation,Sustained,No action
+1879,Internal investigation,Sustained,No action
+1888,Internal investigation,Sustained,No action
+1889,Internal investigation,Sustained,No action
+1896,Internal investigation,Sustained,No action
+1901,Internal investigation,Sustained,No action
+1902,Internal investigation,Sustained,No action
+1903,Internal investigation,Sustained,No action
+1912,Internal investigation,Sustained,No action
+1916,Internal investigation,Sustained,No action
+1917,Internal investigation,Sustained,No action
+1918,Internal investigation,Sustained,No action
+1919,Internal investigation,Sustained,No action
+1920,Internal investigation,Sustained,No action
+1921,Internal investigation,Sustained,No action
+1922,Internal investigation,Unfounded,No action
+1925,Internal investigation,Unfounded,No action
+1926,Internal investigation,Sustained,No action
+1927,Internal investigation,No action,No action
+1936,Internal investigation,Sustained,No action
+1937,Internal investigation,Not Sustained,No action
+1938,Internal investigation,Sustained,No action
+1941,Internal investigation,Sustained,No action
+1942,Internal investigation,Sustained,No action
+1943,Internal investigation,Sustained,No action
+1944,Internal investigation,Unfounded,No action
+1945,Internal investigation,Unfounded,No action
+1947,Internal investigation,Unfounded,No action
+1948,Internal investigation,Unfounded,No action
+1949,Internal investigation,Unfounded,No action
+1951,Internal investigation,Sustained,No action
+1952,Internal investigation,Sustained,No action
+1953,Internal investigation,Sustained,No action
+1954,Internal investigation,Sustained,No action
+1955,Internal investigation,Sustained,No action
+1956,Internal investigation,Sustained,No action
+1957,Internal investigation,Unfounded,No action
+1960,Internal investigation,Exonerated,No action
+1961,Internal investigation,Not Sustained,No action
+1962,Internal investigation,Exonerated,No action
+1963,Internal investigation,Unfounded,No action
+1965,Internal investigation,Exonerated,No action
+1966,Internal investigation,Unfounded,No action
+1967,Internal investigation,Sustained,No action
+1968,Internal investigation,Sustained,No action
+1971,Internal investigation,Filed,No action
+1972,Internal investigation,Exonerated,No action
+1973,Internal investigation,Not Sustained,No action
+1974,Internal investigation,Sustained,No action
+1975,Internal investigation,Sustained,No action
+1976,Internal investigation,Unfounded,No action
+1978,Internal investigation,Exonerated,No action
+1982,Internal investigation,Sustained,No action
+1983,Internal investigation,Sustained,No action
+1984,Internal investigation,Sustained,No action
+1985,Internal investigation,Sustained,No action
+1986,Internal investigation,Sustained,No action
+1987,Internal investigation,Sustained,No action
+1988,Internal investigation,Sustained,No action
+1989,Internal investigation,Sustained,No action
+1990,Internal investigation,Unfounded,No action
+1998,Internal investigation,Unfounded,No action
+1999,Internal investigation,Unfounded,No action
+2000,Internal investigation,Sustained,No action
+2013,Internal investigation,Sustained,No action
+2014,Internal investigation,Sustained,No action
+2015,Internal investigation,Sustained,No action
+2016,Internal investigation,Sustained,No action
+2017,Internal investigation,Exonerated,No action
+2020,Internal investigation,Exonerated,No action
+2021,Internal investigation,Sustained,No action
+2022,Internal investigation,Sustained,No action
+2023,Internal investigation,Sustained,No action
+2024,Internal investigation,Sustained,No action
+2025,Internal investigation,Sustained,No action
+2033,Internal investigation,Not Sustained,No action
+2049,Internal investigation,Sustained,No action
+2050,Internal investigation,Sustained,No action
+2053,Internal investigation,Sustained,No action
+2058,Internal investigation,Sustained,No action
+2059,Internal investigation,Not Sustained,No action
+2061,Internal investigation,Not Sustained,No action
+2062,Internal investigation,Not Sustained,No action
+2063,Internal investigation,Sustained,No action
+2064,Internal investigation,Sustained,No action
+2065,Internal investigation,Sustained,No action
+2069,Internal investigation,Sustained,No action
+2073,Internal investigation,Sustained,No action
+2074,Internal investigation,Not Sustained,No action
+2090,Internal investigation,Not Sustained,No action
+2091,Internal investigation,Sustained,No action
+2097,Internal investigation,Sustained,No action
+2098,Internal investigation,Exonerated,No action
+2099,Internal investigation,Exonerated,No action
+2100,Internal investigation,Sustained,No action
+2103,Internal investigation,Sustained,No action
+2104,Internal investigation,Sustained,No action
+2107,Internal investigation,Sustained,No action
+2114,Internal investigation,Unfounded,No action
+2118,Internal investigation,Not Sustained,No action
+2119,Internal investigation,Not Sustained,No action
+2123,Internal investigation,Sustained,No action
+2124,Internal investigation,Sustained,No action
+2127,Internal investigation,Not Sustained,No action
+2130,Internal investigation,Sustained,No action
+2131,Internal investigation,Sustained,No action
+2132,Internal investigation,Sustained,No action
+2144,Internal investigation,Not Sustained,No action
+2145,Internal investigation,Sustained,No action
+2149,Internal investigation,Not Sustained,No action
+2150,Internal investigation,Not Sustained,No action
+2151,Internal investigation,Sustained,No action
+2152,Internal investigation,Sustained,No action
+2162,Internal investigation,Sustained,No action
+2163,Internal investigation,Sustained,No action
+2164,Internal investigation,Sustained,No action
+2167,Internal investigation,Sustained,No action
+2172,Internal investigation,Sustained,No action
+2179,Internal investigation,Sustained,No action
+2188,Internal investigation,Sustained,No action
+2189,Internal investigation,Sustained,No action
+2192,Internal investigation,Sustained,No action
+2199,Internal investigation,Sustained,No action
+2201,Internal investigation,Sustained,No action
+2204,Internal investigation,Unfounded,No action
+2205,Internal investigation,Unfounded,No action
+2206,Internal investigation,Unfounded,No action
+2207,Internal investigation,Unfounded,No action
+2208,Internal investigation,Sustained,No action
+2246,Internal investigation,Not Sustained,No action
+2247,Internal investigation,Not Sustained,No action
+2248,Internal investigation,Not Sustained,No action
+2252,Internal investigation,Unfounded,No action
+2257,Internal investigation,Sustained,No action
+2258,Internal investigation,Sustained,No action
+2260,Internal investigation,Sustained,No action
+2266,Internal investigation,Not Sustained,No action
+2267,Internal investigation,Not Sustained,No action
+2276,Internal investigation,Not Sustained,No action
+2281,Internal investigation,Pending,No action
+2282,Internal investigation,Pending,No action
+2286,Internal investigation,Unfounded,No action
+2296,Internal investigation,Not Sustained,No action
+2297,Internal investigation,Sustained,No action
+2298,Internal investigation,Sustained,No action
+2299,Internal investigation,Not Sustained,No action
+2303,Internal investigation,Not Sustained,No action
+2304,Internal investigation,Not Sustained,No action
+2308,Internal investigation,Sustained,No action
+2309,Internal investigation,Unfounded,No action
+2312,Internal investigation,Unfounded,No action
+2313,Internal investigation,Unfounded,No action
+2314,Internal investigation,Unfounded,No action
+2316,Internal investigation,Sustained,No action
+2318,Internal investigation,Sustained,No action
+2319,Internal investigation,Sustained,No action
+2320,Internal investigation,Sustained,No action
+2325,Internal investigation,Sustained,No action
+2326,Internal investigation,Sustained,No action
+2339,Internal investigation,Sustained,No action
+2340,Internal investigation,Sustained,No action
+2348,Internal investigation,Not Sustained,No action
+2349,Internal investigation,Sustained,No action
+2355,Internal investigation,Sustained,No action
+2356,Internal investigation,Sustained,No action
+2357,Internal investigation,Sustained,No action
+2360,Internal investigation,Sustained,No action
+2361,Internal investigation,Not Sustained,No action
+2362,Internal investigation,Not Sustained,No action
+2364,Internal investigation,Unfounded,No action
+2368,Internal investigation,Unfounded,No action
+2371,Internal investigation,Not Sustained,No action
+2372,Internal investigation,Sustained,No action
+2373,Internal investigation,Sustained,No action
+2376,Internal investigation,Not Sustained,No action
+2377,Internal investigation,Sustained,No action
+2378,Internal investigation,Sustained,No action
+2380,Internal investigation,Sustained,No action
+2382,Internal investigation,Not Sustained,No action
+2384,Internal investigation,Unfounded,No action
+2386,Internal investigation,Unfounded,No action
+2387,Internal investigation,Unfounded,No action
+2391,Internal investigation,Sustained,No action
+2394,Internal investigation,Not Sustained,No action
+2400,Internal investigation,Sustained,No action
+2401,Internal investigation,Not Sustained,No action
+2402,Internal investigation,Not Sustained,No action
+2405,Internal investigation,Unfounded,No action
+2406,Internal investigation,Sustained,No action
+2407,Internal investigation,Sustained,No action
+2408,Internal investigation,Sustained,No action
+2410,Internal investigation,Sustained,No action
+2413,Internal investigation,Sustained,No action
+2415,Internal investigation,Sustained,No action
+2416,Internal investigation,Sustained,No action
+2417,Internal investigation,Sustained,No action
+2424,Internal investigation,Sustained,No action
+2425,Internal investigation,Sustained,No action
+2428,Internal investigation,Exonerated,No action
+2431,Internal investigation,Not Sustained,No action
+2432,Internal investigation,Sustained,No action
+2444,Internal investigation,Not Sustained,No action
+2445,Internal investigation,Not Sustained,No action
+2446,Internal investigation,Sustained,No action
+2447,Internal investigation,Sustained,No action
+2448,Internal investigation,Sustained,No action
+2449,Internal investigation,Not Sustained,No action
+2450,Internal investigation,Sustained,No action
+2451,Internal investigation,Not Sustained,No action
+2452,Internal investigation,Sustained,No action
+2453,Internal investigation,Sustained,No action
+2454,Internal investigation,Sustained,No action
+2455,Internal investigation,Sustained,No action
+2456,Internal investigation,Sustained,No action
+2457,Internal investigation,Sustained,No action
+2458,Internal investigation,Sustained,No action
+2459,Internal investigation,Sustained,No action
+2460,Internal investigation,Sustained,No action
+2461,Internal investigation,Sustained,No action
+2465,Internal investigation,Unfounded,No action
+2466,Internal investigation,Sustained,No action
+2467,Internal investigation,Sustained,No action
+2490,Internal investigation,Sustained,No action
+2508,Internal investigation,Sustained,No action
+2511,Internal investigation,Sustained,No action
+2543,Internal investigation,Pending,No action
+2544,Internal investigation,Pending,No action
+2545,Internal investigation,Pending,No action
+2548,Internal investigation,Sustained,No action
+2552,Internal investigation,Sustained,No action
+2553,Internal investigation,Sustained,No action
+2554,Internal investigation,Sustained,No action
+2555,Internal investigation,Sustained,No action
+2556,Internal investigation,Sustained,No action
+2557,Internal investigation,Sustained,No action
+2558,Internal investigation,Sustained,No action
+2562,Internal investigation,Sustained,No action
+2564,Internal investigation,Sustained,No action
+2565,Internal investigation,Sustained,No action
+2566,Internal investigation,Sustained,No action
+2594,Internal investigation,Sustained,No action
+2596,Internal investigation,Sustained,No action
+2597,Internal investigation,Not Sustained,No action
+2598,Internal investigation,Not Sustained,No action
+2625,Internal investigation,Sustained,No action
+2626,Internal investigation,Sustained,No action
+2628,Internal investigation,Sustained,No action
+2629,Internal investigation,Sustained,No action
+2631,Internal investigation,Sustained,No action
+2632,Internal investigation,Sustained,No action
+2633,Internal investigation,Sustained,No action
+2634,Internal investigation,Sustained,No action
+2636,Internal investigation,Sustained,No action
+2637,Internal investigation,Sustained,No action
+2639,Internal investigation,Sustained,No action
+2640,Internal investigation,Sustained,No action
+2648,Internal investigation,Not Sustained,No action
+2649,Internal investigation,Not Sustained,No action
+2650,Internal investigation,Not Sustained,No action
+2651,Internal investigation,Sustained,No action
+2659,Internal investigation,Not Sustained,No action
+2660,Internal investigation,Not Sustained,No action
+2661,Internal investigation,Sustained,No action
+2662,Internal investigation,Not Sustained,No action
+2663,Internal investigation,Sustained,No action
+2671,Internal investigation,Unfounded,No action
+2678,Internal investigation,Exonerated,No action
+2679,Internal investigation,Unfounded,No action
+2680,Internal investigation,Exonerated,No action
+2681,Internal investigation,Not Sustained,No action
+2683,Internal investigation,Exonerated,No action
+2684,Internal investigation,Not Sustained,No action
+2685,Internal investigation,Sustained,No action
+2686,Internal investigation,Unfounded,No action
+2687,Internal investigation,Unfounded,No action
+2688,Internal investigation,Unfounded,No action
+2697,Internal investigation,Unfounded,No action
+2706,Internal investigation,Pending,No action
+2709,Internal investigation,Sustained,No action
+2710,Internal investigation,Sustained,No action
+2711,Internal investigation,Sustained,No action
+2712,Internal investigation,Sustained,No action
+2713,Internal investigation,Sustained,No action
+2715,Internal investigation,Unfounded,No action
+2734,Internal investigation,Sustained,No action
+2740,Internal investigation,Sustained,No action
+2741,Internal investigation,Sustained,No action
+2745,Internal investigation,Sustained,No action
+2746,Internal investigation,Sustained,No action
+2749,Internal investigation,Sustained,No action
+2750,Internal investigation,Sustained,No action
+2751,Internal investigation,Sustained,No action
+2752,Internal investigation,Sustained,No action
+2757,Internal investigation,Sustained,No action
+2759,Internal investigation,Sustained,No action
+2760,Internal investigation,Sustained,No action
+2761,Internal investigation,Sustained,No action
+2762,Internal investigation,Sustained,No action
+2763,Internal investigation,Sustained,No action
+2768,Internal investigation,Sustained,No action
+2769,Internal investigation,Sustained,No action
+2775,Internal investigation,Sustained,No action
+2776,Internal investigation,No action,No action
+2778,Internal investigation,Sustained,No action
+2779,Internal investigation,Sustained,No action
+2780,Internal investigation,Sustained,No action
+2781,Internal investigation,Not Sustained,No action
+2782,Internal investigation,Not Sustained,No action
+2783,Internal investigation,Sustained,No action
+2784,Internal investigation,Sustained,No action
+2790,Internal investigation,Sustained,No action
+2791,Internal investigation,Sustained,No action
+2794,Internal investigation,Not Sustained,No action
+2798,Internal investigation,Sustained,No action
+2799,Internal investigation,Sustained,No action
+2800,Internal investigation,Sustained,No action
+2812,Internal investigation,Sustained,No action
+2813,Internal investigation,Sustained,No action
+2814,Internal investigation,Sustained,No action
+2815,Internal investigation,Sustained,No action
+2818,Internal investigation,Sustained,No action
+2819,Internal investigation,Sustained,No action
+2820,Internal investigation,Sustained,No action
+2842,Internal investigation,Sustained,No action
+2848,Internal investigation,Sustained,No action
+2849,Internal investigation,Unfounded,No action
+2850,Internal investigation,Sustained,No action
+2856,Internal investigation,Sustained,No action
+2870,Internal investigation,Sustained,No action
+2875,Internal investigation,Sustained,No action
+2876,Internal investigation,Sustained,No action
+2877,Internal investigation,Sustained,No action
+2878,Internal investigation,Sustained,No action
+2879,Internal investigation,Sustained,No action
+2880,Internal investigation,Sustained,No action
+2881,Internal investigation,Sustained,No action
+2884,Internal investigation,Sustained,No action
+2885,Internal investigation,Sustained,No action
+2887,Internal investigation,Sustained,No action
+2888,Internal investigation,Sustained,No action
+2889,Internal investigation,Sustained,No action
+2894,Internal investigation,Sustained,No action
+2895,Internal investigation,Sustained,No action
+2897,Internal investigation,Sustained,No action
+2901,Internal investigation,Sustained,No action
+2907,Internal investigation,Sustained,No action
+2925,Internal investigation,Unfounded,No action
+2928,Internal investigation,Sustained,No action
+2929,Internal investigation,Sustained,No action
+2931,Internal investigation,Sustained,No action
+2932,Internal investigation,Sustained,No action
+2933,Internal investigation,Sustained,No action
+2935,Internal investigation,Sustained,No action
+2937,Internal investigation,Not Sustained,No action
+2938,Internal investigation,Unfounded,No action
+2940,Internal investigation,Sustained,No action
+2964,Internal investigation,Sustained,No action
+2965,Internal investigation,Sustained,No action
+2978,Internal investigation,Sustained,No action
+2980,Internal investigation,Sustained,No action
+2981,Internal investigation,Sustained,No action
+2982,Internal investigation,Sustained,No action
+2996,Internal investigation,Unfounded,No action
+2999,Internal investigation,Sustained,No action
+3002,Internal investigation,Sustained,No action
+3006,Internal investigation,Unfounded,No action
+3007,Internal investigation,Unfounded,No action
+3026,Internal investigation,Sustained,No action
+3027,Internal investigation,Sustained,No action
+3028,Internal investigation,Sustained,No action
+3033,Internal investigation,Sustained,No action
+3039,Internal investigation,Not Sustained,No action
+3040,Internal investigation,Sustained,No action
+3044,Internal investigation,Sustained,No action
+3063,Internal investigation,Pending,No action
+3064,Internal investigation,Sustained,No action
+3071,Internal investigation,Pending,No action
+3072,Internal investigation,Pending,No action
+3095,Internal investigation,Sustained,No action
+3096,Internal investigation,Sustained,No action
+3097,Internal investigation,Sustained,No action
+3098,Internal investigation,Sustained,No action
+3099,Internal investigation,Sustained,No action
+3100,Internal investigation,Sustained,No action
+3110,Internal investigation,Not Sustained,No action
+3111,Internal investigation,No action,No action
+3112,Internal investigation,Sustained,No action
+3113,Internal investigation,Sustained,No action
+3127,Internal investigation,Pending,No action
+3128,Internal investigation,Pending,No action
+3132,Internal investigation,Sustained,No action
+3139,Internal investigation,Sustained,No action
+3146,Internal investigation,Sustained,No action
+3153,Internal investigation,Sustained,No action
+3157,Internal investigation,Sustained,No action
+3160,Internal investigation,Sustained,No action
+3163,Internal investigation,Unfounded,No action
+3164,Internal investigation,Not Sustained,No action
+3205,Internal investigation,Sustained,No action
+3206,Internal investigation,Unfounded,No action
+3210,Internal investigation,Sustained,No action
+3212,Internal investigation,Sustained,No action
+3213,Internal investigation,Sustained,No action
+3214,Internal investigation,Sustained,No action
+3215,Internal investigation,Not Sustained,No action
+3218,Internal investigation,Sustained,No action
+3219,Internal investigation,Not Sustained,No action
+3220,Internal investigation,Not Sustained,No action
+3234,Internal investigation,Sustained,No action
+3255,Internal investigation,Not Sustained,No action
+3256,Internal investigation,Sustained,No action
+3266,Internal investigation,Not Sustained,No action
+3269,Internal investigation,Not Sustained,No action
+3270,Internal investigation,Not Sustained,No action
+3277,Internal investigation,Sustained,No action
+3281,Internal investigation,Sustained,No action
+3282,Internal investigation,Sustained,No action
+3283,Internal investigation,Sustained,No action
+3284,Internal investigation,Sustained,No action
+3285,Internal investigation,Sustained,No action
+3286,Internal investigation,Sustained,No action
+3287,Internal investigation,Sustained,No action
+3288,Internal investigation,Sustained,No action
+3289,Internal investigation,Unfounded,No action
+3290,Internal investigation,Unfounded,No action
+3291,Internal investigation,Unfounded,No action
+3292,Internal investigation,Sustained,No action
+3294,Internal investigation,Sustained,No action
+3295,Internal investigation,Sustained,No action
+3296,Internal investigation,Sustained,No action
+3297,Internal investigation,Sustained,No action
+3298,Internal investigation,Unfounded,No action
+3304,Internal investigation,Pending,No action
+3310,Internal investigation,Sustained,No action
+3311,Internal investigation,Sustained,No action
+3312,Internal investigation,Sustained,No action
+3313,Internal investigation,Sustained,No action
+3314,Internal investigation,Sustained,No action
+3317,Internal investigation,Sustained,No action
+3318,Internal investigation,Not Sustained,No action
+3321,Internal investigation,Not Sustained,No action
+3325,Internal investigation,Sustained,No action
+3326,Internal investigation,Sustained,No action
+3327,Internal investigation,Sustained,No action
+3328,Internal investigation,Sustained,No action
+3329,Internal investigation,Not Sustained,No action
+3330,Internal investigation,Unfounded,No action
+3350,Internal investigation,Pending,Resigned/Retired and Charges Pending
+3351,Internal investigation,Pending,No action
+3352,Internal investigation,Pending,No action
+3353,Internal investigation,Sustained,No action
+3354,Internal investigation,Sustained,No action
+3356,Internal investigation,Pending,No action
+3357,Internal investigation,Pending,No action
+3358,Internal investigation,Pending,No action
+3359,Internal investigation,Pending,No action
+3360,Internal investigation,Pending,No action
+3361,Internal investigation,Sustained,No action
+3362,Internal investigation,Sustained,No action
+3366,Internal investigation,Sustained,No action
+3367,Internal investigation,Sustained,No action
+3370,Internal investigation,Sustained,No action
+3373,Internal investigation,Sustained,No action
+3374,Internal investigation,Sustained,No action
+3379,Internal investigation,Sustained,No action
+3398,Internal investigation,Sustained,No action
+3401,Internal investigation,Sustained,No action
+3403,Internal investigation,Sustained,No action
+3412,Internal investigation,Sustained,Oral Reprimand
+3413,Internal investigation,Not Sustained,No action
+3414,Internal investigation,Unfounded,No action
+3419,Internal investigation,Not Sustained,No action
+3420,Internal investigation,Sustained,Suspension
+3421,Internal investigation,Sustained,No action
+3422,Internal investigation,Sustained,No action
+3425,Internal investigation,Sustained,Oral Reprimand
+3426,Internal investigation,Sustained,Oral Reprimand
+3431,Internal investigation,Sustained,No action
+3440,Internal investigation,Sustained,No action
+3441,Internal investigation,Pending,No action
+3442,Internal investigation,Pending,No action
+3444,Internal investigation,Sustained,No action
+3445,Internal investigation,No action,No action
+3446,Internal investigation,Unfounded,No action
+3447,Internal investigation,No action,No action
+3448,Internal investigation,Exonerated,No action
+3449,Internal investigation,No action,No action
+3450,Internal investigation,Unfounded,No action
+3451,Internal investigation,No action,No action
+3452,Internal investigation,Exonerated,No action
+3453,Internal investigation,Not Sustained,No action
+3460,Internal investigation,No action,No action
+3461,Internal investigation,Exonerated,No action
+3462,Internal investigation,No action,No action
+3463,Internal investigation,Exonerated,No action
+3470,Internal investigation,Sustained,No action
+3471,Internal investigation,Sustained,No action
+3472,Internal investigation,Not Sustained,No action
+3473,Internal investigation,Sustained,No action
+3483,Internal investigation,Sustained,No action
+3492,Internal investigation,Withdrawn,No action
+3493,Internal investigation,Not Sustained,No action
+3494,Internal investigation,Sustained,No action
+3495,Internal investigation,Sustained,No action
+3496,Internal investigation,Sustained,No action
+3497,Internal investigation,Sustained,No action
+3498,Internal investigation,Not Sustained,No action
+3499,Internal investigation,Not Sustained,No action
+3500,Internal investigation,Sustained,No action
+3501,Internal investigation,Sustained,No action
+3502,Internal investigation,Unfounded,No action
+3503,Internal investigation,Unfounded,No action
+3510,Internal investigation,Sustained,No action
+3518,Internal investigation,Sustained,No action
+3519,Internal investigation,Not Sustained,No action
+3520,Internal investigation,Sustained,No action
+3521,Internal investigation,Sustained,No action
+3522,Internal investigation,Sustained,No action
+3525,Internal investigation,No action,No action
+3526,Internal investigation,Not Sustained,No action
+3528,Internal investigation,Unfounded,No action
+3533,Internal investigation,Sustained,No action
+3534,Internal investigation,Unfounded,No action
+3537,Internal investigation,Not Sustained,No action
+3538,Internal investigation,Not Sustained,No action
+3545,Internal investigation,Not Sustained,No action
+3546,Internal investigation,Not Sustained,No action
+3576,Internal investigation,Sustained,No action
+3577,Internal investigation,No action,No action
+3579,Internal investigation,Sustained,No action
+3580,Internal investigation,Sustained,No action
+3581,Internal investigation,No action,No action
+3582,Internal investigation,Sustained,No action
+3583,Internal investigation,No action,No action
+3584,Internal investigation,Sustained,No action
+3585,Internal investigation,Sustained,No action
+3586,Internal investigation,Sustained,No action
+3587,Internal investigation,Sustained,No action
+3588,Internal investigation,No action,No action
+3589,Internal investigation,Sustained,No action
+3590,Internal investigation,No action,No action
+3592,Internal investigation,Sustained,No action
+3595,Internal investigation,Sustained,No action
+3599,Internal investigation,Pending,No action
+3600,Internal investigation,Pending,No action
+3601,Internal investigation,Pending,No action
+3606,Internal investigation,Sustained,No action
+3607,Internal investigation,Sustained,No action
+3608,Internal investigation,Sustained,No action
+3625,Internal investigation,Sustained,No action
+3631,Internal investigation,Pending,Oral Reprimand
+3638,Internal investigation,Unfounded,No action
+3640,Internal investigation,Sustained,No action
+3641,Internal investigation,Sustained,No action
+3655,Internal investigation,Pending,No action
+3656,Internal investigation,Pending,No action
+3657,Internal investigation,Pending,No action
+3658,Internal investigation,Pending,No action
+3659,Internal investigation,Pending,No action
+3660,Internal investigation,Pending,No action
+3663,Internal investigation,Sustained,No action
+3675,Internal investigation,Pending,No action
+3676,Internal investigation,Pending,No action
+3685,Internal investigation,Sustained,No action
+3686,Internal investigation,Sustained,No action
+3687,Internal investigation,Not Sustained,No action
+3688,Internal investigation,Sustained,No action
+3690,Internal investigation,Sustained,No action
+3692,Internal investigation,Pending,No action
+3693,Internal investigation,Pending,No action
+3695,Internal investigation,Sustained,No action
+3696,Internal investigation,Sustained,No action
+3697,Internal investigation,Sustained,No action
+3699,Internal investigation,Sustained,No action
+3704,Internal investigation,Sustained,No action
+3707,Internal investigation,Sustained,No action
+3708,Internal investigation,Sustained,No action
+3709,Internal investigation,Sustained,No action
+3710,Internal investigation,Sustained,No action
+3713,Internal investigation,Sustained,No action
+3714,Internal investigation,Sustained,No action
+3721,Internal investigation,No action,No action
+3722,Internal investigation,No action,No action
+3724,Internal investigation,Withdrawn,No action
+3725,Internal investigation,Withdrawn,No action
+3726,Internal investigation,Withdrawn,No action
+3727,Internal investigation,Sustained,No action
+3728,Internal investigation,Sustained,No action
+3734,Internal investigation,Not Sustained,No action
+3735,Internal investigation,Not Sustained,No action
+3750,Internal investigation,Withdrawn,No action
+3758,Internal investigation,Sustained,No action
+3760,Internal investigation,Sustained,No action
+3762,Internal investigation,Sustained,No action
+3764,Internal investigation,Pending,No action
+3765,Internal investigation,Pending,No action
+3766,Internal investigation,Pending,No action
+3767,Internal investigation,Pending,No action
+3770,Internal investigation,Sustained,No action
+3771,Internal investigation,Unfounded,No action
+3774,Internal investigation,Pending,Oral Reprimand
+3793,Internal investigation,Not Sustained,No action
+3794,Internal investigation,Not Sustained,No action
+3797,Internal investigation,Not Sustained,No action
+3798,Internal investigation,Sustained,No action
+3799,Internal investigation,Sustained,No action
+3826,Internal investigation,Not Sustained,No action
+3834,Internal investigation,Pending,No action
+3836,Internal investigation,Pending,No action
+3837,Internal investigation,Pending,No action
+3838,Internal investigation,Pending,No action
+3839,Internal investigation,Pending,No action
+3840,Internal investigation,Pending,No action
+3841,Internal investigation,Pending,No action
+3842,Internal investigation,Pending,No action
+3843,Internal investigation,Pending,No action
+3844,Internal investigation,Pending,No action
+3848,Internal investigation,Pending,No action
+3849,Internal investigation,Pending,No action
+3850,Internal investigation,Pending,No action
+3851,Internal investigation,Pending,No action
+3852,Internal investigation,Pending,No action
+3853,Internal investigation,Pending,No action
+3854,Internal investigation,Pending,No action
+3855,Internal investigation,Pending,No action
+3856,Internal investigation,Pending,No action
+3866,Internal investigation,Sustained,No action
+3867,Internal investigation,Sustained,No action
+3879,Internal investigation,Sustained,No action
+3881,Internal investigation,Sustained,No action
+3883,Internal investigation,Sustained,No action
+3884,Internal investigation,Not Sustained,No action
+3891,Internal investigation,Not Sustained,No action
+3892,Internal investigation,Sustained,No action
+3894,Internal investigation,Not Sustained,No action
+3895,Internal investigation,Sustained,No action
+3896,Internal investigation,No action,No action
+3897,Internal investigation,Sustained,No action
+3898,Internal investigation,No action,No action
+3899,Internal investigation,Sustained,No action
+3900,Internal investigation,No action,No action
+3904,Internal investigation,Sustained,No action
+3905,Internal investigation,Sustained,No action
+3922,Internal investigation,Sustained,No action
+3923,Internal investigation,Sustained,No action
+3927,Internal investigation,Sustained,No action
+3928,Internal investigation,Sustained,No action
+3930,Internal investigation,Sustained,No action
+3931,Internal investigation,Sustained,No action
+3933,Internal investigation,Sustained,No action
+3934,Internal investigation,Sustained,No action
+3940,Internal investigation,Pending,No action
+3962,Internal investigation,No action,No action
+3983,Internal investigation,Pending,No action
+4001,Internal investigation,Pending,No action
+4012,Internal investigation,Not Sustained,No action
+4013,Internal investigation,Not Sustained,No action
+4021,Internal investigation,Pending,No action
+4033,Internal investigation,No action,No action
+4034,Internal investigation,No action,No action
+4039,Internal investigation,Pending,No action
+4040,Internal investigation,Pending,No action
+4056,Internal investigation,Pending,No action
+4057,Internal investigation,Pending,No action
+4058,Internal investigation,Pending,No action
+4067,Internal investigation,Pending,No action
+4069,Internal investigation,Pending,No action
+4070,Internal investigation,Pending,No action
+4073,Internal investigation,Pending,No action
+4092,Internal investigation,Not Sustained,No action
+4093,Internal investigation,Pending,No action
+4103,Internal investigation,Not Sustained,No action
+4104,Internal investigation,Pending,No action
+4107,Internal investigation,Pending,No action
+4116,Internal investigation,Pending,No action
+4117,Internal investigation,Pending,No action
+4135,Internal investigation,Pending,No action
+4136,Internal investigation,Pending,No action
+4137,Internal investigation,Pending,No action
+4148,Internal investigation,Pending,No action
+4149,Internal investigation,Pending,No action
+4150,Internal investigation,Pending,No action
+4151,Internal investigation,Pending,No action
+4152,Internal investigation,Pending,No action
+4156,Internal investigation,Pending,No action
+4157,Internal investigation,Pending,No action
+4163,Internal investigation,Pending,No action
+4164,Internal investigation,Pending,No action
+4165,Internal investigation,Pending,No action
+4167,Internal investigation,Pending,No action
+4168,Internal investigation,Pending,No action
+4173,Internal investigation,No action,No action
+4182,Internal investigation,Pending,No action
+4183,Internal investigation,Pending,No action
+4189,Internal investigation,Sustained,No action
+4198,Internal investigation,Sustained,No action
+4201,Internal investigation,Pending,No action
+4210,Internal investigation,Pending,No action
+4212,Internal investigation,Pending,No action
+4217,Internal investigation,Pending,No action
+4218,Internal investigation,Pending,No action
+4219,Internal investigation,Pending,No action
+4220,Internal investigation,Pending,No action
+4221,Internal investigation,Pending,No action
+4222,Internal investigation,Pending,No action
+4225,Internal investigation,Pending,No action
+4226,Internal investigation,Pending,No action
+4228,Internal investigation,Pending,No action
+4229,Internal investigation,Pending,No action
+4231,Internal investigation,Pending,No action
+4232,Internal investigation,Pending,No action
+4233,Internal investigation,Pending,No action
+4244,Internal investigation,Pending,No action
+4245,Internal investigation,Pending,No action
+4267,Internal investigation,Pending,No action
+4276,Internal investigation,Pending,No action
+4279,Internal investigation,No action,No action
+4280,Internal investigation,No action,No action
+4281,Internal investigation,No action,No action
+4282,Internal investigation,Pending,No action
+4289,Internal investigation,Pending,No action
+4290,Internal investigation,Pending,No action
+4291,Internal investigation,Pending,No action
+4292,Internal investigation,Pending,No action
+4293,Internal investigation,Pending,No action
+4294,Internal investigation,Pending,No action
+4295,Internal investigation,Pending,No action
+4296,Internal investigation,Pending,No action
+4297,Internal investigation,Pending,No action
+4298,Internal investigation,Pending,No action
+4300,Internal investigation,Pending,No action
+4301,Internal investigation,Pending,No action
+4305,Internal investigation,Pending,No action
+4306,Internal investigation,Pending,No action
+4307,Internal investigation,Pending,No action
+4308,Internal investigation,Pending,No action
+4315,Internal investigation,Pending,No action
+4318,Internal investigation,Pending,No action
+4320,Internal investigation,Pending,No action
+4325,Internal investigation,Pending,No action
+4326,Internal investigation,Pending,No action
+4327,Internal investigation,Pending,No action
+4328,Internal investigation,Pending,No action
+4329,Internal investigation,Pending,No action
+4339,Internal investigation,Pending,No action
+4340,Internal investigation,Pending,No action
+4341,Internal investigation,Pending,No action
+4342,Internal investigation,Pending,No action
+4343,Internal investigation,Pending,No action
+4345,Internal investigation,Pending,No action
+4346,Internal investigation,Pending,No action
+4347,Internal investigation,Pending,No action
+4348,Internal investigation,Pending,No action
+4350,Internal investigation,Pending,No action
+4351,Internal investigation,Pending,No action
+4353,Internal investigation,Pending,No action
+4360,Internal investigation,Pending,No action
+4361,Internal investigation,Pending,No action
+4363,Internal investigation,Pending,No action
+4365,Internal investigation,Pending,No action
+4373,Internal investigation,Pending,No action
+4374,Internal investigation,Pending,No action
+4375,Internal investigation,Pending,No action
+4376,Internal investigation,Pending,No action
+4377,Internal investigation,Pending,No action
+4378,Internal investigation,Pending,No action
+4379,Internal investigation,Pending,No action
+4380,Internal investigation,Pending,No action
+4381,Internal investigation,Pending,No action
+4382,Internal investigation,Pending,No action
+4383,Internal investigation,Pending,No action
+4393,Internal investigation,Pending,No action
+4394,Internal investigation,Pending,No action
+4399,Internal investigation,Pending,No action
+4400,Internal investigation,Pending,No action
+4401,Internal investigation,Pending,No action
+4409,Internal investigation,Pending,No action
+4410,Internal investigation,Pending,No action
+4411,Internal investigation,Pending,No action
+4412,Internal investigation,Pending,No action
+4413,Internal investigation,Pending,No action
+4440,Internal investigation,Pending,No action
+4441,Internal investigation,Pending,No action
+4442,Internal investigation,Pending,No action
+4443,Internal investigation,Pending,No action
+4444,Internal investigation,Pending,No action
+4445,Internal investigation,Pending,No action
+4457,Internal investigation,Pending,No action
+4458,Internal investigation,Pending,No action
+4477,Internal investigation,Pending,No action
+4478,Internal investigation,Pending,No action
+4479,Internal investigation,Pending,No action
+4483,Internal investigation,Pending,No action
+4497,Internal investigation,Pending,No action
+4498,Internal investigation,Pending,No action
+4519,Internal investigation,Pending,No action
+4528,Internal investigation,Sustained,No action
+4529,Internal investigation,Sustained,No action
+4531,Internal investigation,Pending,No action
+4532,Internal investigation,Sustained,No action
+4533,Internal investigation,Sustained,No action
+4534,Internal investigation,Pending,No action
+4535,Internal investigation,Sustained,No action
+4536,Internal investigation,Pending,No action
+4537,Internal investigation,Pending,No action
+4539,Internal investigation,Pending,No action
+4540,Internal investigation,Sustained,No action
+4541,Internal investigation,Pending,No action
+4542,Internal investigation,Sustained,No action
+4545,Internal investigation,Not Sustained,No action
+4548,Internal investigation,Sustained,No action
+4550,Internal investigation,Sustained,No action
+4551,Internal investigation,Sustained,No action
+4552,Internal investigation,No action,No action
+4553,Internal investigation,Sustained,No action
+4555,Internal investigation,No action,No action
+4556,Internal investigation,Sustained,No action
+4557,Internal investigation,Pending,No action
+4559,Internal investigation,Pending,No action
+4560,Internal investigation,Pending,No action
+4561,Internal investigation,Pending,No action
+4562,Internal investigation,Pending,No action
+4563,Internal investigation,Pending,No action
+4564,Internal investigation,Pending,No action
+4565,Internal investigation,Pending,No action
+4567,Internal investigation,Pending,No action
+4568,Internal investigation,Sustained,No action
+4569,Internal investigation,Sustained,No action
+4570,Internal investigation,Pending,No action
+4571,Internal investigation,Pending,No action
+4573,Internal investigation,Sustained,No action
+4576,Internal investigation,Filed,No action
+4577,Internal investigation,Sustained,No action
+4578,Internal investigation,Sustained,No action
+4579,Internal investigation,Sustained,No action
+4580,Internal investigation,Sustained,No action
+4581,Internal investigation,Unfounded,No action
+4587,Internal investigation,Sustained,No action
+4588,Internal investigation,Sustained,No action
+4589,Internal investigation,Sustained,No action
+4590,Internal investigation,Sustained,No action
+4591,Internal investigation,Sustained,No action
+4592,Internal investigation,Sustained,No action
+4593,Internal investigation,Sustained,No action
+4594,Internal investigation,Sustained,No action
+4595,Internal investigation,Sustained,No action
+4596,Internal investigation,Sustained,No action
+4597,Internal investigation,Sustained,No action
+4598,Internal investigation,Sustained,No action
+4599,Internal investigation,Sustained,No action
+4600,Internal investigation,Sustained,No action
+4601,Internal investigation,Sustained,No action
+4602,Internal investigation,Sustained,No action
+4603,Internal investigation,Sustained,No action
+4604,Internal investigation,Sustained,No action
+4605,Internal investigation,Sustained,No action
+4606,Internal investigation,Sustained,No action
+4607,Internal investigation,Sustained,No action
+4608,Internal investigation,Sustained,No action
+4613,Internal investigation,Sustained,No action
+4618,Internal investigation,Unfounded,No action
+4622,Internal investigation,Sustained,No action
+4623,Internal investigation,Sustained,No action
+4624,Internal investigation,Sustained,No action
+4625,Internal investigation,Sustained,No action
+4626,Internal investigation,Sustained,No action
+4627,Internal investigation,Sustained,No action
+4628,Internal investigation,Sustained,No action
+4630,Internal investigation,No action,No action
+4631,Internal investigation,Withdrawn,No action
+4632,Internal investigation,Sustained,No action
+4634,Internal investigation,Sustained,No action
+4635,Internal investigation,Sustained,No action
+4637,Internal investigation,Sustained,No action
+4640,Internal investigation,Sustained,No action
+4641,Internal investigation,Sustained,No action
+4648,Internal investigation,Sustained,No action
+4654,Internal investigation,Sustained,No action
+4655,Internal investigation,Sustained,No action
+4656,Internal investigation,Sustained,No action
+4657,Internal investigation,Unfounded,No action
+4661,Internal investigation,Exonerated,No action
+4662,Internal investigation,Sustained,No action
+4663,Internal investigation,Unfounded,No action
+4664,Internal investigation,Sustained,No action
+4665,Internal investigation,Sustained,No action
+4666,Internal investigation,Sustained,No action
+4667,Internal investigation,Sustained,No action
+4669,Internal investigation,Sustained,No action
+4670,Internal investigation,Unfounded,No action
+4673,Internal investigation,Sustained,No action
+4678,Internal investigation,Sustained,No action
+4679,Internal investigation,Sustained,No action
+4680,Internal investigation,Sustained,No action
+4681,Internal investigation,Sustained,No action
+4682,Internal investigation,Sustained,No action
+4683,Internal investigation,Sustained,No action
+4685,Internal investigation,Not Sustained,No action
+4686,Internal investigation,Unfounded,No action
+4687,Internal investigation,Unfounded,No action
+4688,Internal investigation,Sustained,No action
+4689,Internal investigation,Unfounded,No action
+4690,Internal investigation,Unfounded,No action
+4691,Internal investigation,Unfounded,No action
+4692,Internal investigation,Unfounded,No action
+4693,Internal investigation,Unfounded,No action
+4694,Internal investigation,Not Sustained,No action
+4695,Internal investigation,Not Sustained,No action
+4703,Internal investigation,Not Sustained,No action
+4704,Internal investigation,Sustained,No action
+4705,Internal investigation,Sustained,No action
+4706,Internal investigation,Sustained,No action
+4707,Internal investigation,Sustained,No action
+4708,Internal investigation,Not Sustained,No action
+4709,Internal investigation,Sustained,No action
+4710,Internal investigation,Unfounded,No action
+4711,Internal investigation,Unfounded,No action
+4712,Internal investigation,Not Sustained,No action
+4713,Internal investigation,Not Sustained,No action
+4714,Internal investigation,Not Sustained,No action
+4715,Internal investigation,Not Sustained,No action
+4716,Internal investigation,Unfounded,No action
+4717,Internal investigation,Unfounded,No action
+4718,Internal investigation,Sustained,No action
+4719,Internal investigation,Sustained,No action
+4720,Internal investigation,Sustained,No action
+4721,Internal investigation,Sustained,No action
+4732,Internal investigation,Unfounded,No action
+4733,Internal investigation,Unfounded,No action
+4745,Internal investigation,Sustained,No action
+4749,Internal investigation,Sustained,No action
+4751,Internal investigation,Sustained,No action
+4754,Internal investigation,Exonerated,No action
+4755,Internal investigation,Sustained,No action
+4756,Internal investigation,Sustained,No action
+4760,Internal investigation,Exonerated,No action
+4761,Internal investigation,Sustained,No action
+4775,Internal investigation,Not Sustained,No action
+4776,Internal investigation,Unfounded,No action
+4793,Internal investigation,Unfounded,No action
+4797,Internal investigation,Sustained,No action
+4798,Internal investigation,Sustained,No action
+4799,Internal investigation,Sustained,No action
+4800,Internal investigation,Sustained,No action
+4810,Internal investigation,Sustained,No action
+4811,Internal investigation,Sustained,No action
+4812,Internal investigation,Sustained,No action
+4813,Internal investigation,Sustained,No action
+4816,Internal investigation,Sustained,No action
+4817,Internal investigation,Sustained,No action
+4818,Internal investigation,Sustained,No action
+4819,Internal investigation,Sustained,No action
+4820,Internal investigation,Sustained,No action
+4821,Internal investigation,Sustained,No action
+4822,Internal investigation,Sustained,No action
+4823,Internal investigation,Sustained,No action
+4824,Internal investigation,Sustained,No action
+4825,Internal investigation,Not Sustained,No action
+4827,Internal investigation,Sustained,No action
+4831,Internal investigation,Unfounded,No action
+4832,Internal investigation,Unfounded,No action
+4834,Internal investigation,Sustained,No action
+4836,Internal investigation,Filed,No action
+4840,Internal investigation,Sustained,No action
+4842,Internal investigation,Sustained,No action
+4843,Internal investigation,Sustained,No action
+4844,Internal investigation,Sustained,No action
+4845,Internal investigation,Sustained,No action
+4846,Internal investigation,Sustained,No action
+4847,Internal investigation,Exonerated,No action
+4848,Internal investigation,Exonerated,No action
+4849,Internal investigation,Sustained,No action
+4850,Internal investigation,Sustained,No action
+4854,Internal investigation,Not Sustained,No action
+4855,Internal investigation,Sustained,No action
+4856,Internal investigation,Unfounded,No action
+4857,Internal investigation,Unfounded,No action
+4858,Internal investigation,Not Sustained,No action
+4859,Internal investigation,Unfounded,No action
+4860,Internal investigation,Not Sustained,No action
+4861,Internal investigation,Exonerated,No action
+4862,Internal investigation,Unfounded,No action
+4865,Internal investigation,Sustained,No action
+4866,Internal investigation,Sustained,No action
+4867,Internal investigation,Sustained,No action
+4868,Internal investigation,Sustained,No action
+4869,Internal investigation,Unfounded,No action
+4870,Internal investigation,Sustained,No action
+4871,Internal investigation,Sustained,No action
+4872,Internal investigation,Sustained,No action
+4873,Internal investigation,Sustained,No action
+4874,Internal investigation,Sustained,No action
+4875,Internal investigation,Sustained,No action
+4876,Internal investigation,Unfounded,No action
+4877,Internal investigation,Unfounded,No action
+4879,Internal investigation,Sustained,No action
+4880,Internal investigation,Unfounded,No action
+4881,Internal investigation,Sustained,No action
+4882,Internal investigation,Sustained,No action
+4883,Internal investigation,No action,No action
+4888,Internal investigation,Not Sustained,No action
+4890,Internal investigation,Sustained,No action
+4891,Internal investigation,Sustained,No action
+4893,Internal investigation,Sustained,No action
+4894,Internal investigation,Sustained,No action
+4895,Internal investigation,Sustained,No action
+4896,Internal investigation,Sustained,No action
+4897,Internal investigation,Sustained,No action
+4898,Internal investigation,Sustained,No action
+4899,Internal investigation,Sustained,No action
+4900,Internal investigation,Sustained,No action
+4901,Internal investigation,Sustained,No action
+4902,Internal investigation,Sustained,No action
+4905,Internal investigation,Sustained,No action
+4906,Internal investigation,Sustained,No action
+4911,Internal investigation,Sustained,No action
+4916,Internal investigation,Filed,No action
+4921,Internal investigation,Sustained,No action
+4924,Internal investigation,Sustained,No action
+4926,Internal investigation,Sustained,No action
+4927,Internal investigation,Sustained,No action
+4928,Internal investigation,Sustained,No action
+4929,Internal investigation,Sustained,No action
+4938,Internal investigation,Not Sustained,No action
+4939,Internal investigation,Not Sustained,No action
+4940,Internal investigation,Sustained,No action
+4941,Internal investigation,Sustained,No action
+4955,Internal investigation,Not Sustained,No action
+4958,Internal investigation,Sustained,No action
+4959,Internal investigation,Sustained,No action
+4971,Internal investigation,Sustained,No action
+4973,Internal investigation,Not Sustained,No action
+4974,Internal investigation,Not Sustained,No action
+4975,Internal investigation,Unfounded,No action
+4979,Internal investigation,Sustained,No action
+4982,Internal investigation,Sustained,No action
+4988,Internal investigation,Sustained,No action
+4989,Internal investigation,Sustained,No action
+4990,Internal investigation,Sustained,No action
+4991,Internal investigation,Sustained,No action
+4992,Internal investigation,Sustained,No action
+4993,Internal investigation,Sustained,No action
+4995,Internal investigation,Sustained,No action
+4996,Internal investigation,Not Sustained,No action
+4997,Internal investigation,Sustained,No action
+4998,Internal investigation,Sustained,No action
+5010,Internal investigation,Sustained,No action
+5011,Internal investigation,Sustained,No action
+5012,Internal investigation,Unfounded,No action
+5013,Internal investigation,Unfounded,No action
+5017,Internal investigation,Exonerated,No action
+5019,Internal investigation,Sustained,No action
+5025,Internal investigation,Sustained,No action
+5028,Internal investigation,Sustained,No action
+5032,Internal investigation,Sustained,No action
+5034,Internal investigation,Sustained,No action
+5035,Internal investigation,Sustained,No action
+5036,Internal investigation,Sustained,No action
+5038,Internal investigation,Sustained,No action
+5039,Internal investigation,Not Sustained,No action
+5040,Internal investigation,Sustained,No action
+5041,Internal investigation,Sustained,No action
+5043,Internal investigation,Sustained,No action
+5044,Internal investigation,Sustained,No action
+5045,Internal investigation,Sustained,No action
+5048,Internal investigation,Sustained,No action
+5051,Internal investigation,Sustained,No action
+5052,Internal investigation,Filed,No action
+5055,Internal investigation,Sustained,No action
+5056,Internal investigation,Unfounded,No action
+5058,Internal investigation,Not Sustained,No action
+5059,Internal investigation,Sustained,No action
+5060,Internal investigation,Sustained,No action
+5061,Internal investigation,Sustained,No action
+5062,Internal investigation,Not Sustained,No action
+5069,Internal investigation,Sustained,No action
+5070,Internal investigation,Sustained,No action
+5072,Internal investigation,Sustained,No action
+5073,Internal investigation,Sustained,No action
+5087,Internal investigation,Sustained,No action
+5088,Internal investigation,Sustained,No action
+5089,Internal investigation,Not Sustained,No action
+5090,Internal investigation,Not Sustained,No action
+5091,Internal investigation,Sustained,No action
+5092,Internal investigation,Sustained,No action
+5096,Internal investigation,Sustained,No action
+5097,Internal investigation,Sustained,No action
+5106,Internal investigation,Sustained,No action
+5107,Internal investigation,Sustained,No action
+5109,Internal investigation,Sustained,No action
+5117,Internal investigation,Sustained,No action
+5118,Internal investigation,Unfounded,No action
+5123,Internal investigation,Sustained,No action
+5124,Internal investigation,Sustained,No action
+5128,Internal investigation,Sustained,No action
+5129,Internal investigation,Sustained,No action
+5131,Internal investigation,Sustained,No action
+5132,Internal investigation,Sustained,No action
+5133,Internal investigation,Sustained,No action
+5134,Internal investigation,Sustained,No action
+5139,Internal investigation,Unfounded,No action
+5142,Internal investigation,Sustained,No action
+5147,Internal investigation,Sustained,No action
+5152,Internal investigation,Sustained,No action
+5153,Internal investigation,Unfounded,No action
+5161,Internal investigation,Unfounded,No action
+5170,Internal investigation,Sustained,No action
+5171,Internal investigation,Sustained,No action
+5180,Internal investigation,Not Sustained,No action
+5183,Internal investigation,Sustained,No action
+5186,Internal investigation,Sustained,No action
+5187,Internal investigation,Sustained,No action
+5188,Internal investigation,Sustained,No action
+5192,Internal investigation,Not Sustained,No action
+5193,Internal investigation,Sustained,No action
+5197,Internal investigation,Sustained,No action
+5202,Internal investigation,Sustained,No action
+5203,Internal investigation,Sustained,No action
+5204,Internal investigation,Sustained,No action
+5206,Internal investigation,Sustained,No action
+5207,Internal investigation,Sustained,No action
+5208,Internal investigation,Sustained,No action
+5209,Internal investigation,Sustained,No action
+5210,Internal investigation,Sustained,No action
+5211,Internal investigation,Sustained,No action
+5212,Internal investigation,Not Sustained,No action
+5215,Internal investigation,Sustained,No action
+5216,Internal investigation,Sustained,No action
+5219,Internal investigation,Sustained,No action
+5221,Internal investigation,Sustained,No action
+5222,Internal investigation,Sustained,No action
+5223,Internal investigation,Sustained,No action
+5225,Internal investigation,Sustained,No action
+5226,Internal investigation,Not Sustained,No action
+5230,Internal investigation,Sustained,No action
+5231,Internal investigation,Sustained,No action
+5238,Internal investigation,Sustained,No action
+5243,Internal investigation,Sustained,No action
+5244,Internal investigation,Sustained,No action
+5245,Internal investigation,Sustained,No action
+5249,Internal investigation,Sustained,No action
+5251,Internal investigation,Not Sustained,No action
+5257,Internal investigation,Sustained,No action
+5260,Internal investigation,Sustained,No action
+5261,Internal investigation,Sustained,No action
+5262,Internal investigation,Sustained,No action
+5263,Internal investigation,Sustained,No action
+5264,Internal investigation,Sustained,No action
+5269,Internal investigation,Sustained,No action
+5270,Internal investigation,Sustained,No action
+5271,Internal investigation,Not Sustained,No action
+5272,Internal investigation,Sustained,No action
+5274,Internal investigation,Sustained,No action
+5275,Internal investigation,Sustained,No action
+5276,Internal investigation,Unfounded,No action
+5279,Internal investigation,Sustained,No action
+5280,Internal investigation,Sustained,No action
+5284,Internal investigation,Not Sustained,No action
+5286,Internal investigation,Sustained,No action
+5287,Internal investigation,Not Sustained,No action
+5294,Internal investigation,Not Sustained,No action
+5295,Internal investigation,Sustained,No action
+5296,Internal investigation,Unfounded,No action
+5297,Internal investigation,Sustained,No action
+5298,Internal investigation,Sustained,No action
+5299,Internal investigation,Sustained,No action
+5300,Internal investigation,Sustained,No action
+5301,Internal investigation,Sustained,No action
+5303,Internal investigation,Sustained,No action
+5313,Internal investigation,Unfounded,No action
+5314,Internal investigation,Unfounded,No action
+5315,Internal investigation,Sustained,No action
+5316,Internal investigation,Sustained,No action
+5317,Internal investigation,Not Sustained,No action
+5318,Internal investigation,Sustained,No action
+5319,Internal investigation,Not Sustained,No action
+5320,Internal investigation,Sustained,No action
+5324,Internal investigation,Not Sustained,No action
+5325,Internal investigation,Sustained,No action
+5326,Internal investigation,Sustained,No action
+5327,Internal investigation,Sustained,No action
+5333,Internal investigation,Unfounded,No action
+5336,Internal investigation,Unfounded,No action
+5337,Internal investigation,Unfounded,No action
+5338,Internal investigation,Unfounded,No action
+5339,Internal investigation,Unfounded,No action
+5340,Internal investigation,Unfounded,No action
+5341,Internal investigation,Sustained,No action
+5342,Internal investigation,Sustained,No action
+5343,Internal investigation,Not Sustained,No action
+5344,Internal investigation,Sustained,No action
+5345,Internal investigation,Unfounded,No action
+5346,Internal investigation,Unfounded,No action
+5347,Internal investigation,Sustained,No action
+5351,Internal investigation,Sustained,No action
+5352,Internal investigation,Not Sustained,No action
+5354,Internal investigation,Sustained,No action
+5358,Internal investigation,Sustained,No action
+5361,Internal investigation,Sustained,No action
+5365,Internal investigation,Sustained,No action
+5368,Internal investigation,Sustained,No action
+5369,Internal investigation,Sustained,No action
+5371,Internal investigation,Sustained,No action
+5373,Internal investigation,Sustained,No action
+5374,Internal investigation,Sustained,No action
+5375,Internal investigation,Sustained,No action
+5376,Internal investigation,Sustained,No action
+5377,Internal investigation,Sustained,No action
+5378,Internal investigation,Sustained,No action
+5379,Internal investigation,Sustained,No action
+5380,Internal investigation,Sustained,No action
+5382,Internal investigation,Unfounded,No action
+5384,Internal investigation,Sustained,No action
+5385,Internal investigation,Sustained,No action
+5386,Internal investigation,Sustained,No action
+5387,Internal investigation,Sustained,No action
+5390,Internal investigation,Sustained,No action
+5394,Internal investigation,Sustained,No action
+5401,Internal investigation,Not Sustained,No action
+5402,Internal investigation,Not Sustained,No action
+5403,Internal investigation,Sustained,No action
+5407,Internal investigation,Sustained,No action
+5410,Internal investigation,Sustained,No action
+5411,Internal investigation,Sustained,No action
+5422,Internal investigation,Not Sustained,No action
+5423,Internal investigation,Sustained,No action
+5424,Internal investigation,Sustained,No action
+5425,Internal investigation,Sustained,No action
+5426,Internal investigation,Sustained,No action
+5427,Internal investigation,Sustained,No action
+5428,Internal investigation,Sustained,No action
+5429,Internal investigation,Sustained,No action
+5430,Internal investigation,Sustained,No action
+5431,Internal investigation,Sustained,No action
+5434,Internal investigation,Sustained,No action
+5435,Internal investigation,Sustained,No action
+5436,Internal investigation,Sustained,No action
+5437,Internal investigation,Sustained,No action
+5440,Internal investigation,Not Sustained,No action
+5441,Internal investigation,Not Sustained,No action
+5442,Internal investigation,Not Sustained,No action
+5443,Internal investigation,Unfounded,No action
+5444,Internal investigation,Not Sustained,No action
+5445,Internal investigation,Not Sustained,No action
+5446,Internal investigation,Sustained,No action
+5447,Internal investigation,Sustained,No action
+5448,Internal investigation,Not Sustained,No action
+5449,Internal investigation,Sustained,No action
+5450,Internal investigation,Sustained,No action
+5451,Internal investigation,Sustained,No action
+5453,Internal investigation,Sustained,No action
+5454,Internal investigation,Sustained,No action
+5455,Internal investigation,Not Sustained,No action
+5458,Internal investigation,Not Sustained,No action
+5462,Internal investigation,Not Sustained,No action
+5469,Internal investigation,Sustained,No action
+5471,Internal investigation,Sustained,No action
+5482,Internal investigation,Sustained,No action
+5483,Internal investigation,Sustained,No action
+5484,Internal investigation,Sustained,No action
+5486,Internal investigation,Sustained,No action
+5489,Internal investigation,Not Sustained,No action
+5490,Internal investigation,Sustained,No action
+5491,Internal investigation,Sustained,No action
+5492,Internal investigation,Sustained,No action
+5493,Internal investigation,Sustained,No action
+5494,Internal investigation,Sustained,No action
+5499,Internal investigation,Sustained,No action
+5502,Internal investigation,Sustained,No action
+5503,Internal investigation,Sustained,No action
+5504,Internal investigation,Not Sustained,No action
+5506,Internal investigation,Not Sustained,No action
+5507,Internal investigation,Sustained,No action
+5508,Internal investigation,Sustained,No action
+5511,Internal investigation,Sustained,No action
+5517,Internal investigation,Sustained,No action
+5523,Internal investigation,Sustained,No action
+5524,Internal investigation,Sustained,No action
+5527,Internal investigation,Sustained,No action
+5545,Internal investigation,Sustained,No action
+5546,Internal investigation,Sustained,No action
+5547,Internal investigation,Sustained,No action
+5550,Internal investigation,Sustained,No action
+5554,Internal investigation,Not Sustained,No action
+5555,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+5558,Internal investigation,Sustained,No action
+5559,Internal investigation,Not Sustained,No action
+5560,Internal investigation,Sustained,No action
+5561,Internal investigation,Sustained,No action
+5562,Internal investigation,Sustained,No action
+5563,Internal investigation,Sustained,No action
+5564,Internal investigation,Sustained,No action
+5565,Internal investigation,Sustained,No action
+5566,Internal investigation,Not Sustained,No action
+5567,Internal investigation,Sustained,No action
+5570,Internal investigation,Sustained,No action
+5571,Internal investigation,Sustained,No action
+5572,Internal investigation,Sustained,No action
+5573,Internal investigation,Sustained,Oral Reprimand
+5574,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+5575,Internal investigation,Sustained,Settlement Agreement
+5576,Internal investigation,Sustained,No action
+5577,Internal investigation,Not Sustained,No action
+5578,Internal investigation,Sustained,No action
+5579,Internal investigation,Sustained,No action
+5581,Internal investigation,Sustained,No action
+5583,Internal investigation,Sustained,No action
+5584,Internal investigation,Not Sustained,No action
+5587,Internal investigation,Sustained,No action
+5588,Internal investigation,Sustained,No action
+5589,Internal investigation,Sustained,No action
+5590,Internal investigation,Sustained,No action
+5591,Internal investigation,Not Sustained,No action
+5592,Internal investigation,Not Sustained,No action
+5593,Internal investigation,Not Sustained,No action
+5595,Internal investigation,Sustained,No action
+5596,Internal investigation,Sustained,No action
+5597,Internal investigation,Not Sustained,No action
+5598,Internal investigation,Sustained,No action
+5599,Internal investigation,Sustained,No action
+5600,Internal investigation,Sustained,No action
+5601,Internal investigation,Sustained,No action
+5602,Internal investigation,Filed,Resigned/Retired and Charges Pending
+5603,Internal investigation,Sustained,No action
+5604,Internal investigation,Sustained,No action
+5605,Internal investigation,Sustained,No action
+5606,Internal investigation,Sustained,No action
+5609,Internal investigation,Sustained,No action
+5617,Internal investigation,Unfounded,No action
+5620,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+5637,Internal investigation,Sustained,No action
+5640,Internal investigation,Sustained,No action
+5641,Internal investigation,Unfounded,No action
+5642,Internal investigation,Unfounded,No action
+5643,Internal investigation,Not Sustained,No action
+5644,Internal investigation,Sustained,No action
+5645,Internal investigation,Sustained,No action
+5652,Internal investigation,Unfounded,No action
+5653,Internal investigation,Sustained,No action
+5654,Internal investigation,Sustained,No action
+5656,Internal investigation,Unfounded,No action
+5657,Internal investigation,Sustained,No action
+5664,Internal investigation,Sustained,No action
+5666,Internal investigation,Sustained,No action
+5682,Internal investigation,Exonerated,No action
+5683,Internal investigation,Sustained,No action
+5687,Internal investigation,Sustained,No action
+5691,Internal investigation,Unfounded,No action
+5692,Internal investigation,Unfounded,No action
+5693,Internal investigation,Sustained,No action
+5694,Internal investigation,Sustained,No action
+5695,Internal investigation,Sustained,No action
+5696,Internal investigation,No action,No action
+5697,Internal investigation,Sustained,No action
+5698,Internal investigation,Sustained,No action
+5699,Internal investigation,Sustained,No action
+5700,Internal investigation,Sustained,No action
+5701,Internal investigation,Sustained,No action
+5703,Internal investigation,Sustained,No action
+5713,Internal investigation,Sustained,No action
+5714,Internal investigation,Sustained,No action
+5717,Internal investigation,Unfounded,No action
+5720,Internal investigation,Sustained,No action
+5721,Internal investigation,Sustained,No action
+5722,Internal investigation,Sustained,No action
+5723,Internal investigation,Sustained,No action
+5725,Internal investigation,Sustained,No action
+5726,Internal investigation,Sustained,No action
+5727,Internal investigation,Not Sustained,No action
+5731,Internal investigation,Not Sustained,No action
+5732,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+5733,Internal investigation,Sustained,No action
+5734,Internal investigation,Sustained,No action
+5735,Internal investigation,Sustained,No action
+5736,Internal investigation,Sustained,No action
+5737,Internal investigation,Unfounded,No action
+5738,Internal investigation,Sustained,No action
+5739,Internal investigation,Sustained,No action
+5740,Internal investigation,Sustained,No action
+5741,Internal investigation,Sustained,No action
+5742,Internal investigation,Unfounded,No action
+5744,Internal investigation,Sustained,No action
+5745,Internal investigation,Sustained,No action
+5746,Internal investigation,Sustained,No action
+5747,Internal investigation,Sustained,No action
+5750,Internal investigation,Sustained,No action
+5751,Internal investigation,Sustained,No action
+5753,Internal investigation,Sustained,No action
+5754,Internal investigation,Sustained,No action
+5755,Internal investigation,Sustained,No action
+5756,Internal investigation,Sustained,No action
+5757,Internal investigation,Unfounded,No action
+5766,Internal investigation,Unfounded,No action
+5771,Internal investigation,Sustained,No action
+5772,Internal investigation,Sustained,No action
+5776,Internal investigation,Sustained,No action
+5789,Internal investigation,Unfounded,No action
+5815,Internal investigation,Sustained,No action
+5816,Internal investigation,Sustained,No action
+5817,Internal investigation,Not Sustained,No action
+5818,Internal investigation,Not Sustained,No action
+5819,Internal investigation,Sustained,No action
+5820,Internal investigation,Sustained,No action
+5821,Internal investigation,Not Sustained,No action
+5827,Internal investigation,Sustained,No action
+5829,Internal investigation,Pending,No action
+5832,Internal investigation,Sustained,No action
+5844,Internal investigation,Sustained,No action
+5845,Internal investigation,Sustained,No action
+5846,Internal investigation,Sustained,No action
+5847,Internal investigation,Sustained,No action
+5848,Internal investigation,Sustained,No action
+5849,Internal investigation,Sustained,No action
+5852,Internal investigation,Sustained,No action
+5856,Internal investigation,Sustained,No action
+5857,Internal investigation,Sustained,No action
+5858,Internal investigation,Sustained,No action
+5859,Internal investigation,Sustained,No action
+5860,Internal investigation,Sustained,No action
+5864,Internal investigation,Sustained,No action
+5874,Internal investigation,Sustained,No action
+5877,Internal investigation,Not Sustained,No action
+5878,Internal investigation,Not Sustained,No action
+5880,Internal investigation,Not Sustained,No action
+5881,Internal investigation,Not Sustained,No action
+5882,Internal investigation,Sustained,No action
+5888,Internal investigation,Not Sustained,No action
+5889,Internal investigation,Sustained,No action
+5919,Internal investigation,Sustained,No action
+5920,Internal investigation,Sustained,No action
+5926,Internal investigation,Sustained,No action
+5927,Internal investigation,Sustained,No action
+5928,Internal investigation,Sustained,No action
+5930,Internal investigation,Sustained,No action
+5931,Internal investigation,Sustained,No action
+5933,Internal investigation,Sustained,No action
+5934,Internal investigation,Sustained,No action
+5935,Internal investigation,Sustained,No action
+5937,Internal investigation,Sustained,No action
+5938,Internal investigation,Sustained,No action
+5939,Internal investigation,Sustained,No action
+5946,Internal investigation,Sustained,No action
+5947,Internal investigation,Sustained,No action
+5948,Internal investigation,Sustained,No action
+5949,Internal investigation,Sustained,No action
+5950,Internal investigation,Sustained,No action
+5951,Internal investigation,Sustained,No action
+5952,Internal investigation,Sustained,No action
+5953,Internal investigation,Sustained,No action
+5958,Internal investigation,Unfounded,No action
+5959,Internal investigation,Unfounded,No action
+5962,Internal investigation,Sustained,No action
+5963,Internal investigation,Unfounded,No action
+5964,Internal investigation,Sustained,No action
+5965,Internal investigation,Sustained,No action
+5966,Internal investigation,Sustained,No action
+5967,Internal investigation,Unfounded,No action
+5968,Internal investigation,Sustained,No action
+5969,Internal investigation,Unfounded,No action
+5970,Internal investigation,Not Sustained,No action
+5971,Internal investigation,Unfounded,No action
+5972,Internal investigation,Not Sustained,No action
+5973,Internal investigation,Sustained,No action
+5974,Internal investigation,Unfounded,No action
+5975,Internal investigation,Not Sustained,No action
+5976,Internal investigation,Unfounded,No action
+5977,Internal investigation,Unfounded,No action
+5978,Internal investigation,Unfounded,No action
+5979,Internal investigation,Not Sustained,No action
+5980,Internal investigation,Unfounded,No action
+5981,Internal investigation,Not Sustained,No action
+5982,Internal investigation,Sustained,No action
+5983,Internal investigation,Sustained,No action
+5984,Internal investigation,Unfounded,No action
+5985,Internal investigation,Sustained,No action
+5989,Internal investigation,Unfounded,No action
+5990,Internal investigation,Unfounded,No action
+5996,Internal investigation,Sustained,No action
+5997,Internal investigation,Sustained,No action
+5998,Internal investigation,Sustained,No action
+5999,Internal investigation,Unfounded,No action
+6001,Internal investigation,Not Sustained,No action
+6008,Internal investigation,Sustained,No action
+6009,Internal investigation,Sustained,No action
+6015,Internal investigation,Sustained,No action
+6016,Internal investigation,Unfounded,No action
+6017,Internal investigation,Unfounded,No action
+6018,Internal investigation,Unfounded,No action
+6019,Internal investigation,Unfounded,No action
+6020,Internal investigation,Unfounded,No action
+6023,Internal investigation,Unfounded,No action
+6029,Internal investigation,Sustained,No action
+6034,Internal investigation,Sustained,No action
+6035,Internal investigation,Unfounded,No action
+6038,Internal investigation,Sustained,No action
+6044,Internal investigation,Sustained,No action
+6047,Internal investigation,Sustained,No action
+6048,Internal investigation,Sustained,No action
+6053,Internal investigation,Sustained,No action
+6055,Internal investigation,Not Sustained,No action
+6056,Internal investigation,Not Sustained,No action
+6057,Internal investigation,Not Sustained,No action
+6059,Internal investigation,Unfounded,No action
+6061,Internal investigation,Unfounded,No action
+6062,Internal investigation,Unfounded,No action
+6065,Internal investigation,Sustained,No action
+6066,Internal investigation,Sustained,No action
+6070,Internal investigation,Sustained,No action
+6077,Internal investigation,Sustained,No action
+6078,Internal investigation,Sustained,No action
+6079,Internal investigation,Unfounded,No action
+6081,Internal investigation,Sustained,No action
+6082,Internal investigation,Sustained,No action
+6084,Internal investigation,Not Sustained,No action
+6085,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+6086,Internal investigation,Sustained,No action
+6087,Internal investigation,Sustained,No action
+6088,Internal investigation,Sustained,No action
+6093,Internal investigation,Sustained,No action
+6094,Internal investigation,Sustained,No action
+6095,Internal investigation,Sustained,No action
+6096,Internal investigation,Sustained,No action
+6097,Internal investigation,Unfounded,No action
+6098,Internal investigation,Unfounded,No action
+6100,Internal investigation,Sustained,No action
+6115,Internal investigation,Sustained,No action
+6116,Internal investigation,Sustained,No action
+6118,Internal investigation,Filed,Resigned/Retired and Charges Pending
+6119,Internal investigation,Sustained,No action
+6120,Internal investigation,Not Sustained,No action
+6121,Internal investigation,Sustained,No action
+6123,Internal investigation,Sustained,No action
+6131,Internal investigation,Sustained,No action
+6139,Internal investigation,Not Sustained,No action
+6157,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+6158,Internal investigation,Sustained,No action
+6159,Internal investigation,Not Sustained,No action
+6160,Internal investigation,Sustained,No action
+6161,Internal investigation,Sustained,No action
+6162,Internal investigation,Sustained,No action
+6163,Internal investigation,Sustained,No action
+6165,Internal investigation,Exonerated,No action
+6167,Internal investigation,Sustained,No action
+6169,Internal investigation,Sustained,No action
+6170,Internal investigation,Sustained,No action
+6171,Internal investigation,Sustained,No action
+6172,Internal investigation,Sustained,No action
+6173,Internal investigation,Sustained,No action
+6174,Internal investigation,Sustained,No action
+6175,Internal investigation,Sustained,No action
+6181,Internal investigation,Sustained,No action
+6182,Internal investigation,Sustained,No action
+6184,Internal investigation,Unfounded,No action
+6185,Internal investigation,Unfounded,No action
+6186,Internal investigation,Sustained,No action
+6187,Internal investigation,Unfounded,No action
+6188,Internal investigation,Unfounded,No action
+6189,Internal investigation,Unfounded,No action
+6191,Internal investigation,Not Sustained,No action
+6192,Internal investigation,Sustained,No action
+6193,Internal investigation,Sustained,No action
+6194,Internal investigation,Unfounded,No action
+6195,Internal investigation,Sustained,No action
+6196,Internal investigation,Sustained,No action
+6197,Internal investigation,Sustained,No action
+6204,Internal investigation,Sustained,No action
+6212,Internal investigation,Filed,Resigned/Retired and Charges Pending
+6218,Internal investigation,Withdrawn,No action
+6219,Internal investigation,Withdrawn,No action
+6220,Internal investigation,Withdrawn,No action
+6221,Internal investigation,Sustained,No action
+6222,Internal investigation,Sustained,No action
+6223,Internal investigation,Sustained,No action
+6224,Internal investigation,Sustained,No action
+6225,Internal investigation,Sustained,No action
+6226,Internal investigation,Sustained,No action
+6227,Internal investigation,Sustained,No action
+6228,Internal investigation,Sustained,No action
+6235,Internal investigation,Not Sustained,No action
+6236,Internal investigation,Not Sustained,No action
+6248,Internal investigation,Not Sustained,No action
+6250,Internal investigation,Not Sustained,No action
+6251,Internal investigation,Sustained,No action
+6252,Internal investigation,Sustained,Suspension
+6258,Internal investigation,Unfounded,No action
+6259,Internal investigation,Unfounded,No action
+6260,Internal investigation,Unfounded,No action
+6261,Internal investigation,Not Sustained,No action
+6262,Internal investigation,Sustained,No action
+6263,Internal investigation,Sustained,No action
+6264,Internal investigation,Sustained,No action
+6265,Internal investigation,Not Sustained,No action
+6266,Internal investigation,Sustained,No action
+6267,Internal investigation,Sustained,No action
+6268,Internal investigation,Sustained,No action
+6269,Internal investigation,Sustained,No action
+6275,Internal investigation,Unfounded,No action
+6276,Internal investigation,Unfounded,No action
+6279,Internal investigation,Unfounded,No action
+6280,Internal investigation,Sustained,No action
+6282,Internal investigation,Sustained,No action
+6283,Internal investigation,Unfounded,No action
+6285,Internal investigation,Sustained,No action
+6286,Internal investigation,Sustained,No action
+6297,Internal investigation,Sustained,No action
+6307,Internal investigation,Unfounded,No action
+6321,Internal investigation,Sustained,No action
+6322,Internal investigation,Sustained,No action
+6325,Internal investigation,Sustained,No action
+6330,Internal investigation,Not Sustained,No action
+6331,Internal investigation,No action,No action
+6332,Internal investigation,Sustained,No action
+6333,Internal investigation,Sustained,No action
+6334,Internal investigation,No action,No action
+6335,Internal investigation,Sustained,No action
+6336,Internal investigation,Sustained,No action
+6339,Internal investigation,Sustained,No action
+6340,Internal investigation,Sustained,No action
+6341,Internal investigation,Sustained,No action
+6342,Internal investigation,Sustained,No action
+6343,Internal investigation,Sustained,No action
+6346,Internal investigation,Sustained,No action
+6350,Internal investigation,Sustained,No action
+6351,Internal investigation,Sustained,No action
+6352,Internal investigation,Not Sustained,No action
+6357,Internal investigation,Sustained,No action
+6359,Internal investigation,Sustained,No action
+6362,Internal investigation,Withdrawn,No action
+6363,Internal investigation,Withdrawn,No action
+6364,Internal investigation,Not Sustained,No action
+6365,Internal investigation,Not Sustained,No action
+6367,Internal investigation,Sustained,No action
+6368,Internal investigation,Sustained,No action
+6375,Internal investigation,Unfounded,No action
+6378,Internal investigation,Sustained,No action
+6384,Internal investigation,Unfounded,No action
+6387,Internal investigation,Not Sustained,No action
+6388,Internal investigation,Sustained,No action
+6389,Internal investigation,Sustained,No action
+6390,Internal investigation,Sustained,No action
+6411,Internal investigation,Unfounded,No action
+6416,Internal investigation,Sustained,No action
+6417,Internal investigation,Sustained,No action
+6418,Internal investigation,Sustained,No action
+6422,Internal investigation,Sustained,No action
+6423,Internal investigation,Sustained,No action
+6424,Internal investigation,Sustained,No action
+6425,Internal investigation,Sustained,No action
+6426,Internal investigation,Sustained,No action
+6435,Internal investigation,Sustained,No action
+6436,Internal investigation,Sustained,No action
+6443,Internal investigation,Sustained,No action
+6446,Internal investigation,Unfounded,No action
+6449,Internal investigation,Sustained,No action
+6450,Internal investigation,Sustained,No action
+6451,Internal investigation,Sustained,No action
+6452,Internal investigation,Sustained,No action
+6453,Internal investigation,Sustained,No action
+6454,Internal investigation,Sustained,No action
+6456,Internal investigation,Sustained,No action
+6457,Internal investigation,Sustained,No action
+6458,Internal investigation,Sustained,No action
+6459,Internal investigation,Not Sustained,No action
+6460,Internal investigation,Sustained,No action
+6461,Internal investigation,Sustained,No action
+6462,Internal investigation,Sustained,No action
+6463,Internal investigation,Sustained,No action
+6464,Internal investigation,Sustained,No action
+6465,Internal investigation,Sustained,No action
+6466,Internal investigation,Sustained,No action
+6467,Internal investigation,Unfounded,No action
+6468,Internal investigation,Sustained,No action
+6469,Internal investigation,Sustained,No action
+6470,Internal investigation,Unfounded,No action
+6471,Internal investigation,Sustained,No action
+6472,Internal investigation,Sustained,No action
+6474,Internal investigation,Sustained,No action
+6475,Internal investigation,Sustained,No action
+6477,Internal investigation,Sustained,No action
+6478,Internal investigation,Unfounded,No action
+6490,Internal investigation,Withdrawn,No action
+6491,Internal investigation,Withdrawn,No action
+6492,Internal investigation,Sustained,No action
+6493,Internal investigation,Sustained,No action
+6494,Internal investigation,Sustained,No action
+6498,Internal investigation,Sustained,No action
+6499,Internal investigation,Sustained,No action
+6500,Internal investigation,Sustained,No action
+6501,Internal investigation,Sustained,No action
+6502,Internal investigation,Sustained,No action
+6503,Internal investigation,Sustained,No action
+6504,Internal investigation,Unfounded,No action
+6510,Internal investigation,Sustained,No action
+6511,Internal investigation,Sustained,No action
+6512,Internal investigation,Unfounded,No action
+6513,Internal investigation,Sustained,No action
+6514,Internal investigation,Sustained,No action
+6515,Internal investigation,Sustained,No action
+6518,Internal investigation,Sustained,No action
+6519,Internal investigation,Sustained,No action
+6520,Internal investigation,Sustained,No action
+6521,Internal investigation,Sustained,No action
+6522,Internal investigation,Sustained,No action
+6523,Internal investigation,Sustained,No action
+6524,Internal investigation,Not Sustained,No action
+6525,Internal investigation,Sustained,No action
+6526,Internal investigation,Not Sustained,No action
+6527,Internal investigation,Sustained,No action
+6528,Internal investigation,Sustained,No action
+6529,Internal investigation,Not Sustained,No action
+6533,Internal investigation,Not Sustained,No action
+6534,Internal investigation,Not Sustained,No action
+6535,Internal investigation,Sustained,No action
+6536,Internal investigation,Sustained,No action
+6537,Internal investigation,Sustained,No action
+6538,Internal investigation,Sustained,No action
+6539,Internal investigation,Sustained,No action
+6540,Internal investigation,Sustained,No action
+6541,Internal investigation,Not Sustained,No action
+6542,Internal investigation,Not Sustained,No action
+6555,Internal investigation,Sustained,No action
+6559,Internal investigation,Sustained,No action
+6560,Internal investigation,Sustained,No action
+6561,Internal investigation,Sustained,No action
+6562,Internal investigation,Sustained,No action
+6563,Internal investigation,Sustained,No action
+6564,Internal investigation,Sustained,No action
+6565,Internal investigation,Sustained,No action
+6566,Internal investigation,Sustained,No action
+6567,Internal investigation,Sustained,No action
+6570,Internal investigation,Sustained,No action
+6573,Internal investigation,Sustained,No action
+6574,Internal investigation,Sustained,No action
+6579,Internal investigation,Sustained,No action
+6584,Internal investigation,Sustained,No action
+6585,Internal investigation,Sustained,No action
+6586,Internal investigation,Sustained,No action
+6587,Internal investigation,Sustained,No action
+6588,Internal investigation,Sustained,No action
+6589,Internal investigation,Sustained,No action
+6590,Internal investigation,Sustained,No action
+6594,Internal investigation,Unfounded,No action
+6595,Internal investigation,Sustained,No action
+6596,Internal investigation,Sustained,No action
+6598,Internal investigation,Sustained,No action
+6602,Internal investigation,Sustained,No action
+6603,Internal investigation,Sustained,No action
+6604,Internal investigation,Sustained,No action
+6605,Internal investigation,Sustained,No action
+6607,Internal investigation,Unfounded,No action
+6610,Internal investigation,Sustained,No action
+6611,Internal investigation,Sustained,No action
+6612,Internal investigation,Sustained,No action
+6614,Internal investigation,Sustained,No action
+6616,Internal investigation,Sustained,No action
+6620,Internal investigation,Sustained,No action
+6626,Internal investigation,Sustained,No action
+6627,Internal investigation,Sustained,No action
+6629,Internal investigation,Sustained,No action
+6630,Internal investigation,Sustained,No action
+6631,Internal investigation,Not Sustained,No action
+6632,Internal investigation,Unfounded,No action
+6633,Internal investigation,Unfounded,No action
+6636,Internal investigation,Sustained,No action
+6637,Internal investigation,Sustained,No action
+6638,Internal investigation,Sustained,No action
+6639,Internal investigation,Sustained,No action
+6640,Internal investigation,Sustained,No action
+6641,Internal investigation,Sustained,No action
+6642,Internal investigation,Sustained,No action
+6643,Internal investigation,Sustained,No action
+6644,Internal investigation,Sustained,No action
+6645,Internal investigation,No action,No action
+6656,Internal investigation,Sustained,No action
+6657,Internal investigation,Sustained,No action
+6667,Internal investigation,Sustained,No action
+6668,Internal investigation,Sustained,No action
+6669,Internal investigation,Sustained,No action
+6671,Internal investigation,Sustained,No action
+6675,Internal investigation,Sustained,No action
+6676,Internal investigation,Sustained,No action
+6677,Internal investigation,Sustained,No action
+6678,Internal investigation,Sustained,No action
+6683,Internal investigation,Sustained,No action
+6684,Internal investigation,Sustained,No action
+6685,Internal investigation,Sustained,No action
+6690,Internal investigation,Sustained,No action
+6691,Internal investigation,Sustained,No action
+6692,Internal investigation,Sustained,No action
+6693,Internal investigation,Sustained,No action
+6699,Internal investigation,Sustained,No action
+6700,Internal investigation,Exonerated,No action
+6701,Internal investigation,Exonerated,No action
+6702,Internal investigation,Sustained,No action
+6706,Internal investigation,Sustained,No action
+6707,Internal investigation,Sustained,No action
+6712,Internal investigation,Not Sustained,No action
+6713,Internal investigation,Sustained,No action
+6714,Internal investigation,No action,No action
+6715,Internal investigation,Exonerated,No action
+6716,Internal investigation,No action,No action
+6717,Internal investigation,Unfounded,No action
+6718,Internal investigation,No action,No action
+6719,Internal investigation,Unfounded,No action
+6720,Internal investigation,Sustained,No action
+6721,Internal investigation,Sustained,No action
+6722,Internal investigation,Sustained,No action
+6724,Internal investigation,Sustained,No action
+6725,Internal investigation,Sustained,No action
+6726,Internal investigation,Sustained,No action
+6727,Internal investigation,Sustained,No action
+6732,Internal investigation,Sustained,No action
+6737,Internal investigation,Sustained,No action
+6738,Internal investigation,Sustained,No action
+6741,Internal investigation,Withdrawn,No action
+6742,Internal investigation,Sustained,No action
+6743,Internal investigation,Sustained,No action
+6745,Internal investigation,Sustained,No action
+6746,Internal investigation,Sustained,No action
+6747,Internal investigation,Sustained,No action
+6748,Internal investigation,Sustained,No action
+6749,Internal investigation,Sustained,No action
+6750,Internal investigation,Sustained,No action
+6751,Internal investigation,Sustained,No action
+6752,Internal investigation,Sustained,No action
+6753,Internal investigation,Sustained,No action
+6754,Internal investigation,Sustained,No action
+6755,Internal investigation,Sustained,No action
+6758,Internal investigation,No action,No action
+6759,Internal investigation,Sustained,No action
+6764,Internal investigation,Sustained,No action
+6765,Internal investigation,Sustained,No action
+6766,Internal investigation,Sustained,No action
+6767,Internal investigation,Sustained,No action
+6784,Internal investigation,Sustained,No action
+6785,Internal investigation,Sustained,No action
+6786,Internal investigation,Sustained,No action
+6787,Internal investigation,Sustained,No action
+6788,Internal investigation,Sustained,No action
+6789,Internal investigation,Sustained,No action
+6790,Internal investigation,Sustained,No action
+6791,Internal investigation,Sustained,No action
+6798,Internal investigation,Sustained,No action
+6799,Internal investigation,Not Sustained,No action
+6800,Internal investigation,Sustained,No action
+6813,Internal investigation,Sustained,No action
+6814,Internal investigation,Sustained,No action
+6819,Internal investigation,Sustained,No action
+6822,Internal investigation,Filed,No action
+6825,Internal investigation,Sustained,No action
+6826,Internal investigation,Sustained,No action
+6827,Internal investigation,Sustained,No action
+6828,Internal investigation,Sustained,No action
+6829,Internal investigation,Sustained,No action
+6833,Internal investigation,Sustained,No action
+6834,Internal investigation,Sustained,No action
+6835,Internal investigation,Not Sustained,No action
+6846,Internal investigation,Sustained,No action
+6851,Internal investigation,Sustained,No action
+6855,Internal investigation,Sustained,No action
+6856,Internal investigation,Sustained,No action
+6860,Internal investigation,Sustained,No action
+6864,Internal investigation,Sustained,No action
+6870,Internal investigation,Pending,No action
+6881,Internal investigation,No action,No action
+6890,Internal investigation,No action,No action
+7220,Internal investigation,Sustained,Oral Reprimand
+7221,Internal investigation,Sustained,Oral Reprimand
+7222,Internal investigation,Sustained,Oral Reprimand
+7223,Internal investigation,Sustained,Oral Reprimand
+7224,Internal investigation,Sustained,Oral Reprimand
+7225,Internal investigation,Sustained,Oral Reprimand
+7226,Internal investigation,Sustained,Settlement Agreement
+7227,Internal investigation,Sustained,Oral Reprimand
+7228,Internal investigation,Sustained,Suspension
+7229,Internal investigation,Sustained,No action
+7230,Internal investigation,Sustained,No action
+7231,Internal investigation,Sustained,Suspension
+7232,Internal investigation,Sustained,No action
+7233,Internal investigation,Unfounded,No action
+7234,Internal investigation,Not Sustained,Suspension
+7235,Internal investigation,Sustained,No action
+7236,Internal investigation,Sustained,No action
+7237,Internal investigation,Sustained,No action
+7238,Internal investigation,Sustained,No action
+7239,Internal investigation,Sustained,No action
+7240,Internal investigation,Not Sustained,No action
+7241,Internal investigation,Sustained,No action
+7242,Internal investigation,Sustained,No action
+7243,Internal investigation,Sustained,Suspension
+7244,Internal investigation,Not Sustained,No action
+7245,Internal investigation,Sustained,Oral Reprimand
+7246,Internal investigation,Sustained,Suspension
+7247,Internal investigation,Sustained,Suspension
+7248,Internal investigation,Sustained,Suspension
+7249,Internal investigation,Sustained,Suspension
+7250,Internal investigation,Sustained,No action
+7251,Internal investigation,Not Sustained,No action
+7252,Internal investigation,Not Sustained,No action
+7253,Internal investigation,Sustained,Settlement Agreement
+7254,Internal investigation,Sustained,No action
+7255,Internal investigation,Sustained,Suspension
+7256,Internal investigation,Sustained,No action
+7257,Internal investigation,Sustained,Suspension
+7258,Internal investigation,Sustained,Oral Reprimand
+7259,Internal investigation,Not Sustained,No action
+7260,Internal investigation,Exonerated,No action
+7261,Internal investigation,Not Sustained,No action
+7262,Internal investigation,Exonerated,No action
+7263,Internal investigation,Exonerated,No action
+7264,Internal investigation,Not Sustained,No action
+7265,Internal investigation,Not Sustained,Oral Reprimand
+7266,Internal investigation,Sustained,No action
+7267,Internal investigation,Not Sustained,No action
+7268,Internal investigation,Sustained,Suspension
+7269,Internal investigation,Sustained,No action
+7270,Internal investigation,Sustained,Suspension
+7271,Internal investigation,Sustained,No action
+7272,Internal investigation,Sustained,Suspension
+7273,Internal investigation,Sustained,Suspension
+7274,Internal investigation,Not Sustained,No action
+7275,Internal investigation,Not Sustained,No action
+7276,Internal investigation,Not Sustained,No action
+7277,Internal investigation,Sustained,No action
+7290,Internal investigation,Not Sustained,No action
+7291,Internal investigation,Not Sustained,No action
+7294,Internal investigation,Not Sustained,No action
+7295,Internal investigation,Not Sustained,No action
+7315,Internal investigation,Unfounded,No action
+7316,Internal investigation,Not Sustained,No action
+7372,Internal investigation,Sustained,Suspension
+7373,Internal investigation,Sustained,No action
+7374,Internal investigation,Sustained,No action
+7375,Internal investigation,Sustained,No action
+7384,Internal investigation,Not Sustained,No action
+7385,Internal investigation,Not Sustained,No action
+7386,Internal investigation,Sustained,Suspension
+7387,Internal investigation,Sustained,No action
+7390,Internal investigation,Sustained,No action
+7391,Internal investigation,Not Sustained,No action
+7392,Internal investigation,Sustained,No action
+7393,Internal investigation,Unfounded,No action
+7394,Internal investigation,Unfounded,No action
+7459,Internal investigation,Unfounded,No action
+7460,Internal investigation,Sustained,Suspension
+7461,Internal investigation,Sustained,No action
+7462,Internal investigation,Sustained,No action
+7463,Internal investigation,Sustained,No action
+7464,Internal investigation,Sustained,No action
+7465,Internal investigation,Sustained,No action
+7472,Internal investigation,Filed,No action
+7494,Internal investigation,Sustained,Suspension
+7495,Internal investigation,Sustained,No action
+7507,Internal investigation,Sustained,Suspension
+7537,Internal investigation,Sustained,Suspension
+7538,Internal investigation,Sustained,Suspension
+7542,Internal investigation,Sustained,Oral Reprimand
+7559,Internal investigation,Sustained,Suspension
+7561,Internal investigation,Sustained,No action
+7566,Internal investigation,Sustained,Suspension
+7567,Internal investigation,Sustained,No action
+7568,Internal investigation,Not Sustained,No action
+7570,Internal investigation,Sustained,Suspension
+7571,Internal investigation,Sustained,No action
+7572,Internal investigation,Sustained,No action
+7600,Internal investigation,Sustained,Suspension
+7604,Internal investigation,Sustained,No action
+7607,Internal investigation,Sustained,Written Reprimand
+7608,Internal investigation,Sustained,No action
+7609,Internal investigation,Sustained,No action
+7610,Internal investigation,Sustained,Suspension
+7666,Internal investigation,Sustained,Suspension
+7689,Internal investigation,Sustained,Suspension
+7701,Internal investigation,Sustained,Suspension
+7703,Internal investigation,Not Sustained,No action
+7705,Internal investigation,Sustained,Suspension
+7706,Internal investigation,Sustained,No action
+7707,Internal investigation,Sustained,No action
+7708,Internal investigation,Sustained,No action
+7709,Internal investigation,Sustained,Suspension
+7710,Internal investigation,Sustained,No action
+7711,Internal investigation,Sustained,No action
+7718,Internal investigation,Sustained,Suspension
+7719,Internal investigation,Sustained,No action
+7755,Internal investigation,Not Sustained,No action
+7774,Internal investigation,Sustained,Oral Reprimand
+7775,Internal investigation,Not Sustained,No action
+7776,Internal investigation,Sustained,No action
+7797,Internal investigation,Sustained,Oral Reprimand
+7806,Internal investigation,Sustained,Suspension
+7807,Internal investigation,Sustained,No action
+7823,Internal investigation,Sustained,Settlement Agreement
+7825,Internal investigation,Sustained,No action
+7826,Internal investigation,Sustained,No action
+7827,Internal investigation,Not Sustained,No action
+7828,Internal investigation,Not Sustained,No action
+7829,Internal investigation,Sustained,No action
+7830,Internal investigation,Sustained,No action
+7831,Internal investigation,Sustained,No action
+7832,Internal investigation,Sustained,No action
+7833,Internal investigation,Sustained,No action
+7834,Internal investigation,Not Sustained,No action
+7835,Internal investigation,Sustained,No action
+7836,Internal investigation,Not Sustained,No action
+7837,Internal investigation,Not Sustained,No action
+7838,Internal investigation,Sustained,No action
+7839,Internal investigation,Sustained,No action
+7840,Internal investigation,Sustained,No action
+7841,Internal investigation,Sustained,No action
+7843,Internal investigation,Unfounded,No action
+7844,Internal investigation,Unfounded,No action
+7845,Internal investigation,Not Sustained,No action
+7846,Internal investigation,Unfounded,No action
+7847,Internal investigation,Unfounded,No action
+7848,Internal investigation,Unfounded,No action
+7850,Internal investigation,Sustained,Oral Reprimand
+7864,Internal investigation,Sustained,Oral Reprimand
+7865,Internal investigation,Sustained,No action
+7876,Internal investigation,Sustained,Counselling
+7949,Internal investigation,Sustained,Oral Reprimand
+7950,Internal investigation,Sustained,Suspension
+7962,Internal investigation,Sustained,Suspension
+8048,Internal investigation,Sustained,Suspension
+8049,Internal investigation,Sustained,No action
+8056,Internal investigation,Sustained,Suspension
+8065,Internal investigation,Sustained,Suspension
+8078,Internal investigation,Sustained,No action
+8079,Internal investigation,Sustained,No action
+8080,Internal investigation,Sustained,No action
+8081,Internal investigation,Sustained,Suspension
+8083,Internal investigation,Not Sustained,Settlement Agreement
+8084,Internal investigation,Sustained,No action
+8085,Internal investigation,Sustained,No action
+8088,Internal investigation,Sustained,Suspension
+8089,Internal investigation,Not Sustained,No action
+8094,Internal investigation,Not Sustained,No action
+8095,Internal investigation,Not Sustained,No action
+8096,Internal investigation,Not Sustained,No action
+8105,Internal investigation,Unfounded,No action
+8106,Internal investigation,Unfounded,No action
+8107,Internal investigation,Unfounded,No action
+8108,Internal investigation,Unfounded,No action
+8109,Internal investigation,Not Sustained,No action
+8110,Internal investigation,Unfounded,No action
+8111,Internal investigation,Sustained,Suspension
+8112,Internal investigation,Sustained,No action
+8165,Internal investigation,Sustained,No action
+8166,Internal investigation,Sustained,No action
+8167,Internal investigation,Not Sustained,No action
+8173,Internal investigation,Sustained,Oral Reprimand
+8174,Internal investigation,Not Sustained,No action
+8199,Internal investigation,Sustained,No action
+8200,Internal investigation,Sustained,No action
+8201,Internal investigation,Sustained,No action
+8202,Internal investigation,Sustained,No action
+8204,Internal investigation,Sustained,No action
+8205,Internal investigation,Sustained,Suspension
+8206,Internal investigation,Sustained,No action
+8207,Internal investigation,Not Sustained,No action
+8208,Internal investigation,Sustained,No action
+8209,Internal investigation,Sustained,No action
+8211,Internal investigation,Not Sustained,No action
+8212,Internal investigation,Not Sustained,No action
+8213,Internal investigation,Sustained,Settlement Agreement
+8216,Internal investigation,Sustained,Oral Reprimand
+8241,Internal investigation,Sustained,Suspension
+8245,Internal investigation,Sustained,Suspension
+8246,Internal investigation,Not Sustained,No action
+8247,Internal investigation,Sustained,No action
+8248,Internal investigation,Sustained,No action
+8249,Internal investigation,Sustained,No action
+8250,Internal investigation,Sustained,No action
+8251,Internal investigation,Sustained,No action
+8252,Internal investigation,Sustained,No action
+8253,Internal investigation,Sustained,No action
+8254,Internal investigation,Sustained,No action
+8255,Internal investigation,Sustained,No action
+8256,Internal investigation,Sustained,No action
+8257,Internal investigation,Sustained,No action
+8258,Internal investigation,Exonerated,No action
+8259,Internal investigation,Sustained,No action
+8260,Internal investigation,Sustained,No action
+8261,Internal investigation,Sustained,No action
+8262,Internal investigation,Sustained,Oral Reprimand
+8264,Internal investigation,Sustained,Oral Reprimand
+8265,Internal investigation,Sustained,Oral Reprimand
+8270,Internal investigation,Sustained,Suspension
+8277,Internal investigation,Sustained,Oral Reprimand
+8278,Internal investigation,Sustained,Oral Reprimand
+8279,Internal investigation,Sustained,Oral Reprimand
+8301,Internal investigation,Sustained,Oral Reprimand
+8302,Internal investigation,Unfounded,No action
+8303,Internal investigation,Unfounded,No action
+8304,Internal investigation,Unfounded,No action
+8305,Internal investigation,Unfounded,No action
+8306,Internal investigation,Unfounded,No action
+8307,Internal investigation,Unfounded,No action
+8308,Internal investigation,Unfounded,No action
+8313,Internal investigation,Sustained,Oral Reprimand
+8320,Internal investigation,Sustained,Suspension
+8321,Internal investigation,Sustained,No action
+8330,Internal investigation,Sustained,Suspension
+8331,Internal investigation,Sustained,No action
+8337,Internal investigation,Sustained,No action
+8340,Internal investigation,Unfounded,No action
+8350,Internal investigation,Sustained,Suspension
+8351,Internal investigation,Sustained,No action
+8352,Internal investigation,Unfounded,No action
+8353,Internal investigation,Unfounded,No action
+8354,Internal investigation,Unfounded,No action
+8355,Internal investigation,Unfounded,No action
+8356,Internal investigation,Unfounded,No action
+8358,Internal investigation,Sustained,Termination
+8359,Internal investigation,Sustained,No action
+8360,Internal investigation,Sustained,No action
+8361,Internal investigation,Sustained,No action
+8362,Internal investigation,Sustained,No action
+8363,Internal investigation,Sustained,No action
+8381,Internal investigation,Sustained,Oral Reprimand
+8382,Internal investigation,Sustained,No action
+8394,Internal investigation,Sustained,Oral Reprimand
+8395,Internal investigation,Unfounded,No action
+8411,Internal investigation,Sustained,Oral Reprimand
+8422,Internal investigation,Not Sustained,Oral Reprimand
+8423,Internal investigation,Sustained,No action
+8431,Internal investigation,Sustained,No action
+8432,Internal investigation,Sustained,No action
+8474,Internal investigation,Sustained,Settlement Agreement
+8481,Internal investigation,Unfounded,No action
+8482,Internal investigation,Unfounded,No action
+8483,Internal investigation,Unfounded,No action
+8484,Internal investigation,Unfounded,No action
+8485,Internal investigation,Unfounded,No action
+8486,Internal investigation,Unfounded,No action
+8491,Internal investigation,Not Sustained,No action
+8492,Internal investigation,Not Sustained,No action
+8493,Internal investigation,Sustained,No action
+8494,Internal investigation,Sustained,Suspension
+8495,Internal investigation,Sustained,No action
+8496,Internal investigation,Sustained,No action
+8510,Internal investigation,Sustained,Settlement Agreement
+8511,Internal investigation,Not Sustained,No action
+8512,Internal investigation,Sustained,Suspension
+8538,Internal investigation,Sustained,Suspension
+8571,Internal investigation,Exonerated,Oral Reprimand
+8572,Internal investigation,Exonerated,No action
+8573,Internal investigation,Exonerated,No action
+8574,Internal investigation,Exonerated,No action
+8575,Internal investigation,Sustained,No action
+8576,Internal investigation,Exonerated,No action
+8577,Internal investigation,Sustained,No action
+8578,Internal investigation,Exonerated,No action
+8579,Internal investigation,Sustained,No action
+8580,Internal investigation,Sustained,No action
+8581,Internal investigation,Sustained,No action
+8582,Internal investigation,Sustained,No action
+8583,Internal investigation,Exonerated,No action
+8584,Internal investigation,Exonerated,No action
+8585,Internal investigation,Exonerated,No action
+8591,Internal investigation,Sustained,Suspension
+8592,Internal investigation,Sustained,No action
+8624,Internal investigation,Sustained,Oral Reprimand
+8625,Internal investigation,Not Sustained,No action
+8652,Internal investigation,Sustained,No action
+8653,Internal investigation,Sustained,No action
+8654,Internal investigation,Sustained,No action
+8676,Internal investigation,Sustained,Suspension
+8677,Internal investigation,Sustained,No action
+8678,Internal investigation,Sustained,No action
+8700,Internal investigation,Exonerated,No action
+8723,Internal investigation,Sustained,Settlement Agreement
+8749,Internal investigation,Sustained,Suspension
+8750,Internal investigation,Sustained,No action
+8751,Internal investigation,Unfounded,No action
+8772,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+8773,Internal investigation,Sustained,No action
+8774,Internal investigation,Sustained,No action
+8787,Internal investigation,Unfounded,No action
+8788,Internal investigation,Exonerated,No action
+8793,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+8794,Internal investigation,Sustained,No action
+8795,Internal investigation,Sustained,No action
+8796,Internal investigation,Sustained,No action
+8797,Internal investigation,Sustained,No action
+8809,Internal investigation,Sustained,No action
+8810,Internal investigation,Sustained,No action
+8811,Internal investigation,Sustained,No action
+8812,Internal investigation,Sustained,No action
+8813,Internal investigation,Sustained,No action
+8814,Internal investigation,Sustained,No action
+8853,Internal investigation,Sustained,No action
+8854,Internal investigation,Sustained,No action
+8855,Internal investigation,Sustained,No action
+8862,Internal investigation,Sustained,Suspension
+8863,Internal investigation,Sustained,No action
+8864,Internal investigation,Sustained,No action
+8875,Internal investigation,Unfounded,No action
+8876,Internal investigation,Unfounded,No action
+8887,Internal investigation,Unfounded,No action
+8888,Internal investigation,Unfounded,No action
+8899,Internal investigation,Sustained,No action
+8900,Internal investigation,Not Sustained,No action
+8927,Internal investigation,Sustained,No action
+8928,Internal investigation,Sustained,No action
+8929,Internal investigation,Sustained,No action
+8936,Internal investigation,Sustained,Suspension
+8938,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+8939,Internal investigation,Sustained,No action
+8940,Internal investigation,Sustained,No action
+8941,Internal investigation,Sustained,No action
+8942,Internal investigation,Not Sustained,No action
+8954,Internal investigation,Not Sustained,No action
+8955,Internal investigation,Sustained,Termination
+8956,Internal investigation,Sustained,No action
+8958,Internal investigation,Not Sustained,Resigned/Retired and Charges Pending
+8959,Internal investigation,Not Sustained,No action
+8960,Internal investigation,Sustained,Resigned
+8970,Internal investigation,Not Sustained,No action
+8971,Internal investigation,Sustained,Suspension
+8979,Internal investigation,Sustained,No action
+8980,Internal investigation,Sustained,No action
+8981,Internal investigation,Sustained,No action
+8982,Internal investigation,Sustained,No action
+8983,Internal investigation,Sustained,No action
+9046,Internal investigation,Sustained,Oral Reprimand
+9054,Internal investigation,Exonerated,No action
+9070,Internal investigation,Not Sustained,No action
+9071,Internal investigation,Not Sustained,No action
+9132,Internal investigation,Sustained,Oral Reprimand
+9133,Internal investigation,Sustained,No action
+9151,Internal investigation,Sustained,Oral Reprimand
+9152,Internal investigation,Sustained,Oral Reprimand
+9156,Internal investigation,Exonerated,No action
+9158,Internal investigation,Sustained,No action
+9159,Internal investigation,Sustained,No action
+9160,Internal investigation,Not Sustained,No action
+9171,Internal investigation,Not Sustained,No action
+9172,Internal investigation,Sustained,No action
+9173,Internal investigation,Not Sustained,No action
+9174,Internal investigation,Sustained,No action
+9175,Internal investigation,Sustained,No action
+9176,Internal investigation,Sustained,No action
+9183,Internal investigation,Sustained,No action
+9184,Internal investigation,Sustained,No action
+9185,Internal investigation,Sustained,No action
+9186,Internal investigation,Sustained,No action
+9187,Internal investigation,Sustained,No action
+9188,Internal investigation,Sustained,No action
+9189,Internal investigation,Sustained,No action
+9190,Internal investigation,Sustained,No action
+9219,Internal investigation,Exonerated,No action
+9224,Internal investigation,Sustained,Oral Reprimand
+9226,Internal investigation,Sustained,Suspension
+9227,Internal investigation,Sustained,No action
+9228,Internal investigation,Not Sustained,No action
+9229,Internal investigation,Sustained,No action
+9230,Internal investigation,Sustained,No action
+9231,Internal investigation,Sustained,No action
+9232,Internal investigation,Sustained,No action
+9233,Internal investigation,Exonerated,No action
+9234,Internal investigation,Sustained,Oral Reprimand
+9249,Internal investigation,Not Sustained,No action
+9250,Internal investigation,Not Sustained,No action
+9278,Internal investigation,Sustained,No action
+9279,Internal investigation,Sustained,Oral Reprimand
+9280,Internal investigation,Sustained,No action
+9281,Internal investigation,Not Sustained,No action
+9282,Internal investigation,Sustained,No action
+9283,Internal investigation,Sustained,No action
+9297,Internal investigation,Sustained,Oral Reprimand
+9318,Internal investigation,Sustained,Suspension
+9319,Internal investigation,Sustained,No action
+9320,Internal investigation,Sustained,Suspension
+9321,Internal investigation,Sustained,No action
+9322,Internal investigation,Sustained,No action
+9323,Internal investigation,Unfounded,No action
+9324,Internal investigation,Unfounded,No action
+9325,Internal investigation,Sustained,No action
+9328,Internal investigation,Sustained,Suspension
+9333,Internal investigation,Sustained,Oral Reprimand
+9347,Internal investigation,Sustained,Suspension
+9375,Internal investigation,Sustained,Suspension
+9410,Internal investigation,Sustained,Suspension
+9417,Internal investigation,Sustained,Suspension
+9418,Internal investigation,Not Sustained,Suspension
+9419,Internal investigation,Sustained,No action
+9420,Internal investigation,Sustained,No action
+9421,Internal investigation,Sustained,No action
+9427,Internal investigation,Unfounded,No action
+9428,Internal investigation,Sustained,Suspension
+9453,Internal investigation,Sustained,Suspension
+9454,Internal investigation,Sustained,No action
+9455,Internal investigation,Sustained,No action
+9456,Internal investigation,Sustained,No action
+9457,Internal investigation,Sustained,No action
+9458,Internal investigation,Sustained,No action
+9471,Internal investigation,Unfounded,No action
+9486,Internal investigation,Unfounded,No action
+9536,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+9537,Internal investigation,Sustained,No action
+9538,Internal investigation,Sustained,No action
+9554,Internal investigation,Sustained,Oral Reprimand
+9556,Internal investigation,Not Sustained,No action
+9559,Internal investigation,Sustained,Oral Reprimand
+9574,Internal investigation,Sustained,Oral Reprimand
+9575,Internal investigation,Sustained,Suspension
+9576,Internal investigation,Sustained,Oral Reprimand
+9577,Internal investigation,Sustained,Suspension
+9578,Internal investigation,Sustained,Oral Reprimand
+9579,Internal investigation,Sustained,Suspension
+9580,Internal investigation,Sustained,Oral Reprimand
+9581,Internal investigation,Sustained,Oral Reprimand
+9582,Internal investigation,Sustained,Oral Reprimand
+9583,Internal investigation,Sustained,Oral Reprimand
+9584,Internal investigation,Sustained,Oral Reprimand
+9585,Internal investigation,Sustained,Oral Reprimand
+9586,Internal investigation,Sustained,Oral Reprimand
+9587,Internal investigation,Sustained,Oral Reprimand
+9588,Internal investigation,Sustained,Oral Reprimand
+9589,Internal investigation,Sustained,Oral Reprimand
+9590,Internal investigation,Sustained,Suspension
+9595,Internal investigation,Sustained,No action
+9596,Internal investigation,Sustained,No action
+9597,Internal investigation,Sustained,No action
+9599,Internal investigation,Sustained,Administrative Hearing
+9600,Internal investigation,Sustained,No action
+9601,Internal investigation,Sustained,No action
+9602,Internal investigation,Sustained,No action
+9603,Internal investigation,Sustained,No action
+9604,Internal investigation,Sustained,No action
+9605,Internal investigation,Not Sustained,No action
+9609,Internal investigation,Unfounded,No action
+9610,Internal investigation,Sustained,Oral Reprimand
+9611,Internal investigation,Sustained,Oral Reprimand
+9612,Internal investigation,Not Sustained,No action
+9613,Internal investigation,Not Sustained,No action
+9614,Internal investigation,Sustained,No action
+9615,Internal investigation,Sustained,Suspension
+9616,Internal investigation,Sustained,Oral Reprimand
+9617,Internal investigation,Sustained,Settlement Agreement
+9621,Internal investigation,Sustained,Oral Reprimand
+9622,Internal investigation,Sustained,Oral Reprimand
+9672,Internal investigation,Sustained,Oral Reprimand
+9679,Internal investigation,Sustained,Oral Reprimand
+9680,Internal investigation,Sustained,Oral Reprimand
+9681,Internal investigation,Sustained,No action
+9686,Internal investigation,Sustained,Termination
+9687,Internal investigation,Sustained,No action
+9688,Internal investigation,Sustained,No action
+9689,Internal investigation,Sustained,No action
+9691,Internal investigation,Sustained,Oral Reprimand
+9694,Internal investigation,Sustained,Oral Reprimand
+9710,Internal investigation,Sustained,Oral Reprimand
+9711,Internal investigation,Sustained,Suspension
+9722,Internal investigation,Not Sustained,No action
+9723,Internal investigation,Not Sustained,No action
+9728,Internal investigation,Not Sustained,No action
+9729,Internal investigation,Not Sustained,No action
+9732,Internal investigation,Sustained,Suspension
+9733,Internal investigation,Not Sustained,No action
+9734,Internal investigation,Sustained,No action
+9757,Internal investigation,Sustained,Retired
+9758,Internal investigation,Sustained,No action
+9759,Internal investigation,Sustained,No action
+9760,Internal investigation,Sustained,No action
+9768,Internal investigation,Sustained,Suspension
+9778,Internal investigation,Sustained,Termination
+9779,Internal investigation,Sustained,No action
+9780,Internal investigation,Sustained,No action
+9781,Internal investigation,Sustained,Suspension
+9782,Internal investigation,Sustained,No action
+9783,Internal investigation,Sustained,No action
+9790,Internal investigation,Unfounded,No action
+9791,Internal investigation,Unfounded,No action
+9800,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+9801,Internal investigation,Sustained,No action
+9802,Internal investigation,Exonerated,No action
+9803,Internal investigation,Sustained,Settlement Agreement
+9804,Internal investigation,Unfounded,No action
+9818,Internal investigation,Sustained,Suspension
+9819,Internal investigation,Sustained,No action
+9820,Internal investigation,Sustained,No action
+9823,Internal investigation,Sustained,Oral Reprimand
+9846,Internal investigation,Sustained,Oral Reprimand
+9847,Internal investigation,Sustained,Oral Reprimand
+9848,Internal investigation,Sustained,Oral Reprimand
+9849,Internal investigation,Sustained,Oral Reprimand
+9876,Internal investigation,Sustained,Oral Reprimand
+9877,Internal investigation,Sustained,Oral Reprimand
+9878,Internal investigation,Sustained,No action
+9880,Internal investigation,Sustained,Oral Reprimand
+9890,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+9891,Internal investigation,Sustained,No action
+9892,Internal investigation,Sustained,No action
+9893,Internal investigation,Sustained,Suspension
+9895,Internal investigation,Sustained,Oral Reprimand
+9896,Internal investigation,Sustained,Suspension
+9910,Internal investigation,Sustained,Oral Reprimand
+9914,Internal investigation,Sustained,Suspension
+9915,Internal investigation,Sustained,No action
+9919,Internal investigation,Sustained,Retired
+9920,Internal investigation,Sustained,No action
+9921,Internal investigation,Sustained,No action
+9922,Internal investigation,Sustained,No action
+9923,Internal investigation,Not Sustained,Resigned/Retired and Charges Pending
+9924,Internal investigation,Sustained,No action
+9925,Internal investigation,Unfounded,No action
+9926,Internal investigation,Sustained,Settlement Agreement
+9930,Internal investigation,Sustained,Oral Reprimand
+9934,Internal investigation,Sustained,Suspension
+9935,Internal investigation,Sustained,Oral Reprimand
+9943,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+9945,Internal investigation,Sustained,Oral Reprimand
+9956,Internal investigation,Sustained,Oral Reprimand
+9959,Internal investigation,Sustained,Suspension
+9961,Internal investigation,Not Sustained,Suspension
+9962,Internal investigation,Sustained,No action
+9963,Internal investigation,Sustained,No action
+9964,Internal investigation,Sustained,No action
+9970,Internal investigation,Sustained,Suspension
+9971,Internal investigation,Sustained,No action
+9972,Internal investigation,Sustained,No action
+9973,Internal investigation,Sustained,No action
+9974,Internal investigation,Sustained,No action
+9983,Internal investigation,Sustained,Suspension
+9984,Internal investigation,Sustained,No action
+9985,Internal investigation,Not Sustained,No action
+9986,Internal investigation,Sustained,No action
+9987,Internal investigation,Sustained,No action
+9988,Internal investigation,Sustained,Oral Reprimand
+9989,Internal investigation,Not Sustained,No action
+9990,Internal investigation,Sustained,No action
+10006,Internal investigation,Sustained,Oral Reprimand
+10007,Internal investigation,Sustained,No action
+10008,Internal investigation,Sustained,Oral Reprimand
+10009,Internal investigation,Sustained,Suspension
+10010,Internal investigation,Sustained,Oral Reprimand
+10011,Internal investigation,Sustained,Oral Reprimand
+10012,Internal investigation,Sustained,Oral Reprimand
+10013,Internal investigation,Sustained,Oral Reprimand
+10014,Internal investigation,Sustained,Oral Reprimand
+10015,Internal investigation,Sustained,Oral Reprimand
+10016,Internal investigation,Sustained,Oral Reprimand
+10017,Internal investigation,Sustained,Oral Reprimand
+10018,Internal investigation,Sustained,Oral Reprimand
+10023,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+10033,Internal investigation,Sustained,No action
+10034,Internal investigation,Sustained,No action
+10035,Internal investigation,Unfounded,No action
+10043,Internal investigation,Sustained,Oral Reprimand
+10044,Internal investigation,Not Sustained,No action
+10045,Internal investigation,Exonerated,No action
+10046,Internal investigation,Sustained,No action
+10047,Internal investigation,Exonerated,No action
+10048,Internal investigation,Exonerated,No action
+10050,Internal investigation,Unfounded,No action
+10051,Internal investigation,Sustained,Oral Reprimand
+10052,Internal investigation,Sustained,Oral Reprimand
+10053,Internal investigation,Sustained,Oral Reprimand
+10054,Internal investigation,Sustained,Suspension
+10055,Internal investigation,Sustained,Oral Reprimand
+10056,Internal investigation,Sustained,Oral Reprimand
+10057,Internal investigation,Sustained,Suspension
+10063,Internal investigation,Sustained,Oral Reprimand
+10064,Internal investigation,Sustained,Oral Reprimand
+10065,Internal investigation,Sustained,Oral Reprimand
+10068,Internal investigation,Sustained,Oral Reprimand
+10069,Internal investigation,Sustained,Oral Reprimand
+10070,Internal investigation,Sustained,Oral Reprimand
+10075,Internal investigation,Sustained,Retired
+10076,Internal investigation,Sustained,No action
+10096,Internal investigation,Sustained,Oral Reprimand
+10101,Internal investigation,Sustained,Oral Reprimand
+10106,Internal investigation,Sustained,Oral Reprimand
+10108,Internal investigation,Sustained,Oral Reprimand
+10114,Internal investigation,Sustained,Oral Reprimand
+10138,Internal investigation,Sustained,Suspension
+10139,Internal investigation,Sustained,No action
+10140,Internal investigation,Sustained,No action
+10141,Internal investigation,Sustained,No action
+10160,Internal investigation,Sustained,Suspension
+10174,Internal investigation,Sustained,Oral Reprimand
+10184,Internal investigation,Sustained,Suspension
+10185,Internal investigation,Sustained,No action
+10189,Internal investigation,Unfounded,No action
+10193,Internal investigation,Sustained,Oral Reprimand
+10197,Internal investigation,Sustained,Resigned
+10198,Internal investigation,Sustained,No action
+10199,Internal investigation,Sustained,No action
+10201,Internal investigation,Sustained,Oral Reprimand
+10202,Internal investigation,Sustained,Oral Reprimand
+10203,Internal investigation,Sustained,Oral Reprimand
+10215,Internal investigation,Sustained,Oral Reprimand
+10216,Internal investigation,Not Sustained,Suspension
+10217,Internal investigation,Sustained,No action
+10218,Internal investigation,Unfounded,No action
+10221,Internal investigation,Sustained,No action
+10222,Internal investigation,Sustained,No action
+10229,Internal investigation,Sustained,Suspension
+10230,Internal investigation,Sustained,Termination
+10231,Internal investigation,Sustained,No action
+10232,Internal investigation,Sustained,No action
+10233,Internal investigation,Sustained,No action
+10234,Internal investigation,Sustained,No action
+10235,Internal investigation,Sustained,No action
+10236,Internal investigation,Sustained,No action
+10237,Internal investigation,Sustained,No action
+10243,Internal investigation,Sustained,No action
+10244,Internal investigation,Sustained,No action
+10245,Internal investigation,Sustained,No action
+10246,Internal investigation,Not Sustained,No action
+10247,Internal investigation,Sustained,No action
+10248,Internal investigation,Sustained,No action
+10250,Internal investigation,Sustained,Oral Reprimand
+10251,Internal investigation,Sustained,Oral Reprimand
+10252,Internal investigation,Sustained,Oral Reprimand
+10257,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+10258,Internal investigation,Sustained,No action
+10259,Internal investigation,Sustained,No action
+10260,Internal investigation,Sustained,No action
+10263,Internal investigation,Sustained,Settlement Agreement
+10264,Internal investigation,Sustained,No action
+10265,Internal investigation,Sustained,No action
+10268,Internal investigation,Sustained,Oral Reprimand
+10269,Internal investigation,Not Sustained,No action
+10270,Internal investigation,Sustained,No action
+10271,Internal investigation,Not Sustained,No action
+10272,Internal investigation,Sustained,No action
+10284,Internal investigation,Sustained,Suspension
+10285,Internal investigation,Sustained,No action
+10295,Internal investigation,Sustained,No action
+10296,Internal investigation,Sustained,No action
+10297,Internal investigation,Sustained,No action
+10298,Internal investigation,Sustained,Suspension
+10301,Internal investigation,Sustained,Oral Reprimand
+10302,Internal investigation,Unfounded,No action
+10303,Internal investigation,Unfounded,No action
+10304,Internal investigation,Sustained,Termination
+10305,Internal investigation,Sustained,No action
+10306,Internal investigation,Sustained,No action
+10307,Internal investigation,Not Sustained,No action
+10308,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+10309,Internal investigation,Sustained,No action
+10310,Internal investigation,Sustained,No action
+10329,Internal investigation,Sustained,No action
+10337,Internal investigation,Sustained,No action
+10338,Internal investigation,Sustained,No action
+10339,Internal investigation,Unfounded,No action
+10344,Internal investigation,Sustained,Suspension
+10349,Internal investigation,Sustained,Oral Reprimand
+10353,Internal investigation,Sustained,Oral Reprimand
+10356,Internal investigation,Sustained,Oral Reprimand
+10391,Internal investigation,Sustained,Oral Reprimand
+10392,Internal investigation,Sustained,Counselling
+10402,Internal investigation,Sustained,Oral Reprimand
+10407,Internal investigation,Sustained,Oral Reprimand
+10408,Internal investigation,Sustained,No action
+10419,Internal investigation,Sustained,Oral Reprimand
+10420,Internal investigation,Sustained,Oral Reprimand
+10422,Internal investigation,Sustained,Suspension
+10423,Internal investigation,Sustained,Oral Reprimand
+10431,Internal investigation,Unfounded,No action
+10432,Internal investigation,Unfounded,No action
+10441,Internal investigation,Not Sustained,No action
+10444,Internal investigation,Not Sustained,No action
+10461,Internal investigation,Sustained,No action
+10464,Internal investigation,Sustained,Oral Reprimand
+10467,Internal investigation,Unfounded,Suspension
+10468,Internal investigation,Sustained,No action
+10469,Internal investigation,Not Sustained,No action
+10489,Internal investigation,Sustained,Resigned/Retired and Charges Pending
+10490,Internal investigation,Sustained,No action
+10491,Internal investigation,Sustained,No action
+10492,Internal investigation,Sustained,Settlement Agreement
+10493,Internal investigation,Sustained,No action
+10494,Internal investigation,Sustained,No action
+10495,Internal investigation,Sustained,No action
+10501,Internal investigation,Sustained,Suspension
+10502,Internal investigation,Unfounded,No action
+10512,Internal investigation,Sustained,Suspension
+10513,Internal investigation,Not Sustained,No action
+10521,Internal investigation,Sustained,No action
+10522,Internal investigation,Sustained,No action
+10541,Internal investigation,Sustained,Settlement Agreement
+10542,Internal investigation,Sustained,No action
+10543,Internal investigation,Sustained,No action
+10544,Internal investigation,Sustained,No action
+10545,Internal investigation,Sustained,No action
+10546,Internal investigation,Sustained,No action
+10552,Internal investigation,Sustained,Suspension

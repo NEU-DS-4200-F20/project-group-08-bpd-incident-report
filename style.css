@@ -9,23 +9,253 @@ h1, h2, h3 {
 	line-height: 1.2
 }
 
+h4 {
+  text-align: center;    
+}
+
+/* Scatter Plot tool tip, hovers near mouse on screen  */
+#sptt {
+          background-color: rgba(200,200,200, .95);
+          border : solid;
+          border-radius: 5px;
+          border-width: 1px;
+          padding : 10px;
+          margin : 0 auto;
+          opacity: 0;
+          pointer-events: none;
+          text-align: center;
+          font-size: 12px;
+          box-shadow:1px 1px 3px gray;
+          padding:5px;
+          top:1.3em;
+          left:0px;   
+          max-width:200px;
+          white-space: nowrap;
+          position:absolute;
+        }    
+
+        
 /* Your text should be in a nice narrow column */
 .content-column {
 	max-width: 650px;
 	margin: 40px auto;
 }
 
-/* But your visualization should be full-width and full-height */
+/* Holder for all the visuals */
 .vis-holder {
   width: 100%;
   height: 100%;
 }
 
+/* Centers text for first visuals */
+.vis-header {
+	text-align: center;
+}
+
+/* Full size for 2 scatter plots */
+.vis3-holder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+
+/* Scatter Plot 1 takes up left hand of screen */
+#vis3sp {
+  flex: 0 0 50%;
+}
+
+
+/* Scatter Plot 2 takes up right hand of screen */
+#vis3sp2 {
+  flex: 1;
+}
+
+/* Full size for first 2 pie charts */
+.visX-holder {
+  width: 100%;
+  height: 200%;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+
+/* Pie chart 1 takes up left hand of screen */
+#visXpc {
+  flex: 0 0 50%;
+}
+
+
+
+/* Pie chart 2 takes up right hand of screen */
+#visXpc2 {
+  flex: 1;
+}
+
+/* Full size for last 2 pie charts */
+.visX-holder2 {
+ width: 100%;
+  height: 20%;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+
+/* Pie chart 3 takes up left hand of screen */
+#visX2pc {
+  flex: 0 0 50%;
+}
+
+
+/* Pie chart 4 takes up right hand of screen */
+#visX2pc2 {
+  flex: 1;
+}
+
+
+/* Centers text for first 2 pie charts */
+.visX-title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0
+  padding-bottom: 0
+
+}
+
+
+/* Title for first pie chart*/
+#visXtitle {
+  flex: 0 0 50%;
+}
+
+
+
+
+/* Title for second pie chart*/
+#visXtitle2 {
+  flex: 1;
+}
+
+/* Centers text for last 2 pie charts */
+.visX-title2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+   margin-top: 0;
+  margin-bottom: 0
+  padding-bottom: 0
+
+}
+
+
+/* Title for third pie chart*/
+#visX2title {
+  flex: 0 0 50%;
+}
+
+
+/* Title for fourth pie chart*/
+#visX2title2 {
+  flex: 1;
+}
+
+
+/* Sets background color for SVG */
 .vis-svg {
   background-color: #f4f1f0;
 }
 
-/* Fork on GitHub ribbon via https://codepo8.github.io/css-fork-on-github-ribbon/# */  
+/* Points on scatter plot */
+.point {
+  fill: white;
+  stroke: #69b3a2;
+  stroke-width: 3;
+}
+
+/* Points on an unused line chart */
+.linePath {
+  fill: none;
+  stroke: black;
+  stroke-width: 1.5;
+}
+
+
+/* Axis label for scatter plots*/
+.axisLabel {
+  fill: #475d7c;
+}
+
+/* Style for selected marks (circles) */
+circle.selected {
+  fill: black;
+  stroke: yellow;
+  opacity: 1;
+}
+
+/* Sets opacity for point */
+circle.point.scatterPoint2 {
+  	opacity: .6;
+}
+
+/* Sets color for highlighted point */
+circle.point.scatterPoint2.selected {
+	fill: black;
+  	stroke: yellow !important;
+  	opacity: 1;
+}
+
+/* Sets the font size for the pie chart legends */
+.legend2-text {
+	font-size: 13px;
+	fill: #333;
+}
+
+
+/* Sets the font size for the legends */
+.legend {
+  font-size: 10px;
+}
+
+
+/* when rectangle selected */
+rect {
+  cursor: pointer; 
+  stroke-width: 2;
+}
+
+
+/* makes rectangle unselected */
+rect.disabled {
+  fill: transparent !important;
+}
+
+
+
+/* tool tip for the pie charts */
+#pctt {
+    display:none;
+    opacity: 0;
+    background-color:black;
+    border-radius:5px;
+    color:white;
+    text-align: center;
+    box-shadow:1px 1px 3px gray;
+    padding:5px;
+    top:1.3em;
+    left:0px;   
+    max-width:200px;
+    white-space: nowrap;
+    position:absolute;
+}
+
+
+/* Fork on GitHub ribbon via https://codepo8.github.io/css-fork-on-github-ribbon/# */
 #forkongithub a{
 	background:#00F;
 	color:#fff;
