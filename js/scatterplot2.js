@@ -10,6 +10,7 @@ function scatterplot2() {
 
  
 
+  // Sets margin values for the chart and other variables
   let margin = {
       top: 60,
       left: 50,
@@ -275,10 +276,11 @@ function scatterplot2() {
     
 
 
-
+    // Formats how tool tip will show salary.
     var formatDecimalComma = d3.format(",.2f");
 
 
+    // Creates a new tool tip, with base opacity at 0. Not shown until hover
     var tooltip = d3.select(selector)
     .append("div")
     .style("opacity", 0)
@@ -300,6 +302,9 @@ function scatterplot2() {
 
 
 
+    // Adds a second layer of points above the brushing and linking block.
+    // They are invisable, but over their corresponding real points.
+    // This allows the tool tip to know when to appear and what values to show. 
     let points2 = svg.append('g')
       .selectAll('.scatterPoint')
         .data(data)
@@ -312,6 +317,7 @@ function scatterplot2() {
         .attr('cx', X)
         .attr('cy', Y)
         .attr('r', 5)
+      // Adding tool tip to the invisible points
       .on("mouseover", function(d) {
          var nd = d.target.__data__;               
          tooltip.select('.rank').html(function(nd){ 
@@ -343,11 +349,13 @@ function scatterplot2() {
          tooltip.style('display', 'block');
          tooltip.style('opacity',2);
   } )
+      // moves the tool tip with the mouse
     .on("mousemove", function(e) {
     tooltip
       .style('top', (e.pageY + 25) + 'px')
       .style('left', (e.pageX - 15) + 'px');   
   } )
+    // hides the tool tip when not hovering over point
     .on("mouseout", function(d) {
     tooltip
       tooltip.style('display', 'none');

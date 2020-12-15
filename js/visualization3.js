@@ -23,7 +23,7 @@
 
 
 
-
+      // first scatter plot, salary vs sustained allegations
       let sp1 = scatterplot2()
       .x(d => d.rounded_total)
       .xLabel('TOTAL SALARY IN 2019 (USD)')
@@ -35,7 +35,7 @@
       ('#vis3sp', data);
 
 
-
+      // second scatter plot, number of years on force vs sustained allegations
       let sp2 = scatterplot2()
       .x(d => d.yof)
       .xLabel('YEARS ON THE FORCE')
@@ -47,7 +47,8 @@
       ('#vis3sp2', data);
 
 
-
+    // connecting the two charts via brushing and linking 
+    
     sp1.selectionDispatcher().on(dispatchString, sp2.updateSelection);
 
     sp2.selectionDispatcher().on(dispatchString, sp1.updateSelection);
