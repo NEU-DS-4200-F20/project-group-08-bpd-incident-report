@@ -34,7 +34,7 @@
     var color = d3.scaleOrdinal(d3.schemeSet3);
 
     // appends the pie chart to the appropriate vis holder
-    let svg = d3.select('#vis2Xpc')
+    let svg = d3.select('#visX2pc')
       .append('svg')
         .attr('preserveAspectRatio', 'xMidYMid meet')
         .attr('viewBox',[0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
@@ -55,7 +55,7 @@
 
 
   // define tooltip
-  var tooltip = d3.select('#vis2Xpc') 
+  var tooltip = d3.select('#visX2pc') 
     .append('div')              
     .attr('class', 'tooltip')
     .attr('id', 'pctt');
